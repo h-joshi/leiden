@@ -65,6 +65,7 @@ if __name__ == '__main__':
         os.mkdir(args.output_directory)
 
     genes = None
+    database = leiden_database.make_leiden_database(args.leiden_url)
 
     if args.genes_available:
         # Print list of available genes to the user
@@ -74,7 +75,7 @@ if __name__ == '__main__':
         # User has specified the all option, extract data from all genes available on the Leiden Database
         if args.all:
             print("---> CHECKING AVAILABLE GENES...")
-            genes = leiden_database._genes(args.leiden_url)
+            genes = database._genes()
 
         else:
             if len(args.gene_list) > 0:
@@ -84,7 +85,6 @@ if __name__ == '__main__':
 
         if genes:
             print '---> Setting things up... '
-            database = leiden_database.make_leiden_database(args.leiden_url)
 
             for gene in genes:
                 print '---> ' + gene + ': IN PROGRESS...'
