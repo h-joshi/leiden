@@ -1,6 +1,7 @@
 import re
 import pandas as pd
-from _ordereddict import ordereddict
+import collections
+# from _ordereddict import ordereddict
 
 VCF_HEADER_PREFIX = '#'
 VCF_DELIMITER = '\t'

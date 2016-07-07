@@ -12,4 +12,5 @@
 leiden.egg-info
 .metadata/
 leiden/resources/
+leiden/resources
 hgvs-master/

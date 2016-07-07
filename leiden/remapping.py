@@ -1,8 +1,8 @@
 import os
 import re
 
-import hgvs
-import hgvs.utils
+import pyhgvs
+import pyhgvs.utils
 from pygr.seqdb import SequenceFileDB
 
 
@@ -28,7 +28,7 @@ class VariantRemapper:
 
         # Read RefSeq transcripts into a python dict.
         with open(refseq_path) as infile:
-            self.transcripts = hgvs.utils.read_transcripts(infile)
+            self.transcripts = pyhgvs.utils.read_transcripts(infile)
 
     def hgvs_to_vcf(self, hgvs_variant):
         """
@@ -49,7 +49,7 @@ class VariantRemapper:
         # Library requires string not unicode, ensure format is correct
         hgvs_variant = str(hgvs_variant)
 
-        chromosome_number, coordinate, ref, alt = hgvs.parse_hgvs_name(hgvs_variant, self.genome, get_transcript=self._get_transcript)
+        chromosome_number, coordinate, ref, alt = pyhgvs.parse_hgvs_name(hgvs_variant, self.genome, get_transcript=self._get_transcript)
         chromosome_number = re.match('chr(.+)', chromosome_number).group(1)
         coordinate = str(coordinate)
 
@@ -75,7 +75,7 @@ class VariantRemapper:
 
         transcript = self._get_transcript(reference_transcript)
 
-        return hgvs.format_hgvs_name(chromosome_number, coordinate, ref, alt, self.genome, transcript)
+        return pyhgvs.format_hgvs_name(chromosome_number, coordinate, ref, alt, self.genome, transcript)
 
     def _get_transcript(self, name):
         """

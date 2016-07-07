@@ -13,10 +13,11 @@ def annotate_vep(input_file, output_file):
     """
     # TODO - can use a config file to specify parameters, but have not gotten to work yet
     command = ['variant_effect_predictor.pl',
+               '--port 3337',
                '--vcf',
                '--cache',
                '--fork 4',
-               '--host useastdb.ensembl.org',
+               '--host ensembldb.ensembl.org',
                '--format vcf',
                '--force_overwrite',
                '--everything',

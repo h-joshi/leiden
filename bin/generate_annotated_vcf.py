@@ -18,8 +18,10 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    file_list = []
     with open(args.file_list, 'r') as f:
-        file_list = [x.split() for x in f.read()]
+        for line in f:
+            file_list.append(line.strip('\n'))
 
     rm = VariantRemapper()
 
