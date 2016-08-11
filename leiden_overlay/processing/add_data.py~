@@ -57,7 +57,5 @@ output_file.write('\t'.join(col_names))
 for row in rows:
 	output_file.write('\t'.join(row))
 output_file.close()
-
-print "Processing done!"
 		
 		
