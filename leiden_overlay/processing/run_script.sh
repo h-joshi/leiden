@@ -18,5 +18,23 @@ perl ~/ensembl-tools-release-84/scripts/variant_effect_predictor/variant_effect_
 echo "Generating result file..."
 python process_data.py
 
+# sort the data
+echo "Sorting by frequency..."
+python sort_data.py
+uniq ./../dat/$1_sorted.txt > ./../dat/$1_sorted_nodup.txt
+
+# separate into powers of 10
+echo "Producing logarithmic-grouping data..."
+python group_data.py
+
+#results
+echo "Finalising results folder..."
+mkdir -p ./../results/$1
+cp ./../dat/DYSF_concise_output.txt ./../results/$1/
+cp ./../dat/DYSF_final_output.txt ./../results/$1/
+cp ./../dat/DYSF_sorted.txt ./../results/$1/
+cp ./../dat/DYSF_sorted_nodup.txt ./../results/$1/
+cp ./../dat/DYSF_grouped.txt ./../results/$1/
+
 # done!
-echo "Result file generated for $1!"
+echo "Processing complete for $1."

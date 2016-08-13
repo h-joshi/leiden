@@ -43,7 +43,7 @@ class VCFReader():
     Attributes:
         columns (list of str): list of column names
         header_lines (list of str): list of all header lines from the VCF
-        
+
         infos (dict): dictionary containing IDs from INFO field as primary key
             secondary keys are the Number, Type, description, and format (VEP-like entries only) for INFO field tags.
 
@@ -307,6 +307,5 @@ def convert_to_vcf_format(data_frame, remapper, hgvs_column, info_tag):
     vcf_format['FILTER'] = '.'
     vcf_format['QUAL'] = '.'
 
-    vcf_format.sort(['CHROM', 'POS'])
+    vcf_format.sort_values(['CHROM', 'POS'])
     return vcf_format
-

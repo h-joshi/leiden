@@ -1,0 +1,3 @@
+dicti = {}
+
+print dicti['ge']

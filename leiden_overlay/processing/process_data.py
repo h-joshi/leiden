@@ -22,7 +22,7 @@ var_name_ind = col_names.index("Uploaded_variation")
 location_ind = col_names.index("Location")
 conseq_ind = col_names.index("Consequence")
 
-first_row_out = ("%s\t%s\t%s\t%s\n")%("Uploaded_variation", "Location", "Consequence", "Allele_frequency")
+first_row_out = ("%s\t%s\t%s\t%s\t%s\t%s\n")%("Uploaded_variation", "Location", "Consequence", "Raw_allele_frequency", "Deduced_new_base", "Deduced_allele_frequency")
 
 concise_file.write(first_row_out)
 output_file.write(first_row_out)
@@ -30,27 +30,66 @@ output_file.write(first_row_out)
 for line in rows:
     extra_data = line[col_names.index("Extra")].split(';')
     freq_data = next((x.split('=')[1] for x in extra_data if "ExAC_Adj_MAF=" in x), None)
+    orig_freq_data = freq_data
+
+    formed_base = "-"
 
     add_to_concise = True
+    #for SNPs this always works because we know what it's going to change to???
     #get the actual change from freq_data - TODO: CHECK THIS WITH HIMANSHU
     var_name = line[var_name_ind]
+
+
     if '>' in var_name and freq_data:
         tmp_freq_data = freq_data.replace(',', ':')
-        new_base = var_name[-1]
         res_list = tmp_freq_data.split(':')
+        # get the correct variant
+        new_base = var_name[-1]
+        formed_base = new_base
         try:
             main_ind = res_list.index(new_base)
             freq_data = "%.9f"%(float(res_list[main_ind+1]))
         except:
             freq_data = "No relevant ExAC data"
             add_to_concise = False
+    elif freq_data:
+        tmp_freq_data = freq_data.replace(',', ':')
+        res_list = tmp_freq_data.split(':')
+        # get the most common one in as the guess...
+        possibilities = []
+        values = []
+        for i in range(0, len(res_list)):
+            if i % 2 == 0:
+                possibilities.append(res_list[i])
+            else:
+                values.append(res_list[i])
+
+
+        poss_count = {x: possibilities.count(x) for x in possibilities}
+
+        # get max poss
+        max_count = -1
+        max_item = None
+        for key in poss_count:
+            if poss_count[key] > max_count:
+                max_count = poss_count[key]
+                max_item = key
+
+        freq_data = "%.9f"%(float(values[possibilities.index(max_item)]))
+        formed_base = max_item
+        """poss_count = {}
+        for x in possibilities:
+            try:
+                poss_count[x] += 1
+            except:
+                poss_count[x] = 1"""
 
     #print line[var_name_ind], line[location_ind], line[conseq_ind], freq_data
     if freq_data == None:
         freq_data = "No ExAC data for variant"
         add_to_concise = False
 
-    row_to_add = ("%s\t%s\t%s\t%s\n")%(line[var_name_ind], line[location_ind], line[conseq_ind], freq_data)
+    row_to_add = ("%s\t%s\t%s\t%s\t%s\t%s\n")%(line[var_name_ind], line[location_ind], line[conseq_ind], orig_freq_data, formed_base, freq_data)
     output_file.write(row_to_add)
     if add_to_concise:
         concise_file.write(row_to_add)
