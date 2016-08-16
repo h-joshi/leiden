@@ -1,5 +1,4 @@
 #! /usr/bin/env sh
-
 #USE: ./run_script DYSF
 
 echo "Gathering data from Leiden..."
@@ -21,7 +20,7 @@ python process_data.py
 # sort the data
 echo "Sorting by frequency..."
 python sort_data.py
-uniq ./../dat/$1_sorted.txt > ./../dat/$1_sorted_nodup.txt
+awk '!x[$1]++' ./../dat/$1_sorted.txt > ./../dat/$1_sorted_nodup.txt
 
 # separate into powers of 10
 echo "Producing logarithmic-grouping data..."
@@ -30,10 +29,8 @@ python group_data.py
 #results
 echo "Finalising results folder..."
 mkdir -p ./../results/$1
-cp ./../dat/DYSF_concise_output.txt ./../results/$1/
-cp ./../dat/DYSF_final_output.txt ./../results/$1/
-cp ./../dat/DYSF_sorted.txt ./../results/$1/
-cp ./../dat/DYSF_sorted_nodup.txt ./../results/$1/
+cp ./../dat/DYSF_final_output.txt ./../results/$1/DYSF_full_output.txt
+cp ./../dat/DYSF_sorted.txt ./../results/$1/DYSF_concise_sorted.txt
 cp ./../dat/DYSF_grouped.txt ./../results/$1/
 
 # done!

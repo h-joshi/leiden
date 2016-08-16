@@ -6,6 +6,24 @@ gene_vep_file = open("../dat/" + input_gene + ".vep.txt")
 lines = [line.rstrip('\n').split('\t') for line in gene_vep_file]
 gene_vep_file.close()
 
+####
+# prepare all leiden data
+leiden_file = open("../dat/" + input_gene + ".txt")
+leiden_lines = leiden_file.readlines()
+leiden_file.close()
+leiden_cols = leiden_lines[0].rstrip('\n').split('\t')
+del leiden_cols[1]
+del leiden_lines[0]
+leiden_dict = {}
+
+for line in leiden_lines:
+    values = line.rstrip('\n').split('\t')
+    d_change = values[1]
+    del values[1]
+    leiden_dict[d_change] = values
+
+####
+
 i = 0
 while lines[i][0][0]=='#':
     i+=1
@@ -16,21 +34,26 @@ rows = lines[i:]
 #print col_names
 extra_index = col_names.index("Extra")
 
+#print col_names
+
 output_file = open("../dat/" + input_gene + "_final_output.txt", "w")
 concise_file = open("../dat/" + input_gene + "_concise_output.txt", "w")
 var_name_ind = col_names.index("Uploaded_variation")
 location_ind = col_names.index("Location")
 conseq_ind = col_names.index("Consequence")
 
-first_row_out = ("%s\t%s\t%s\t%s\t%s\t%s\n")%("Uploaded_variation", "Location", "Consequence", "Raw_allele_frequency", "Deduced_new_base", "Deduced_allele_frequency")
+first_row_names = ["uploaded_variation", "location", "consequence", "raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency"] + (leiden_cols)
+first_row_out = '\t'.join(first_row_names)+'\n'
 
 concise_file.write(first_row_out)
 output_file.write(first_row_out)
 
+var_info = {}
+
 for line in rows:
     extra_data = line[col_names.index("Extra")].split(';')
     freq_data = next((x.split('=')[1] for x in extra_data if "ExAC_Adj_MAF=" in x), None)
-    orig_freq_data = freq_data
+    orig_freq_data = freq_data if freq_data else '-'
 
     formed_base = "-"
 
@@ -89,10 +112,12 @@ for line in rows:
         freq_data = "No ExAC data for variant"
         add_to_concise = False
 
-    row_to_add = ("%s\t%s\t%s\t%s\t%s\t%s\n")%(line[var_name_ind], line[location_ind], line[conseq_ind], orig_freq_data, formed_base, freq_data)
-    output_file.write(row_to_add)
+    row_to_add = [line[var_name_ind], line[location_ind], line[conseq_ind], orig_freq_data, formed_base, freq_data] + (leiden_dict[line[var_name_ind]])
+    row_str = '\t'.join(row_to_add) + '\n'
+    #row_to_add = ("%s\t%s\t%s\t%s\t%s\t%s\n")%(line[var_name_ind], line[location_ind], line[conseq_ind], orig_freq_data, formed_base, freq_data)
+    output_file.write(row_str)
     if add_to_concise:
-        concise_file.write(row_to_add)
+        concise_file.write(row_str)
     #output_file.write("%s\t%s\t%s\t%s\t%s\t%s
 
 output_file.close()
