@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-input_gene = "DYSF"
+import sys
+import scipy #get rid of this? useless - replace later use
+input_gene = sys.argv[1]
 
 gene_csv = open("../results/" + input_gene + "/" + input_gene + "_full_output.txt")
 lines = [line.rstrip('\n').split('\t') for line in gene_csv]
@@ -26,22 +28,31 @@ for line in lines:
 snp_count -= bands['NA']
 del bands['NA']
 
-band_pairs = [(int(k),v) for k,v in bands.items()]
-band_pairs = sorted(band_pairs, key = lambda x: x[0])
+#band_pairs = [(int(k),v) for k,v in bands.items()]
+#band_pairs = sorted(band_pairs, key = lambda x: x[0])
 
-x_axis = []
-y_axis = []
-for val in band_pairs:
-    x_axis.append(val[0])
-    y_axis.append(val[1])
+bands_dic = {int(k):v for k,v in bands.items()}
+x_axis = np.arange(0, 10)
+y_axis = [0 for i in range(0, 10)]
+
+for key in bands_dic:
+    y_axis[key] = bands_dic[key]
+
+#y_axis = []
+#for val in band_pairs:
+#    x_axis.append(val[0])
+#    y_axis.append(val[1])
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
-width = 0.35
 
-rects=ax.bar(np.arange(len(x_axis)), y_axis)
+rects=ax.bar(x_axis, y_axis, align='center')
 ax.set_ylabel("Frequency")
 ax.set_xlabel("Band Number")
+ax.set_yticks(scipy.arange(0, max(y_axis)+5, 2))
+ax.set_xticks(np.arange(0, 10, 1))
 ax.set_title("%s SNP Band Count"%(input_gene))
-plt.setp(ax.set_xticklabels(x_axis))
-plt.show()
+
+#plt.setp(ax.set_xticklabels(x_axis))
+
+fig.savefig("../results/" + input_gene + "/" + input_gene + "_chart.png")

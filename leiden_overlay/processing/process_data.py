@@ -1,6 +1,7 @@
 import re
 import math
-input_gene = "DYSF"
+import sys
+input_gene = sys.argv[1]
 
 gene_vep_file = open("../dat/" + input_gene + ".vep.txt")
 lines = [line.rstrip('\n').split('\t') for line in gene_vep_file]
