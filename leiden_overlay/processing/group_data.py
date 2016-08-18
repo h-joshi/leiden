@@ -1,11 +1,10 @@
 input_gene = "DYSF"
 
-gene_csv = open("../dat/" + input_gene + "_sorted_nodup.txt")
+gene_csv = open("../dat/" + input_gene + "_snp_fixed_nodup.txt")
 lines = [line.rstrip('\n').split('\t') for line in gene_csv]
 gene_csv.close()
 
 result = open("../dat/" + input_gene + "_grouped.txt", "w")
-
 freq_ind = lines[0].index("deduced_allele_frequency")
 j = 1
 for i in range(9, -1, -1):

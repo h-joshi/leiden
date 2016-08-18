@@ -1,5 +1,5 @@
 import re
-import math
+
 input_gene = "DYSF"
 
 gene_vep_file = open("../dat/" + input_gene + ".vep.txt")
@@ -38,40 +38,17 @@ extra_index = col_names.index("Extra")
 
 output_file = open("../dat/" + input_gene + "_final_output.txt", "w")
 concise_file = open("../dat/" + input_gene + "_concise_output.txt", "w")
-
 var_name_ind = col_names.index("Uploaded_variation")
 location_ind = col_names.index("Location")
+conseq_ind = col_names.index("Consequence")
 
 var_type = "?"
 
-first_row_names = ["leiden_reported_variant", "location", "type","raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency", "band"] + (leiden_cols)
+first_row_names = ["leiden_reported_variant", "location", "type", "consequence", "raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency"] + (leiden_cols)
 first_row_out = '\t'.join(first_row_names)+'\n'
 
 concise_file.write(first_row_out)
 output_file.write(first_row_out)
-
-def get_band(f):
-    if f < 0.000000001:
-        return "9"
-    elif f < 0.00000001:
-        return "8"
-    elif f < 0.0000001:
-        return "7"
-    elif f < 0.000001:
-        return "6"
-    elif f < 0.00001:
-        return "5"
-    elif f < 0.0001:
-        return "4"
-    elif f < 0.001:
-        return "3"
-    elif f < 0.01:
-        return "2"
-    elif f < 0.1:
-        return "1"
-    else:
-        return "0"
-
 
 var_info = {}
 
@@ -79,7 +56,7 @@ for line in rows:
     extra_data = line[col_names.index("Extra")].split(';')
     freq_data = next((x.split('=')[1] for x in extra_data if "ExAC_Adj_MAF=" in x), None)
     orig_freq_data = freq_data if freq_data else '-'
-    band = "NA"
+
     formed_base = "-"
 
     add_to_concise = True
@@ -97,11 +74,9 @@ for line in rows:
         try:
             main_ind = res_list.index(new_base)
             freq_data = "%.9f"%(float(res_list[main_ind+1]))
-            band = get_band(float(freq_data))
         except:
             freq_data = "No relevant ExAC data"
             add_to_concise = False
-
     elif freq_data:
         tmp_freq_data = freq_data.replace(',', ':')
         res_list = tmp_freq_data.split(':')
@@ -124,7 +99,6 @@ for line in rows:
                 max_item = key
 
         freq_data = "%.9f"%(float(values[possibilities.index(max_item)]))
-        band = get_band(float(freq_data))
         formed_base = max_item
 
         """poss_count = {}
@@ -148,8 +122,7 @@ for line in rows:
     else:
         var_type = "other"
 
-    row_to_add = [line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band] + (leiden_dict[line[var_name_ind]])
-
+    row_to_add = [line[var_name_ind], line[location_ind], var_type, line[conseq_ind], orig_freq_data, formed_base, freq_data] + (leiden_dict[line[var_name_ind]])
     row_str = '\t'.join(row_to_add) + '\n'
     #row_to_add = ("%s\t%s\t%s\t%s\t%s\t%s\n")%(line[var_name_ind], line[location_ind], line[conseq_ind], orig_freq_data, formed_base, freq_data)
     output_file.write(row_str)
