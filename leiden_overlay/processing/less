@@ -1,0 +1,3465 @@
+Processing overall table...
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en_US">
+<head>
+<title>View all contents - Leiden Muscular Dystrophy pages - Leiden Open Variation Database</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="LOVD development team, LUMC, Netherlands" name="Author">
+<meta content="gPHPEdit / GIMP @ GNU/Linux (Ubuntu)" name="Generator">
+<link href="./styles.css" rel="stylesheet" type="text/css">
+<link href="./favicon.ico" rel="shortcut icon">
+<link href="./api/feed.php" rel="alternate" title="Leiden Muscular Dystrophy pages Atom 1.0 feed" type="application/atom+xml"/>
+<script type="text/javascript">
+    <!--
+    navHome_B     = new Image();
+    navHome_B.src = './gfx/tab_home_B.png';
+    navHome_H     = new Image();
+    navHome_H.src = './gfx/tab_home_H.png';
+    navVariants_B     = new Image();
+    navVariants_B.src = './gfx/tab_variants_B.png';
+    navVariants_H     = new Image();
+    navVariants_H.src = './gfx/tab_variants_H.png';
+    navSubmitters_B     = new Image();
+    navSubmitters_B.src = './gfx/tab_submitters_B.png';
+    navSubmitters_H     = new Image();
+    navSubmitters_H.src = './gfx/tab_submitters_H.png';
+    navSubmit_B     = new Image();
+    navSubmit_B.src = './gfx/tab_submit_B.png';
+    navSubmit_H     = new Image();
+    navSubmit_H.src = './gfx/tab_submit_H.png';
+    navDocs_B     = new Image();
+    navDocs_B.src = './gfx/tab_docs_B.png';
+    navDocs_H     = new Image();
+    navDocs_H.src = './gfx/tab_docs_H.png';
+
+    // Used for tab images.
+    function lovd_imageSwitch (image_id, image_mode) {
+      document.getElementById(image_id).src = eval(image_id + '_' + image_mode + '.src');
+    }
+
+    function lovd_switchGeneInline () {
+      varForm = '<FORM action="/nmdb2/variants.php" id="SelectGeneDBInline" method="get" style="margin : 0px;"><SELECT name="select_db" onchange="document.getElementById(\'SelectGeneDBInline\').submit();"><OPTION value="ACTA1">ACTA1 (ACTin, Alpha 1 (skeletal muscle))</OPTION><OPTION value="ANKRD1">ANKRD1 (Ankyrin repeat domain 1 (cardiac muscle))</OPTION><OPTION value="B3GNT1">B3GNT1 (UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 1)</OPTION><OPTION value="BAG3">BAG3 (BCL2-associated athanogene 3)</OPTION><OPTION value="BANF1">BANF1 (Barrier to autointegration factor 1)</OPTION><OPTION value="BIN1">BIN1 (Bridging INtegrator 1)</OPTION><OPTION value="CAPN3">CAPN3 (Calpain-3)</OPTION><OPTION value="CAV3">CAV3 (Caveolin-3)</OPTION><OPTION value="CFL2">CFL2 (Cofilin 2)</OPTION><OPTION value="CHAT">CHAT (Choline O-acetyltransferase)</OPTION><OPTION value="CHKB">CHKB (Choline kinase beta)</OPTION><OPTION value="CHRNA1">CHRNA1 (cholinergic receptor, nicotinic, alpha 1 (muscle))</OPTION><OPTION value="CHRNB1">CHRNB1 (Cholinergic receptor, nicotinic, beta 1 (muscle))</OPTION><OPTION value="CHRND">CHRND (Cholinergic receptor, nicotinic, delta)</OPTION><OPTION value="CHRNE">CHRNE (Cholinergic receptor, nicotinic, epsilon)</OPTION><OPTION value="CNTN1">CNTN1 (Contactin 1)</OPTION><OPTION value="COL6A1">COL6A1 (Collagen type VI alpha 1)</OPTION><OPTION value="COL6A2">COL6A2 (Collagen type VI alpha 2)</OPTION><OPTION value="COL6A3">COL6A3 (Collagen type VI alpha 3)</OPTION><OPTION value="COLQ">COLQ (Collagen-like tail subunit (single strand of homotrimer) of asymme...))</OPTION><OPTION value="CRYAB">CRYAB (Crystallin, alpha-B)</OPTION><OPTION value="DAG1">DAG1 (Dystrophin-Associated Glycoprotein 1)</OPTION><OPTION value="DES">DES (Desmin)</OPTION><OPTION value="DMD">DMD (Duchenne Muscular Dystrophy)</OPTION><OPTION value="DMD_d">DMD_d (Duchenne Muscular Dystrophy (whole exon changes))</OPTION><OPTION value="DNAJB6">DNAJB6 (DnaJ (Hsp40) homolog, subfamily B, member 6)</OPTION><OPTION value="DOK7">DOK7 (Docking protein 7)</OPTION><OPTION value="DPM3">DPM3 (Dolichyl-Phosphate Mannosyltransferase polypeptide 3)</OPTION><OPTION value="DTNA">DTNA (Dystrobrevin alpha)</OPTION><OPTION value="DYSF" selected>DYSF (Dysferlin)</OPTION><OPTION value="EGR2">EGR2 (early growth response 2)</OPTION><OPTION value="EMD">EMD (Emery-Dreifuss muscular dystrophy (emerin))</OPTION><OPTION value="FAM134B">FAM134B (family with sequence similarity 134, member B)</OPTION><OPTION value="FGD4">FGD4 (FYVE, RhoGEF and PH domain containing 4)</OPTION><OPTION value="FHL1">FHL1 (Four and a Half LIM domains 1)</OPTION><OPTION value="FIG4">FIG4 (FIG4 homolog, SAC1 lipid phosphatase domain containing (S. cerevis...))</OPTION><OPTION value="FKRP">FKRP (Fukutin-Related Protein)</OPTION><OPTION value="FKTN">FKTN (Fukutin)</OPTION><OPTION value="GARS">GARS (glycyl-tRNA synthetase)</OPTION><OPTION value="GDAP1">GDAP1 (ganglioside induced differentiation associated protein 1)</OPTION><OPTION value="GFPT1">GFPT1 (Glutamine-fructose-6-phosphate transaminase 1)</OPTION><OPTION value="GJB1">GJB1 (gap junction protein, beta 1, 32kDa)</OPTION><OPTION value="GK">GK (Glycerol Kinase)</OPTION><OPTION value="IGHMBP2">IGHMBP2 (Immunoglobulin mu binding protein 2)</OPTION><OPTION value="ISCU">ISCU (Iron-Sulfur cluster scaffold homolog (E. coli))</OPTION><OPTION value="ITGA7">ITGA7 (Integrin, alpha 7)</OPTION><OPTION value="KBTBD13">KBTBD13 (Kelch repeat and BTB (POZ) domain containing 13)</OPTION><OPTION value="KIF1B">KIF1B (kinesin family member 1B)</OPTION><OPTION value="LAMA2">LAMA2 (Laminin-alpha 2 (merosin))</OPTION><OPTION value="LAMP2">LAMP2 (Lysosomal-associated membrane protein 2)</OPTION><OPTION value="LARGE">LARGE (LARGE like-glycosyltransferase)</OPTION><OPTION value="LDB3">LDB3 (LIM domain binding 3 (ZASP))</OPTION><OPTION value="LITAF">LITAF (lipopolysaccharide-induced TNF factor)</OPTION><OPTION value="LMNA">LMNA (Lamin A/C)</OPTION><OPTION value="MATR3">MATR3 (Matrin 3)</OPTION><OPTION value="MSTN">MSTN (Myostatin)</OPTION><OPTION value="MTM1">MTM1 (Myotubularin 1)</OPTION><OPTION value="MTMR14">MTMR14 (Myotubularin related protein 14)</OPTION><OPTION value="MTMR2">MTMR2 (myotubularin related protein 2)</OPTION><OPTION value="MUSK">MUSK (muscle, skeletal, receptor tyrosine kinase)</OPTION><OPTION value="MYBPC3">MYBPC3 (Myosin binding protein C, cardiac)</OPTION><OPTION value="MYH7">MYH7 (myosin, heavy chain 7, cardiac muscle, beta)</OPTION><OPTION value="MYL2">MYL2 (Myosin, light chain 2, regulatory, cardiac, slow)</OPTION><OPTION value="MYL3">MYL3 (Myosin, light chain 3, alkali; ventricular, skeletal, slow)</OPTION><OPTION value="MYOT">MYOT (Myotilin (Titin immunoglobulin domain))</OPTION><OPTION value="MYOZ1">MYOZ1 (Myozenin 1)</OPTION><OPTION value="MYOZ2">MYOZ2 (Myozenin 2)</OPTION><OPTION value="MYOZ3">MYOZ3 (Myozenin 3)</OPTION><OPTION value="MYPN">MYPN (Myopalladin)</OPTION><OPTION value="NEB">NEB (Nebulin)</OPTION><OPTION value="NEFL">NEFL (Neurofilament, light polypeptide)</OPTION><OPTION value="NTRK1">NTRK1 (neurotrophic tyrosine kinase, receptor, type 1)</OPTION><OPTION value="PABPN1">PABPN1 (PolyA binding protein, nuclear 1)</OPTION><OPTION value="PDK3">PDK3 (Pyruvate dehydrogenase kinase, isozyme 3)</OPTION><OPTION value="PDLIM3">PDLIM3 (PDZ and LIM domain 3)</OPTION><OPTION value="PLEC">PLEC (Plectin)</OPTION><OPTION value="PMP22">PMP22 (Peripheral myelin protein 22)</OPTION><OPTION value="POMGNT1">POMGNT1 (Protein O-linked Mannose beta1,2-N-acetylGlucosaminylTransferase)</OPTION><OPTION value="POMT1">POMT1 (Protein O-Mannosyltransferase 1)</OPTION><OPTION value="POMT2">POMT2 (Protein O-Mannosyltransferase 2)</OPTION><OPTION value="PRPS1">PRPS1 (phosphoribosyl pyrophosphate synthetase 1)</OPTION><OPTION value="PRX">PRX (periaxin)</OPTION><OPTION value="PTRF">PTRF (Polymerase I and Transcript Release Factor (cavin-1))</OPTION><OPTION value="RAB7A">RAB7A (RAB7A, member RAS oncogene family)</OPTION><OPTION value="RAPSN">RAPSN (Receptor-associated protein of the synapse)</OPTION><OPTION value="RYR1">RYR1 (RYanodine Receptor 1 (skeletal))</OPTION><OPTION value="SBF2">SBF2 (SET binding factor 2)</OPTION><OPTION value="SEPN1">SEPN1 (Selenoprotein 1)</OPTION><OPTION value="SGCA">SGCA (Sarcoglycan-alpha)</OPTION><OPTION value="SGCB">SGCB (Sarcoglycan-beta)</OPTION><OPTION value="SGCD">SGCD (Sarcoglycan-delta)</OPTION><OPTION value="SGCE">SGCE (Sarcoglycan-epsilon)</OPTION><OPTION value="SGCG">SGCG (Sarcoglycan-gamma)</OPTION><OPTION value="SGCZ">SGCZ (Sarcoglycan-zeta)</OPTION><OPTION value="SH3TC2">SH3TC2 (SH3 domain and tetratricopeptide repeats 2)</OPTION><OPTION value="SMN1">SMN1 (Survival Motor Neuron 1)</OPTION><OPTION value="SOX10">SOX10 (SRY (sex determining region Y)-box 10)</OPTION><OPTION value="SPTLC1">SPTLC1 (serine palmitoyltransferase, long chain base subunit 1)</OPTION><OPTION value="SPTLC2">SPTLC2 (serine palmitoyltransferase, long chain base subunit 2)</OPTION><OPTION value="TCAP">TCAP (Titin-cap (telethonin))</OPTION><OPTION value="TNNI2">TNNI2 (Troponin I type 2)</OPTION><OPTION value="TNNI3">TNNI3 (Troponin I type 3 (cardiac))</OPTION><OPTION value="TNNT1">TNNT1 (Troponin T type 1)</OPTION><OPTION value="TNNT2">TNNT2 (Troponin T type 2 (cardiac))</OPTION><OPTION value="TNNT3">TNNT3 (Troponin T type 3)</OPTION><OPTION value="TNPO3">TNPO3 (Transportin 3)</OPTION><OPTION value="TPM1">TPM1 (tropomyosin 1 (alpha))</OPTION><OPTION value="TPM2">TPM2 (Tropomyosin 2)</OPTION><OPTION value="TPM3">TPM3 (Tropomyosin 3)</OPTION><OPTION value="TRAPPC11">TRAPPC11 (Trafficking protein particle complex 11)</OPTION><OPTION value="TRDN">TRDN (Triadin)</OPTION><OPTION value="TRIM32">TRIM32 (Tripartite motif-containing 32)</OPTION><OPTION value="TTR">TTR (Transthyretin)</OPTION><OPTION value="VCP">VCP (Valosin-containing protein)</OPTION><OPTION value="VMA21">VMA21 (VMA21 vacuolar H+-ATPase homolog (S. cerevisiae))</OPTION><OPTION value="WNK1">WNK1 (WNK lysine deficient protein kinase 1)</OPTION><OPTION value="YARS">YARS (tyrosyl-tRNA synthetase)</OPTION><OPTION value="ZMPSTE24">ZMPSTE24 (Zinc MetalloPeptidase (STE24 homolog, yeast))</OPTION></SELECT><INPUT type="hidden" name="action" value="view_all"><INPUT type="submit" value="Switch"></FORM>';
+      document.getElementById('gene_name').innerHTML=varForm;
+    }
+
+    //-->
+  </script>
+<script src="./inc-js-openwindow.php" type="text/javascript"></script>
+</link></link></meta></meta></meta></head>
+<body style="margin : 0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+<table border="0" cellpadding="0" cellspacing="0" class="logo" width="100%">
+<tr>
+<td width="150">
+<img alt="LOVD - Leiden Open Variation Database" height="50" src="./gfx/LOVD_logo130x50.jpg" width="130">
+</img></td>
+<td style="padding-top : 2px;" valign="top">
+<h2 style="margin-bottom : 2px;">Leiden Muscular Dystrophy pages</h2>
+<h5 id="gene_name">Dysferlin (DYSF) <a href="#" onclick="javascript:lovd_switchGeneInline(); return false;"><img align="top" alt="Switch gene" border="0" height="23" src="./gfx/lovd_database_switch_inline.png" title="Switch gene database" width="23"/></a></h5>
+</td>
+<td align="right" style="padding-right : 5px; padding-top : 2px;" valign="top">
+      LOVD v.2.0 Build 36 [ <a href="./status.php">Current LOVD status</a> ]<br>
+<a href="./submitters.php?action=register"><b>Register as submitter</b></a> | <a href="./account_login.php"><b>Log in</b></a><br>
+</br></br></td>
+</tr>
+<tr>
+<td width="150"> </td>
+<td colspan="2" style="padding-bottom : 2px;" valign="top"><b>Curator: <a href="mailto:LMDp-DBm@JohanDenDunnen.nl">Johan den Dunnen</a></b></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="logo" width="100%">
+<tr>
+<td align="left" style="background : url('./gfx/tab_fill.png');">
+<img align="left" alt="" height="30" src="./gfx/tab_0B.png" width="33">
+<a href="/nmdb2/home.php?select_db=DYSF"><img align="left" alt="DYSF homepage" border="0" height="30" id="navHome" onmouseout="lovd_imageSwitch('navHome', 'B');" onmouseover="lovd_imageSwitch('navHome', 'H');" src="./gfx/tab_home_B.png" title="DYSF homepage" width="41"/></a>
+<img align="left" alt="" height="30" src="./gfx/tab_BF.png" width="33">
+<a href="/nmdb2/variants.php?action=search_unique&amp;select_db=DYSF"><img align="left" alt="View unique variants" border="0" height="30" id="navVariants" src="./gfx/tab_variants_F.png" title="View unique variants" width="56"/></a>
+<img align="left" alt="" height="30" src="./gfx/tab_FB.png" width="33">
+<a href="/nmdb2/submitters.php?action=public_list"><img align="left" alt="Public list of submitters" border="0" height="30" id="navSubmitters" onmouseout="lovd_imageSwitch('navSubmitters', 'B');" onmouseover="lovd_imageSwitch('navSubmitters', 'H');" src="./gfx/tab_submitters_B.png" title="Public list of submitters" width="75"/></a>
+<img align="left" alt="" height="30" src="./gfx/tab_BB.png" width="33">
+<a href="/nmdb2/submit.php"><img align="left" alt="Submit new data" border="0" height="30" id="navSubmit" onmouseout="lovd_imageSwitch('navSubmit', 'B');" onmouseover="lovd_imageSwitch('navSubmit', 'H');" src="./gfx/tab_submit_B.png" title="Submit new data" width="50"/></a>
+<img align="left" alt="" height="30" src="./gfx/tab_BB.png" width="33">
+<a href="/nmdb2/docs/index.php"><img align="left" alt="LOVD manual table of contents" border="0" height="30" id="navDocs" onmouseout="lovd_imageSwitch('navDocs', 'B');" onmouseover="lovd_imageSwitch('navDocs', 'H');" src="./gfx/tab_docs_B.png" title="LOVD manual table of contents" width="110"/></a>
+<img align="left" alt="" height="30" src="./gfx/tab_B0.png" width="33">
+</img></img></img></img></img></img></td>
+</tr>
+</table>
+<div style="padding : 5px; margin-bottom : 5px;">
+<table border="0" cellpadding="0" cellspacing="0" class="submenu" width="100%">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center"><a href="/nmdb2/variants.php?action=view_unique">View unique variants</a></td>
+<td style="padding : 0px;"> </td>
+<td align="center"><a href="/nmdb2/variants.php?action=search_unique">Search unique variants</a></td>
+<td style="padding : 0px; background : #224488;" width="1"><img alt="" height="1" src="./gfx/trans.png" width="1"/></td>
+<td align="center" style="background : #C8DCFA;"><a href="/nmdb2/variants.php?action=view_all">View all contents</a></td>
+<td style="padding : 0px;"> </td>
+<td align="center"><a href="/nmdb2/variants.php?action=search_all">Full database search</a></td>
+<td style="padding : 0px; background : #224488;" width="1"><img alt="" height="1" src="./gfx/trans.png" width="1"/></td>
+<td align="center"><a href="/nmdb2/variants_overview_origin.php">Variant listing based on patient origin</a></td>
+<td style="padding : 0px; background : #224488;" width="1"><img alt="" height="1" src="./gfx/trans.png" width="1"/></td>
+<td align="center"><a href="/nmdb2/variants_statistics.php">Database statistics</a></td>
+<td style="padding : 0px;"> </td>
+<td align="center"><a href="/nmdb2/home.php?action=switch_db">Switch gene</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div style="padding : 0px 10px;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<div style="text-align : left;"><font color="#FF0000"><b>NOTE:</b> the DYSF coding DNA reference sequence used has been updated. The 'DNA_change' column gives descriptions based on NM_003494.3, meaning that exon 40b has been removed and variant descriptions 3' of c.4410 differ from those given previously (-63 nucleotides). The column 'DNA_AllExon' gives descriptions based on a transcript incl. exons 5b and 40b. For details see <a href="http://www.dmd.nl/nmdb2/refseq/DYSF_codingDNA.html">the DYSF coding DNA reference sequence</a>.</font></div>
+<img alt="LOVD - Variant listings for DYSF" height="30" src="./gfx/header_variant_listings.png" width="500"><br>
+<br>
+<form action="/nmdb2/variants.php" method="get" style="margin : 0px;">
+<input name="select_db" type="hidden" value="DYSF">
+<input name="action" type="hidden" value="view_all">
+<input name="order" type="hidden" value="Variant/DNA,ASC">
+<input name="hide_col" type="hidden" value="">
+<input name="show_col" type="hidden" value="">
+<script src="./inc-js-toggle-visibility.js" type="text/javascript"></script>
+<table border="0" cellpadding="0" cellspacing="0" width="960">
+<tr>
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="navigation">
+<tr align="center">
+<td><a style="color : #999999;">Unhide all columns</a> | <a href="#" onclick="lovd_openWindow('views_columns.php?action=view_all&amp;hide=true', 'HideColumns', 300, 500); return false;">Hide Specific Columns</a> | <a href="#" onclick="document.forms[0].hide_col.value='all';document.forms[0].submit();">Hide all columns</a></td></tr></table>
+</td>
+<td align="right">
+<table border="0" cellpadding="2" cellspacing="0" class="info" style="font-size : 11px;" width="525">
+<tr>
+<th>About this overview [<a href="#" id="moreinfo_link" onclick="lovd_toggleVisibility('moreinfo'); return false;">Show</a>]</th>
+<tr id="moreinfo" style="display : none;">
+<td>The variants below are all in the DYSF database. All fields are shown, including patient and pathogenicity information. A '+' in the DNA change field indicates that more variants were found in this patient. Variants reported in a gene database other than DYSF, are reported as the gene symbol with the number of reported variants between parenthesis.<br>Selecting and clicking a specific line will open a detailed view showing all details per patient.<br>At the bottom of this page a legend is provided with a short explanation of what each field contains.<br>For a more detailed description of each field, please see the <a href="variants_legend.php?select_db=DYSF" target="_blank">DYSF full legend</a> here.<br/></br></br></br></td></tr></tr></table></td></tr></table><br>
+<span class="S11">1654 public entries</span><br>
+<span class="S11"><select class="S11" name="limit" onchange="document.forms[0].submit();">
+<option value="25">25</option>
+<option value="50">50</option>
+<option selected="" value="100">100</option>
+<option value="250">250</option>
+<option value="500">500</option>
+<option value="1000">1000</option></select> entries per page</span><br>
+<div id="table_div" style="height : 20px;">
+<table border="0" cellpadding="0" cellspacing="1" class="data" id="table_headers" style="position : absolute; background : #FFFFFF;">
+<tr>
+<th class="order" valign="top" width="50"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='pathogenic_,ASC';document.forms[0].submit();">
+<th>Path.</th>
+<td align="right" width="13"><img alt="Hide Path. column" height="11" onclick="document.forms[0].hide_col.value='pathogenic_';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Path. column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="50"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Exon,ASC';document.forms[0].submit();">
+<th>Exon</th>
+<td align="right" width="13"><img alt="Hide Exon column" height="11" onclick="document.forms[0].hide_col.value='Variant/Exon';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Exon column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="ordered" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/DNA,DESC';document.forms[0].submit();">
+<th>DNA change</th>
+<td align="right" width="13"> </td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc_sel.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="100"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/DNA_published,ASC';document.forms[0].submit();">
+<th>Var_pub_as</th>
+<td align="right" width="13"><img alt="Hide Var_pub_as column" height="11" onclick="document.forms[0].hide_col.value='Variant/DNA_published';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Var_pub_as column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/RNA,ASC';document.forms[0].submit();">
+<th>RNA change</th>
+<td align="right" width="13"><img alt="Hide RNA change column" height="11" onclick="document.forms[0].hide_col.value='Variant/RNA';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide RNA change column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Protein,ASC';document.forms[0].submit();">
+<th>Protein change</th>
+<td align="right" width="13"><img alt="Hide Protein change column" height="11" onclick="document.forms[0].hide_col.value='Variant/Protein';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Protein change column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="88"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/DNA_AllExon,ASC';document.forms[0].submit();">
+<th>DNA_AllExon</th>
+<td align="right" width="13"><img alt="Hide DNA_AllExon column" height="11" onclick="document.forms[0].hide_col.value='Variant/DNA_AllExon';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide DNA_AllExon column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="120"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Protein_AllExon,ASC';document.forms[0].submit();">
+<th>Protein_AllExon</th>
+<td align="right" width="13"><img alt="Hide Protein_AllExon column" height="11" onclick="document.forms[0].hide_col.value='Variant/Protein_AllExon';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Protein_AllExon column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/DBID,ASC';document.forms[0].submit();">
+<th>DB-ID</th>
+<td align="right" width="13"><img alt="Hide DB-ID column" height="11" onclick="document.forms[0].hide_col.value='Variant/DBID';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide DB-ID column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Remarks,ASC';document.forms[0].submit();">
+<th>Variant remarks</th>
+<td align="right" width="13"><img alt="Hide Variant remarks column" height="11" onclick="document.forms[0].hide_col.value='Variant/Remarks';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Variant remarks column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="100"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Genetic_origin,ASC';document.forms[0].submit();">
+<th>Genet_ori</th>
+<td align="right" width="13"><img alt="Hide Genet_ori column" height="11" onclick="document.forms[0].hide_col.value='Variant/Genetic_origin';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Genet_ori column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Reference,ASC';document.forms[0].submit();">
+<th>Reference</th>
+<td align="right" width="13"><img alt="Hide Reference column" height="11" onclick="document.forms[0].hide_col.value='Variant/Reference';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Reference column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Detection/Template,ASC';document.forms[0].submit();">
+<th>Template</th>
+<td align="right" width="13"><img alt="Hide Template column" height="11" onclick="document.forms[0].hide_col.value='Variant/Detection/Template';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Template column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Detection/Technique,ASC';document.forms[0].submit();">
+<th>Technique</th>
+<td align="right" width="13"><img alt="Hide Technique column" height="11" onclick="document.forms[0].hide_col.value='Variant/Detection/Technique';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Technique column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="90"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Frequency,ASC';document.forms[0].submit();">
+<th>Frequency</th>
+<td align="right" width="13"><img alt="Hide Frequency column" height="11" onclick="document.forms[0].hide_col.value='Variant/Frequency';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Frequency column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="75"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Variant/Restriction_site,ASC';document.forms[0].submit();">
+<th>RE-site</th>
+<td align="right" width="13"><img alt="Hide RE-site column" height="11" onclick="document.forms[0].hide_col.value='Variant/Restriction_site';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide RE-site column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Phenotype/Disease,ASC';document.forms[0].submit();">
+<th>Phenotype</th>
+<td align="right" width="13"><img alt="Hide Phenotype column" height="11" onclick="document.forms[0].hide_col.value='Patient/Phenotype/Disease';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Phenotype column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="160"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Phenotype_2,ASC';document.forms[0].submit();">
+<th>Phenotype additional</th>
+<td align="right" width="13"><img alt="Hide Phenotype additional column" height="11" onclick="document.forms[0].hide_col.value='Patient/Phenotype_2';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Phenotype additional column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Reference,ASC';document.forms[0].submit();">
+<th>Reference</th>
+<td align="right" width="13"><img alt="Hide Reference column" height="11" onclick="document.forms[0].hide_col.value='Patient/Reference';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Reference column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Remarks,ASC';document.forms[0].submit();">
+<th>Remarks</th>
+<td align="right" width="13"><img alt="Hide Remarks column" height="11" onclick="document.forms[0].hide_col.value='Patient/Remarks';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Remarks column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Origin/Geographic,ASC';document.forms[0].submit();">
+<th>Geographic origin</th>
+<td align="right" width="13"><img alt="Hide Geographic origin column" height="11" onclick="document.forms[0].hide_col.value='Patient/Origin/Geographic';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Geographic origin column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="104"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Origin/Ethnic,ASC';document.forms[0].submit();">
+<th>Ethnic origin</th>
+<td align="right" width="13"><img alt="Hide Ethnic origin column" height="11" onclick="document.forms[0].hide_col.value='Patient/Origin/Ethnic';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Ethnic origin column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="60"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Gender,ASC';document.forms[0].submit();">
+<th>Gender</th>
+<td align="right" width="13"><img alt="Hide Gender column" height="11" onclick="document.forms[0].hide_col.value='Patient/Gender';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Gender column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Phenotype/Inheritance,ASC';document.forms[0].submit();">
+<th>Inheritance</th>
+<td align="right" width="13"><img alt="Hide Inheritance column" height="11" onclick="document.forms[0].hide_col.value='Patient/Phenotype/Inheritance';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Inheritance column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="200"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Consanguinity,ASC';document.forms[0].submit();">
+<th>Consanguinity</th>
+<td align="right" width="13"><img alt="Hide Consanguinity column" height="11" onclick="document.forms[0].hide_col.value='Patient/Consanguinity';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Consanguinity column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="70"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Fam_Pat,ASC';document.forms[0].submit();">
+<th>Fam_Pat</th>
+<td align="right" width="13"><img alt="Hide Fam_Pat column" height="11" onclick="document.forms[0].hide_col.value='Patient/Fam_Pat';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Fam_Pat column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="80"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Times_Reported,ASC';document.forms[0].submit();">
+<th># reported</th>
+<td align="right" width="13"><img alt="Hide # reported column" height="11" onclick="document.forms[0].hide_col.value='Patient/Times_Reported';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide # reported column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="80"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Test/CK,ASC';document.forms[0].submit();">
+<th>CK level</th>
+<td align="right" width="13"><img alt="Hide CK level column" height="11" onclick="document.forms[0].hide_col.value='Patient/Test/CK';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide CK level column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th>
+<th class="order" valign="top" width="60"><img alt="" height="1" src="./gfx/trans.png"><br>
+<table border="0" cellpadding="0" cellspacing="0" class="S11" width="100%">
+<tr onclick="document.forms[0].order.value='Patient/Test/Protein,ASC';document.forms[0].submit();">
+<th>Protein data</th>
+<td align="right" width="13"><img alt="Hide Protein data column" height="11" onclick="document.forms[0].hide_col.value='Patient/Test/Protein';document.forms[0].submit();" src="./gfx/order_arrow_hide.png" style="margin : 1px;" title="Hide Protein data column" width="11"/></td>
+<td align="right" width="13"><img alt="Descending" height="6" src="./gfx/order_arrow_desc.png" title="Descending" width="13"><br><img alt="Ascending" height="6" src="./gfx/order_arrow_asc.png" title="Ascending" width="13"/></br></img></td></tr></table></br></img></th></tr></table></div>
+<table border="0" cellpadding="0" cellspacing="1" class="data" id="table_data">
+<tr>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td>
+<td><img alt="" height="1" src="./gfx/trans.png"/></td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0019622%2C0001094%2C0';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_20i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0019622%2C0001094%2C0">c.(?_-376)_1930+?dup</a></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.(?_-376)_2024+?dup</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">735Kb duplication involving 12 genes and exons 1-20 DYSF gene</td>
+<td width="100">germline (inherited)</td>
+<td width="200">Piluso ESHG2010 P12.132</td>
+<td width="200">DNA</td>
+<td width="200">arrayCGH</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Italy</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002224%2C0001284%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002224%2C0001284%2C2">c.=</a><br>    + c.1873G&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA, RNA</td>
+<td width="200">RT-PCR, SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle</td>
+<td width="160">symptomatic carrier</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">sister of 17287450-bro</td>
+<td width="200">Spain</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">2945</td>
+<td width="60">WB and IHC DYSF reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002515%2C0001341%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002515%2C0001341%2C2">c.=</a><br>    + c.1555G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/17287450" target="_blank">Illa 2007</a>, <a href="http://www.omim.org/entry/603009#0015" target="_blank">(OMIM 0015)</a></td>
+<td width="200">DNA, RNA</td>
+<td width="200">RT-PCR, SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myalgia</td>
+<td width="160">symptomatic carrier; calf myalgias, mild walking difficulty, distal weakness, asymmatric calf hypertrphy</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">father of 17070050-PatVIII.1 and 2</td>
+<td width="200">Spain</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">3</td>
+<td width="80">600-800</td>
+<td width="60">WB and IHC DYSF reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002582%2C0000001%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002582%2C0000001%2C1">c.=</a><br>    + c.895G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">-</td>
+<td width="160">no amyloid in skeletal muscle</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">father FamA.patI and FamA.patII</td>
+<td width="200">Germany</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">no</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">120</td>
+<td width="60">IHC DYSF normal</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009353%2C0000001%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009353%2C0000001%2C2">c.=</a><br>    + c.2875C&gt;T, c.3191_3196dup</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">hyperCKaemia, isolated</td>
+<td width="160">aymptotic; progressive myopathy, active degeneration and regeneration</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">father of 15469449.F6a and b; 1-I.1 in Fanin 2006</td>
+<td width="200">Italy</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">sporadic, non-consanguineous parents,  familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">700-8000</td>
+<td width="60">WB 41% DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018911%2C0000001%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018911%2C0000001%2C2">c.=</a><br>    + c.88+12629G&gt;A, c.88+12727G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">5</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023686%2C0000001%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023686%2C0000001%2C2">c.=</a><br>    + c.855+1delG</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy</td>
+<td width="160">mild symptomatic carriers</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00085', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">Germany:Berlin</a></td>
+<td width="200">-</td>
+<td width="200">Germany</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">2</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023707%2C0000001%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023707%2C0000001%2C2">c.=</a><br>    + c.5302C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Hungary</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024643%2C0000001%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/-</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024643%2C0000001%2C2">c.=</a><br>    + c.827delA</br></td>
+<td width="100">-</td>
+<td width="200">r.=</td>
+<td width="200">p.=</td>
+<td width="88">c.=</td>
+<td width="120">p.=</td>
+<td width="200">DYSF_00000</td>
+<td width="200">no variants 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">symptomatic carrier, brother of 19528035-Pat12a</td>
+<td width="200">(United Kingdom)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">300 IU</td>
+<td width="60">IHC/WB DYSF absent or reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002229%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002229%2C0000002%2C2">c.?</a><br>    + c.1178_1180+4dup</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00092', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Washington</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002232%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002232%2C0000002%2C2">c.?</a><br>    + c.1566C&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Japan</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC/WB no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002237%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002237%2C0000002%2C1">c.?</a><br>    + c.2200_2204del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Italy</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002242%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002242%2C0000002%2C2">c.?</a><br>    + c.2997G&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Japan</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC/WB no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002244%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002244%2C0000002%2C2">c.?</a><br>    + c.2997G&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00092', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Washington</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC DYSF reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002254%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002254%2C0000002%2C1">c.?</a><br>    + c.4003G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Italy</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002255%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002255%2C0000002%2C1">c.?</a><br>    + c.4003G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Italy</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002257%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002257%2C0000002%2C1">c.?</a><br>    + c.4514A&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Italy</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002263%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002263%2C0000002%2C2">c.?</a><br>    + c.5078G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">dysON</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">DYSF absent / severly reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002267%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002267%2C0000002%2C2">c.?</a><br>    + c.5430-2A&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00092', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Washington</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC DYSF reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002276%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002276%2C0000002%2C2">c.?</a><br>    + c.3442+4A&gt;G, c.4089C&gt;T, c.5903G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, pseudometabolic</td>
+<td width="160">pseudo-metabolic phenotype</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">dysJO</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">DYSF absent / severly reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002279%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002279%2C0000002%2C2">c.?</a><br>    + c.6124C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00092', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Washington</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC DYSF reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009482%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009482%2C0000002%2C2">c.?</a><br>    + c.591C&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">Caucasian</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009487%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009487%2C0000002%2C2">c.?</a><br>    + c.1064_1065del, c.4509+40C&gt;T, c.4509+40C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">Caucasian</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">100x</td>
+<td width="60">IHC DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009495%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009495%2C0000002%2C2">c.?</a><br>    + c.2810+1G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle; myopathy Myoshi</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC DYSF severly reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009504%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009504%2C0000002%2C2">c.?</a><br>    + c.664-17C&gt;T, c.2055+105_2055+106del, c.4191C&gt;G, c.5899G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">Arab</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">?</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009507%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009507%2C0000002%2C2">c.?</a><br>    + c.5871_5872del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">hyperCKaemia, isolated</td>
+<td width="160">muscle biospy no inflammation; 10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">Caucasian</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">20x</td>
+<td width="60">IHC DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009508%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009508%2C0000002%2C2">c.?</a><br>    + c.463G&gt;A, c.3175-61G&gt;C, c.4639-38G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">Maghreb</td>
+<td width="104">Arab</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">?</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009513%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009513%2C0000002%2C2">c.?</a><br>    + c.3086C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">2 affecteds 1 generation</td>
+<td width="200">Belgium</td>
+<td width="104">Caucasian</td>
+<td width="60">F</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">20x</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009514%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009514%2C0000002%2C2">c.?</a><br>    + c.3086C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">2 affecteds 1 generation</td>
+<td width="200">Netherlands</td>
+<td width="104">Caucasian</td>
+<td width="60">F</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">18x</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016542%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016542%2C0000002%2C2">c.?</a><br>    + c.664-17C&gt;T, c.1020C&gt;A, c.4639-38G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">muscle biospy no inflammation; 10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016552%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016552%2C0000002%2C2">c.?</a><br>    + c.855+1delG, c.1180+5G&gt;A, c.1285-35G&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016553%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016553%2C0000002%2C2">c.?</a><br>    + c.5594delG</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016560%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016560%2C0000002%2C2">c.?</a><br>    + c.5899G&gt;A, c.5899G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016568%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016568%2C0000002%2C1">c.?</a><br>    + c.?</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016570%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016570%2C0000002%2C2">c.?</a><br>    + c.3175-61G&gt;C, c.4200dupC</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016574%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016574%2C0000002%2C2">c.?</a><br>    + c.938-34T&gt;A, c.4628G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016584%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016584%2C0000002%2C2">c.?</a><br>    + c.509C&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Lebanon</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016586%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016586%2C0000002%2C1">c.?</a><br>    + c.457+17G&gt;C, c.855+1delG</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">20x</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016587%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016587%2C0000002%2C1">c.?</a><br>    + c.457+17G&gt;C, c.855+1delG</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016599%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016599%2C0000002%2C1">c.?</a><br>    + c.?, c.4168-20G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016600%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016600%2C0000002%2C2">c.?</a><br>    + c.1177C&gt;T, c.2055+105_2055+106del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">hyperCKaemia, isolated</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016608%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016608%2C0000002%2C2">c.?</a><br>    + c.1168G&gt;A, c.5302C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">muscle biospy no inflammation; 10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">11x</td>
+<td width="60">IHC or WB DYSF severly reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016609%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016609%2C0000002%2C1">c.?</a><br>    + c.?, c.664-17C&gt;T, c.664-17C&gt;T, c.5899G&gt;A, c.5899G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">?</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016610%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016610%2C0000002%2C1">c.?</a><br>    + c.?, c.5899G&gt;A, c.5899G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">?</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016612%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016612%2C0000002%2C2">c.?</a><br>    + c.664-17C&gt;T, c.664-17C&gt;T, c.896G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC or WB DYSF severely reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016617%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016617%2C0000002%2C1">c.?</a><br>    + c.?, c.3874-30delG, c.3874-30delG</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016626%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016626%2C0000002%2C2">c.?</a><br>    + c.3349-54T&gt;G, c.3349-54T&gt;G, c.3442+14C&gt;T, c.3442+14C&gt;T, c.3521-12C&gt;T, c.4756C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016627%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016627%2C0000002%2C1">c.?</a><br>    + c.?, c.1980G&gt;A, c.2456G&gt;A, c.3175-31G&gt;A, c.3973A&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">muscle biospy no inflammation</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">14x</td>
+<td width="60">IHC or WB DYSF normal</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016631%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016631%2C0000002%2C2">c.?</a><br>    + c.3032-16G&gt;A, c.3175-61G&gt;C, c.3832C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myalgia</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016635%2C0000002%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016635%2C0000002%2C1">c.?</a><br>    + c.855+1delG</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, proximodistal</td>
+<td width="160">proximo-distal phenotype</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016644%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016644%2C0000002%2C2">c.?</a><br>    + c.6124C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016650%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016650%2C0000002%2C2">c.?</a><br>    + c.3065G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016652%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016652%2C0000002%2C2">c.?</a><br>    + c.5903G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016653%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016653%2C0000002%2C2">c.?</a><br>    + c.144+46delG, c.144+46delG, c.1168G&gt;A, c.1177C&gt;T, c.3703-12C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">8x</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016664%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016664%2C0000002%2C2">c.?</a><br>    + c.3516_3517del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC or WB DYSF severely reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023662%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023662%2C0000002%2C2">c.?</a><br>    + c.1566C&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Japan</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC/WB no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023665%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023665%2C0000002%2C2">c.?</a><br>    + c.1566C&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Japan</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC/WB no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023701%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023701%2C0000002%2C2">c.?</a><br>    + c.3992G&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023704%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023704%2C0000002%2C2">c.?</a><br>    + c.2641A&gt;C</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023705%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023705%2C0000002%2C2">c.?</a><br>    + c.3113G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023709%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023709%2C0000002%2C2">c.?</a><br>    + c.3113G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023710%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023710%2C0000002%2C2">c.?</a><br>    + c.6124C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC DYSF reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023712%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023712%2C0000002%2C2">c.?</a><br>    + c.2641A&gt;C</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023716%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023716%2C0000002%2C2">c.?</a><br>    + c.?</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023717%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023717%2C0000002%2C2">c.?</a><br>    + c.6124C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, distal, anterior tibial onset (DMAT)</td>
+<td width="160">-</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18974570" target="_blank">Khadilkar 2008</a>, <a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">elder of 2 affected brothers</td>
+<td width="200">India</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">4036 IU/l</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023718%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023718%2C0000002%2C2">c.?</a><br>    + c.6124C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, distal, anterior tibial onset (DMAT)</td>
+<td width="160">lower limb weakness</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18974570" target="_blank">Khadilkar 2008</a>, <a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">younger of 2 affected brothers</td>
+<td width="200">India</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">18344 IU/l</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024655%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024655%2C0000002%2C2">c.?</a><br>    + c.5871_5872del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United Kingdom)</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">raised</td>
+<td width="60">IHC/WB DYSF absent or reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024660%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024660%2C0000002%2C2">c.?</a><br>    + c.5698_5699del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United Kingdom)</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">raised</td>
+<td width="60">IHC/WB DYSF absent or reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024661%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024661%2C0000002%2C2">c.?</a><br>    + c.5698_5699del</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United Kingdom)</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">raised</td>
+<td width="60">IHC/WB DYSF absent or reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024669%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024669%2C0000002%2C2">c.?</a><br>    + c.3892A&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">muscle biopsy amyloid, calf hypertrophy</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">9468</td>
+<td width="60">IHC severely reduced DYSF, CAV3/UTRN normal</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024674%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024674%2C0000002%2C2">c.?</a><br>    + c.3892A&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">muscle biopsy amyloid, calf hypertrophy</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">280</td>
+<td width="60">IHC no DYSF, CAV3/UTRN normal</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024676%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024676%2C0000002%2C2">c.?</a><br>    + c.3065G&gt;A, c.3992G&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">calf hypertrophy</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">428</td>
+<td width="60">IHC no DYSF, CAV3/UTRN normal</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024683%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024683%2C0000002%2C2">c.?</a><br>    + c.5668-7G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">8877</td>
+<td width="60">IHC no DYSF, CAV3 normal, UTRN upregulated</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024688%2C0000002%2C10';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024688%2C0000002%2C10">c.?</a><br>    + c.5289G&gt;C</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">proximal weakness lower limbs</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">sister and brother, carrier mother and grandfather</td>
+<td width="200">Slovenia</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">high</td>
+<td width="60">IHC 0.15 DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024689%2C0000002%2C10';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024689%2C0000002%2C10">c.?</a><br>    + c.5289G&gt;C</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">asymptomatic hyperCKemia</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">sister and brother, carrier mother and grandfather</td>
+<td width="200">Slovenia</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">raised</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024690%2C0000002%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024690%2C0000002%2C2">c.?</a><br>    + c.5289G&gt;C</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dysferlinopathy</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">Slovenia</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">high</td>
+<td width="60">IHC no DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0025745%2C0001634%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1_55</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0025745%2C0001634%2C2">c.?</a><br>    + c.6241T&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.?</td>
+<td width="200">p.?</td>
+<td width="88">c.?</td>
+<td width="120">p.?</td>
+<td width="200">DYSF_00000</td>
+<td width="200">unknown variant 2nd chromosome</td>
+<td width="100">unknown</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00161', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Marshfield, WI</a></td>
+<td width="200">-</td>
+<td width="200">United States</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0026611%2C0001638%2C0';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0026611%2C0001638%2C0">c.88+38G&gt;T</a></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(=)</td>
+<td width="88">-</td>
+<td width="120">-</td>
+<td width="200">DYSF_00495</td>
+<td width="200">from website <a href="http://genetics.emory.edu/egl/emvclass/emvclass.php">Emory Genetics Lab</a></td>
+<td width="100">unknown</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">?</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00355', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Emory Lab</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002504%2C0001085%2C0';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002504%2C0001085%2C0">c.88+12629G&gt;A</a><br>    + 46 others</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12629G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00413</td>
+<td width="200">located in exon 01b</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&amp;rs=rs6752632" target="_blank">dbSNP-rs6752632</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">-</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001087%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001087%2C1">c.88+12629G&gt;A</a><br>    + c.88+12629G&gt;A, c.88+12727G&gt;A, c.88+12727G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12629G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00413</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19929428" target="_blank">Krahn 2009</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">1/26 patients</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001089%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001089%2C2">c.88+12629G&gt;A</a><br>    + c.88+12629G&gt;A, c.88+12727G&gt;A, c.88+12727G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12629G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00413</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19929428" target="_blank">Krahn 2009</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">1/26 patients</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018911%2C0001091%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018911%2C0001091%2C1">c.88+12629G&gt;A</a><br>    + c.=, c.88+12727G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12629G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00413</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19929428" target="_blank">Krahn 2009</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">5/26 patients</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">5</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002504%2C0001086%2C0';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002504%2C0001086%2C0">c.88+12727G&gt;A</a><br>    + 46 others</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12727G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00414</td>
+<td width="200">located in exon 01b</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&amp;rs=rs61333801" target="_blank">dbSNP-rs61333801</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">-</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001088%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001088%2C1">c.88+12727G&gt;A</a><br>    + c.88+12629G&gt;A, c.88+12629G&gt;A, c.88+12727G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12727G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00414</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19929428" target="_blank">Krahn 2009</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">1/26 patients</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001090%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018910%2C0001090%2C2">c.88+12727G&gt;A</a><br>    + c.88+12629G&gt;A, c.88+12629G&gt;A, c.88+12727G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12727G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00414</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19929428" target="_blank">Krahn 2009</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">1/26 patients</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018911%2C0001092%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0018911%2C0001092%2C1">c.88+12727G&gt;A</a><br>    + c.=, c.88+12629G&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.88+12727G&gt;A</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00414</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19929428" target="_blank">Krahn 2009</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">5/26 patients</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">-</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">5</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023715%2C0001471%2C11';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">1i_40i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023715%2C0001471%2C11">c.89-643_4410-2493del</a><br>    + c.89-643_4410-2493del</br></td>
+<td width="100">89_4410del</td>
+<td width="200">r.89_4410del</td>
+<td width="200">p.Val31Glyfs*29</td>
+<td width="88">c.89-643_4567-2493del</td>
+<td width="120">p.Val31Glyfs*29</td>
+<td width="200">DYSF_00176</td>
+<td width="200">potential translation initiation at c.23 giving 632AA miniDYSF (73 kD)</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20861509" target="_blank">Krahn 2010</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">calf atrophy, weakness quadriceps muscles thighs</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">2000-4000</td>
+<td width="60">IHC DYSF present, CAPN3 normal; WN 73 kD DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023715%2C0001472%2C21';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">1i_40i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0023715%2C0001472%2C21">c.89-643_4410-2493del</a><br>    + c.89-643_4410-2493del</br></td>
+<td width="100">89_4410del</td>
+<td width="200">r.89_4410del</td>
+<td width="200">p.Val31Glyfs*29</td>
+<td width="88">c.89-643_4567-2493del</td>
+<td width="120">p.Val31Glyfs*29</td>
+<td width="200">DYSF_00176</td>
+<td width="200">potential translation initiation at c.23 giving 632AA miniDYSF (73 kD)</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/20861509" target="_blank">Krahn 2010</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">calf atrophy, weakness quadriceps muscles thighs</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">2000-4000</td>
+<td width="60">IHC DYSF present, CAPN3 normal; WN 73 kD DYSF</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009481%2C0000875%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009481%2C0000875%2C1">c.89-29C&gt;G</a><br>    + c.89-29C&gt;G, c.457+1dupG, c.457+1dupG</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.89-29C&gt;G</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00411</td>
+<td width="200">pathogenicity excluded through F1.104.1</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/17698709" target="_blank">Nguyen 2007</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/18853459" target="_blank">Krahn 2008</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">Maghreb</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">yes</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009481%2C0000876%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">-/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009481%2C0000876%2C2">c.89-29C&gt;G</a><br>    + c.89-29C&gt;G, c.457+1dupG, c.457+1dupG</br></td>
+<td width="100">-</td>
+<td width="200">r.(=)</td>
+<td width="200">p.(=)</td>
+<td width="88">c.89-29C&gt;G</td>
+<td width="120">p.(=)</td>
+<td width="200">DYSF_00411</td>
+<td width="200">pathogenicity excluded through F1.104.1</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/17698709" target="_blank">Nguyen 2007</a>, <a href="http://www.ncbi.nlm.nih.gov/pubmed/18853459" target="_blank">Krahn 2008</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">Maghreb</td>
+<td width="60">F</td>
+<td width="200">isolated (sporadic)</td>
+<td width="200">yes</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">IHC or WB DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002405%2C0000310%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">?/?</td>
+<td width="50">1i</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002405%2C0000310%2C2">c.89-3T&gt;C</a><br>    + c.855+4T&gt;C, c.1054C&gt;A</br></td>
+<td width="100">-</td>
+<td width="200">r.(spl?)</td>
+<td width="200">p.(?)</td>
+<td width="88">c.89-3T&gt;C</td>
+<td width="120">p.(?)</td>
+<td width="200">DYSF_00114</td>
+<td width="200">not in 176 control chromosomes</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ, SSCA</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00004', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">Portugal:Porto</a></td>
+<td width="200">~80% splice consensus value</td>
+<td width="200">Portugal</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002431%2C0000362%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002431%2C0000362%2C1">c.105delC</a><br>    + c.6203C&gt;T</br></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Val37Serfs*6)</td>
+<td width="88">c.105delC</td>
+<td width="120">p.(Val37Serfs*6)</td>
+<td width="200">DYSF_00184</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/15477515" target="_blank">Ro 2004</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">2-generation family, affected son</td>
+<td width="200">China</td>
+<td width="104">Taiwan</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">26384</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002285%2C0000070%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002285%2C0000070%2C1">c.107_108del</a><br>    + c.107_108del</br></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ, SSCA</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00038', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United Kingdom (Great Britain):Newcastle upon Tyne</a></td>
+<td width="200">-</td>
+<td width="200">British</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002285%2C0000071%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0002285%2C0000071%2C2">c.107_108del</a><br>    + c.107_108del</br></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ, SSCA</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle, type 2B (LGMD-2B)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00038', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United Kingdom (Great Britain):Newcastle upon Tyne</a></td>
+<td width="200">-</td>
+<td width="200">British</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009499%2C0000638%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009499%2C0000638%2C2">c.107_108del</a><br>    + c.792+11T&gt;C, c.3389_3399dup, c.4168-40A&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18853459" target="_blank">Krahn 2008</a></td>
+<td width="200">DNA</td>
+<td width="200">DHPLC, SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">dystrophy, muscular, limb-girdle</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">2 affecteds 1 generation</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">IHC DYSF absent</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009500%2C0000641%2C2';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0009500%2C0000641%2C2">c.107_108del</a><br>    + c.3389_3399dup</br></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18853459" target="_blank">Krahn 2008</a></td>
+<td width="200">DNA</td>
+<td width="200">DHPLC, SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">hyperCKaemia, isolated</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00090', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">France:Marseille</a></td>
+<td width="200">2 affecteds 1 generation</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">M</td>
+<td width="200">familial</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">?</td>
+<td width="60">?</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016634%2C0000877%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0016634%2C0000877%2C1">c.107_108del</a><br>    + c.1758C&gt;G</br></td>
+<td width="100">-</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/18853459" target="_blank">Krahn 2008</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">muscle biospy no inflammation; 10y progression, still ambulant</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">France</td>
+<td width="104">-</td>
+<td width="60">F</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">15x</td>
+<td width="60">-</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024640%2C0001512%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024640%2C0001512%2C1">c.107_108del</a><br>    + c.3028C&gt;T</br></td>
+<td width="100">107_108delAA</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19528035" target="_blank">Klinge 2010</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United Kingdom)</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">raised</td>
+<td width="60">IHC/WB DYSF absent or reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024641%2C0001514%2C1';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0024641%2C0001514%2C1">c.107_108del</a><br>    + c.3028C&gt;T</br></td>
+<td width="100">107_108delAA</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">c.107_108del</td>
+<td width="120">p.(Lys36Serfs*12)</td>
+<td width="200">DYSF_00037</td>
+<td width="200">-</td>
+<td width="100">germline (inherited)</td>
+<td width="200"><a href="http://www.ncbi.nlm.nih.gov/pubmed/19528035" target="_blank">Klinge 2010</a></td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">myopathy, Miyoshi (MM)</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00001', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">JdD</a></td>
+<td width="200">-</td>
+<td width="200">(United Kingdom)</td>
+<td width="104">-</td>
+<td width="60">?</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">raised</td>
+<td width="60">IHC/WB DYSF absent or reduced</td></tr>
+<tr onclick="window.location.href = '/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0026612%2C0001639%2C0';" onmouseout="this.className = '';" onmouseover="this.className = 'hover';" style="cursor : pointer; cursor : hand;" valign="top">
+<td width="50">+/?</td>
+<td width="50">2</td>
+<td class="ordered" width="200"><a class="data" href="/nmdb2/variants.php?select_db=DYSF&amp;action=view&amp;view=0026612%2C0001639%2C0">c.107_108del</a></td>
+<td width="100">107_108delAA</td>
+<td width="200">r.(?)</td>
+<td width="200">p.(Lys36Serfs*12)</td>
+<td width="88">-</td>
+<td width="120">-</td>
+<td width="200">DYSF_00037</td>
+<td width="200">from website <a href="http://genetics.emory.edu/egl/emvclass/emvclass.php">Emory Genetics Lab</a></td>
+<td width="100">unknown</td>
+<td width="200">-</td>
+<td width="200">DNA</td>
+<td width="200">SEQ</td>
+<td width="90">-</td>
+<td width="75">-</td>
+<td width="200">?</td>
+<td width="160">-</td>
+<td width="200"><a href="#" onclick="lovd_openWindow('./submitters.php?action=view&amp;view=00355', 'SubmitterView', 400, 175, event.screenX - 50, event.screenY - 50); return false;">United States:Emory Lab</a></td>
+<td width="200">-</td>
+<td width="200">(United States)</td>
+<td width="104">-</td>
+<td width="60">-</td>
+<td width="200">unknown</td>
+<td width="200">-</td>
+<td width="70">-</td>
+<td width="80">1</td>
+<td width="80">-</td>
+<td width="60">-</td></tr></table>
+</br></br></br></input></input></input></input></input></form>
+<span class="S11">
+      1 - 100
+      <br>
+      [&lt;&lt;]  [&lt;-]  <b>1</b> <a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=2">2</a> <a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=3">3</a> <a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=4">4</a> <a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=5">5</a> <a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=6">6</a>  ...  [<a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=2">-&gt;</a>]  [<a href="/nmdb2/variants.php?action=view_all&amp;limit=100&amp;order=Variant%2FDNA%2CASC&amp;page=17">&gt;&gt;</a>]
+      </br></span><br>
+<br>
+<span class="S15"><b>Legend:</b></span> [ <a href="variants_legend.php?select_db=DYSF" target="_blank">DYSF full legend</a> ]<br>
+<span class="S11">
+        Sequence variations are described basically as recommended by the Ad-Hoc Committee for Mutation Nomenclature (AHCMN), with the recently suggested additions (den Dunnen JT and Antonarakis SE [2000], Hum.Mut. 15:7-12); for a summary see <a href="http://www.HGVS.org/mutnomen/"><b>Nomenclature</b></a>.
+        <a href="http://www.dmd.nl/nmdb2/refseq/DYSF_codingDNA.html">Coding DNA Reference Sequence</a>, with the first base of the Met-codon counted as position 1.<br>
+<b>Path.</b>: Variant affecting function (pathogenicity), in the format Reported/Concluded; '+' indicating the variant affects function, '+?' probably affects function, '-' does not affect function, '-?' probably does not affect function, '?' effect unknown. <b>Exon:</b> number of exon/intron containing variant <b>DNA change:</b> DNA change <b>Var_pub_as:</b> Var_pub_as <b>RNA change:</b> RNA change <b>Protein change:</b> Protein change <b>DNA_AllExon:</b> variant description based on complete coding DNA reference sequence (incl. exons 5b en 40b) <b>Protein_AllExon:</b> variant description based on complete protein reference sequence (incl. exons 5b en 40b) <b>DYSF DB-ID:</b> DB-ID <b>Variant remarks:</b> Variant remarks <b>Genet_ori:</b> origin of variant; unknown, germline (i.e. inherited), somatic, de novo, from parental disomy (maternal or paternal) or in vitro (cloned) <b>Reference:</b> publication describing the variant submitted, incl. links to OMIM and dbSNP (when available) <b>Template:</b> Template <b>Technique:</b> Technique <b>Frequency:</b> Frequency <b>RE-site:</b> RE-site <b>Phenotype:</b> phenotype of the individual <b>Phenotype additional:</b> detailed phenotypic features of the individual <b>Reference:</b> publication describing the phenotype of the patient <b>Remarks:</b> Remarks <b>Geographic origin:</b> Geographic origin <b>Ethnic origin:</b> Ethnic origin of patient <b>Gender:</b> individual's gender; ? = unknown, - = not applicable, F = female, M = male, rF = raised as female, rM = raised as male <b>Inheritance:</b> indicates the inheritance of the phenotype in the family; unknown, familial (autosomal/X-linked, dominant/ recessive), paternal (Y-linked), maternal (mitochondrial) or isolated (sporadic) <b>Consanguinity:</b> indicates whether the parents are related (consanguineous), not related (non-consanguineous) or whether consanguinity is not known (unknown) <b>Fam_Pat:</b> number of families (total patients); 1 (3) = 1 family with 3 patients. Preferably there is 1 record for each independent family <b># reported:</b> Number of times this case has been reported <b>CK level:</b> CK level <b>Protein data:</b> Protein data</br></span><br><br>
+</br></br></br></br></br></br></br></img></td>
+</tr>
+</table>
+</div>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" class="footer" width="100%">
+<tr>
+<td width="84">
+       
+    </td>
+<td align="center">
+  Powered by <a href="http://www.LOVD.nl/2.0/" target="_blank">LOVD v.2.0</a> Build 36<br>
+  Enabled modules: recaptcha, showmaxdbid, mutalyzer<br>
+  ©2004-2014 <a href="http://www.lumc.nl/" target="_blank">Leiden University Medical Center</a>
+</br></br></td>
+<td align="right" width="42">
+<img alt="" height="32" id="mapping_progress" src="./gfx/lovd_mapping_99.png" style="margin : 5px;" title="" width="32">
+</img></td>
+<td align="right" width="42">
+<img alt="" height="32" src="./gfx/lovd_update_newest_blue.png" style="margin : 5px;" width="32">
+</img></td>
+</tr>
+</table>
+</br></td></tr></table>
+<script type="text/javascript">
+  <!--
+  objImg = document.getElementById('mapping_progress');
+
+function lovd_HTTPRequest (sURL) {
+    // Create HTTP request object.
+    var objHTTP;
+    try {
+        // W3C standard.
+        objHTTP = new XMLHttpRequest();
+    } catch (e) {
+        // Internet Explorer?
+        try {
+            objHTTP = new ActiveXObject("Msxml2.XMLHTTP");
+        } catch (e) {
+            try {
+                objHTTP = new ActiveXObject("Microsoft.XMLHTTP");
+            } catch (e) {
+                // Ok, last try!
+                try {
+                    objHTTP = window.createRequest();
+                } catch (e) {
+                    // Never mind.
+                    objHTTP = false;
+                }
+            }
+        }
+    }
+
+    if (objHTTP) {
+        objHTTP.open("GET", sURL, false);
+        objHTTP.send(null);
+        return objHTTP;
+
+    } else {
+        return false;
+    }
+}
+
+
+
+  function lovd_mapVariants () {
+    // Request file that will do the actual work.
+    objHTTP = lovd_HTTPRequest("http://www.dmd.nl/nmdb2/ajax-map_variants.php");
+
+    if (!objHTTP || objHTTP.status != 200) {
+        // Don't try again.
+        objImg.src = "./gfx/lovd_mapping_99.png";
+        objImg.title = "There was a problem with LOVD while mapping variants to the genome.";
+    } else {
+        aResponse = objHTTP.responseText.split("\t");
+        // 2010-05-03; 2.0-26; Verify output, to prevent PHP errors from freaking out the browser (= every 50 microseconds a new request).
+        // Took (and shortened) the "is_numeric()" implementation from http://phpjs.org/functions/is_numeric:449 (thanks guys).
+        if (aResponse.length == 2 && !isNaN(aResponse[0])) {
+            objImg.src = "./gfx/lovd_mapping_" + aResponse[0] + ".png";
+            objImg.title = aResponse[1];
+
+            if (aResponse[1] != "All done!") {
+                setTimeout("lovd_mapVariants()", 50);
+            } else {
+                objImg.setAttribute("onclick", "lovd_mapVariants();");
+            }
+        } else {
+            objImg.title = "Error occured: " + objHTTP.responseText;
+        }
+    }
+  }
+
+setTimeout("lovd_mapVariants()", 500);
+  // -->
+</script>
+<script src="./inc-js-sticky_header.js" type="text/javascript"></script>
+</body></html>
