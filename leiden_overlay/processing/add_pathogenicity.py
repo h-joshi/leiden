@@ -2,13 +2,14 @@ from bs4 import BeautifulSoup
 import urllib
 import unicodedata
 import math
+import sys
 
 def to_ascii(string):
     return unicodedata.normalize('NFKD', string).encode('ascii', 'ignore')
 
 print "Processing overall table..."
 
-variant_name = "DYSF"
+variant_name = sys.argv[1]
 r = urllib.urlopen('http://www.dmd.nl/nmdb2/variants.php?select_db='+ variant_name +'&action=view_all').read()
 #http://www.dmd.nl/nmdb2/variants.php?action=view_all&limit=100&order=Variant%2FDNA%2CASC&page=1
 soup = BeautifulSoup(r, "html.parser")

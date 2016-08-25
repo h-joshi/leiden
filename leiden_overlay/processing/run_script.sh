@@ -12,6 +12,8 @@ python ./../../bin/extract_data.py --leiden_url http://www.dmd.nl/nmdb2/ -o ../d
 echo "../dat/$1.txt" > file_list.txt
 echo "Generating VCF file..."
 python ./../../bin/generate_annotated_vcf.py -f file_list.txt
+echo "Collecting pathogenicity..."
+python add_pathogenicity.py $1
 
 
 # use VEP to gather all the data together
