@@ -1,4 +1,7 @@
-if [ "$#" -ne 1]; then
+#! /usr/bin/env sh
+#USE: ./run_script DYSF
+
+if [ "$#" -ne 1 ]; then
     echo "Error: No gene argument supplied"
     exit 1
 fi
@@ -12,9 +15,9 @@ echo "Sorting by frequency..."
 python sort_data.py $1
 awk '!x[$1]++' ./../dat/$1_sorted.txt > ./../dat/$1_sorted_nodup.txt
 
-# extract snps
-echo "Extracting SNPs..."
-python extract_snps.py $1
+# divide into different lists
+echo "Separating into categories..."
+python categorise_types.py $1
 awk '!x[$1]++' ./../dat/$1_snp_fixed.txt > ./../dat/$1_snp_fixed_nodup.txt
 
 # separate into powers of 10
@@ -28,6 +31,9 @@ cp ./../dat/$1_final_output.txt ./../results/$1/$1_raw_output.txt
 cp ./../dat/$1_sorted.txt ./../results/$1/$1_concise_sorted.txt
 cp ./../dat/$1_grouped.txt ./../results/$1/
 uniq ./../results/$1/$1_raw_output.txt > ./../results/$1/$1_full_output.txt
+
+#echo "Clearing temporary files..."
+#rm ./../dat/*
 
 # create the bar chart
 echo "Creating image..."

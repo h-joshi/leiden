@@ -81,12 +81,13 @@ rect_unknown = ax.bar(x_axis, threshold_unknown, color='b', align='center')
 rect_no = ax.bar(x_axis, threshold_no, bottom=threshold_unknown, color='y', align='center')
 rect_yes = ax.bar(x_axis, threshold_yes, bottom=[threshold_no[i] + threshold_unknown[i] for i in range(0, 10)], color='r', align='center')
 
-plt.gca().set_position((.1, .3, .8, .6))
+#plt.gca().set_position((.1, .3, .8, .6))
 ax.set_ylabel("# of Variants")
 ax.set_xlabel("Band Number") # PUT IN A KEY
 ax.set_yticks(scipy.arange(0, max(y_axis)+5, 2))
 ax.set_xticks(np.arange(0, 10, 1))
 ax.set_title("%s SNP Band Count"%(input_gene))
+#ax.suplots_adjust(left=0.09, bottom=0.20)
 legend1 = plt.legend((rect_yes, rect_no, rect_unknown), ("Pathogenic/probably pathogenic", "Not pathogenic/probably not pathogenic", "Unknown pathogenicity or mixed reports"), fontsize='x-small', loc=1)
 
 #bandstr = "\n'Band' measures percentage allele frequency within the ExAC sample population.\nBand 0: 10^-1 to 1\n"
@@ -94,7 +95,10 @@ legend1 = plt.legend((rect_yes, rect_no, rect_unknown), ("Pathogenic/probably pa
 #    bandstr+="Band %d: 10^-%d to 10^-%d\n"%(i, i+1, i)
 
 #plt.figtext(.02, .02, bandstr, fontsize='x-small')
-plt.figtext(0.2, 0.2, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band i if its allele frequency is between 10^-(i+1) and 10^-i.\nA variant in a higher band hence implies lower allele frequency.", fontsize="x-small")
+#plt.figtext(0.2, 0.2, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band i if its allele frequency is between 10^-(i+1) and 10^-i.\nA variant in a higher band hence implies lower allele frequency.", fontsize="x-small")
 #plt.setp(ax.set_xticklabels(x_axis))
 
 fig.savefig("../results/" + input_gene + "/" + input_gene + "_chart.png")
+plt.subplots_adjust(bottom=0.20)
+plt.figtext(0.05, 0.02, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band k if its allele frequency is between 10^-(k+1) and 10^(-k)\nA variant in a higher band hence implies lower allele frequency.")
+plt.show()
