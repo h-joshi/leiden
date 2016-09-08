@@ -18,11 +18,13 @@ snps_fixed = open("./../dat/" + input_gene + "_snp_fixed.txt", "w")
 
 del_file = open("./../dat/" + input_gene + "_del.txt", "w")
 dup_file = open("./../dat/" + input_gene + "_dup.txt", "w")
+other_file = open("./../dat/" + input_gene + "_other.txt", "w")
 
 snp_file.write(col_names + '\n')
 snps_fixed.write(col_names + '\n')
 del_file.write(col_names + '\n')
 dup_file.write(col_names + '\n')
+other_file.write(col_names+'\n')
 
 for line in lines:
     if line[type_index] == "snp":
@@ -38,7 +40,8 @@ for line in lines:
         del line[type_index]
         dup_file.write('\t'.join(line) + '\n')
     else:
-        print line[0] + " could not be categorised..."
+        del line[type_index]
+        other_file.write('\t'.join(line) + '\n')
 
 #PUT THE FILES IN A DICT INSTEAD
 snp_file.close()

@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
+import math
 import scipy #get rid of this? useless - replace later use
 input_gene = sys.argv[1]
 
@@ -43,10 +44,10 @@ for line in lines:
         snp_count += 1
 #print pathogenics
 #print bands
-
-snp_count -= bands['NA']
-del bands['NA']
-del pathogenics['NA']
+if 'NA' in bands:
+    snp_count -= bands['NA']
+    del bands['NA']
+    del pathogenics['NA']
 
 #band_pairs = [(int(k),v) for k,v in bands.items()]
 #band_pairs = sorted(band_pairs, key = lambda x: x[0])
@@ -54,6 +55,7 @@ del pathogenics['NA']
 bands_dic = {int(k):v for k,v in bands.items()}
 pathogenics = {int(k):v for k,v in pathogenics.items()}
 x_axis = np.arange(0, 10)
+
 y_axis = [0 for i in range(0, 10)]
 
 threshold_yes = [0 for i in range(0, 10)]
@@ -86,9 +88,13 @@ ax.set_ylabel("# of Variants")
 ax.set_xlabel("Band Number") # PUT IN A KEY
 ax.set_yticks(scipy.arange(0, max(y_axis)+5, 2))
 ax.set_xticks(np.arange(0, 10, 1))
+ax.set_xticklabels(['< ' + str(math.pow(10, -(k))) for k in x_axis], rotation=25, fontsize=8)
 ax.set_title("%s SNP Band Count"%(input_gene))
+
+
 #ax.suplots_adjust(left=0.09, bottom=0.20)
 legend1 = plt.legend((rect_yes, rect_no, rect_unknown), ("Pathogenic/probably pathogenic", "Not pathogenic/probably not pathogenic", "Unknown pathogenicity or mixed reports"), fontsize='x-small', loc=1)
+
 
 #bandstr = "\n'Band' measures percentage allele frequency within the ExAC sample population.\nBand 0: 10^-1 to 1\n"
 #for i in range(1, 9):
@@ -98,7 +104,20 @@ legend1 = plt.legend((rect_yes, rect_no, rect_unknown), ("Pathogenic/probably pa
 #plt.figtext(0.2, 0.2, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band i if its allele frequency is between 10^-(i+1) and 10^-i.\nA variant in a higher band hence implies lower allele frequency.", fontsize="x-small")
 #plt.setp(ax.set_xticklabels(x_axis))
 
+### UNCOMMENT IF YOU WANT THE BAND STUFF...
+#plt.subplots_adjust(bottom=0.20)
+#plt.figtext(0.05, 0.02, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band k if its allele frequency is between 10^-(k+1) and 10^(-k)\nA variant in a higher band hence implies lower allele frequency.")
+###
+
 fig.savefig("../results/" + input_gene + "/" + input_gene + "_chart.png")
-plt.subplots_adjust(bottom=0.20)
-plt.figtext(0.05, 0.02, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band k if its allele frequency is between 10^-(k+1) and 10^(-k)\nA variant in a higher band hence implies lower allele frequency.")
-plt.show()
+#plt.show()
+
+
+# THROW IN NOW THE NEW MATRIX STUFF
+table_data = open("../dat/" + input_gene + "_table_data.txt", "w")
+for i in range(0, 10):
+    if i in pathogenics:
+        table_data.write(','.join([str(x) for x in pathogenics[i]]) + '\n')
+    else:
+        table_data.write('0,0,0\n')
+table_data.close()

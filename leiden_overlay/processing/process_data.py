@@ -191,6 +191,14 @@ for line in rows:
 
     if '>' in var_name:
         var_type = "snp"
+    elif 'delins' in var_name:
+        var_type = "delins"
+    elif 'ins' in var_name:
+        var_type = "ins"
+    elif 'inv' in var_name:
+        var_type = "inv"
+    elif 'con' in var_name:
+        var_type = "con"
     elif 'del' in var_name:
         var_type = "del"
     elif 'dup' in var_name:

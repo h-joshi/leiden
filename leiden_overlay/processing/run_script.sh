@@ -9,6 +9,12 @@ fi
 echo "Gathering data from Leiden..."
 # create the initial files using andrew's scripts
 python ./../../bin/extract_data.py --leiden_url http://www.dmd.nl/nmdb2/ -o ../dat --gene_list $1
+
+if [ ! -f ./../dat/$1.txt ]; then
+  echo "No data to process."
+  exit 1
+fi
+
 echo "../dat/$1.txt" > file_list.txt
 echo "Generating VCF file..."
 python ./../../bin/generate_annotated_vcf.py -f file_list.txt

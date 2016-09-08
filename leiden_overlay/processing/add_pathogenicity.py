@@ -63,7 +63,12 @@ for page_number in range(1, num_pages+1):
         row_details = row.find_all('td')
         pathogenicity =  convert_path(row_details[0].get_text().split('/')[0])
         #print row_details
-        dna_change = row_details[2].find(lambda tag: tag.name == 'a' and tag.get('class') == [u'data']).get_text()
+        try:
+            dna_change = row_details[2].find(lambda tag: tag.name == 'a' and tag.get('class') == [u'data']).get_text()
+        except:
+            # because apparently some genes have rearranged columns.... see BIN1 vs. DYSF [and most others]
+            dna_change = row_details[3].find(lambda tag: tag.name == 'a' and tag.get('class') == [u'data']).get_text()
+
         if (dna_change in variant_dict) and variant_dict[dna_change] != pathogenicity:
             variant_dict[dna_change] = "Mixed reported pathogenicity"
         elif dna_change not in variant_dict:
