@@ -1,0 +1,30 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+TPM3	NM_152263.2:c.7G>C	1:154164488	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.11C>T	1:154164484	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.26T>G	1:154164469	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.43G>C	1:154164452	-	Unknown	AR,AD
+TPM3	NM_152263.2:c.92A>C	1:154164403	-	No known pathogenicity	AR,AD
+TPM3	NM_152263.2:c.94C>T	1:154164401	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.238G>C	1:154163667	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.244-5T>C	1:154148729	-	No known pathogenicity	AR,AD
+TPM3	NM_152263.2:c.249G>A	1:154148719	-	No known pathogenicity	AR,AD
+TPM3	NM_152263.2:c.263C>T	1:154148705	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.271C>T	1:154148697	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.272G>C	1:154148696	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.298C>A	1:154148670	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.298C>G	1:154148670	-	Unknown	AR,AD
+TPM3	NM_152263.2:c.327T>G	1:154148641	-	No known pathogenicity	AR,AD
+TPM3	NM_152263.2:c.452A>C	1:154145603	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.466G>A	1:154145589	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.502C>G	1:154145448	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.502C>T	1:154145448	-	Mixed reported pathogenicity	AR,AD
+TPM3	NM_152263.2:c.503G>A	1:154145447	-	Mixed reported pathogenicity	AR,AD
+TPM3	NM_152263.2:c.505A>G	1:154145445	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.521A>C	1:154145429	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.642+4G>T	1:154143885	-	Unknown	AR,AD
+TPM3	NM_152263.2:c.721G>A	1:154142930	-	Probably pathogenic	AR,AD
+TPM3	NM_152263.2:c.733A>G	1:154142918	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.758C>A	1:154142893	-	Unknown	AR,AD
+TPM3	NM_152263.2:c.776-49T>C	1:154141908	-	No known pathogenicity	AR,AD
+TPM3	NM_152263.2:c.855-1G>A	1:154140417	-	Pathogenic	AR,AD
+TPM3	NM_152263.2:c.857A>C	1:154140414	-	Mixed reported pathogenicity	AR,AD

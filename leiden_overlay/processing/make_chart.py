@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 import sys
 import math
 import scipy #get rid of this? useless - replace later use
+import seaborn as sb
+
+sb.set_style("whitegrid")
+
 input_gene = sys.argv[1]
 
 gene_csv = open("../results/" + input_gene + "/" + input_gene + "_full_output.txt")
@@ -75,17 +79,21 @@ for key in bands_dic:
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
+ax.xaxis.grid(False)
+ax.yaxis.grid(alpha=0.4)
+plt.gcf().subplots_adjust(bottom=0.15)
 
 #p1 = plt.bar(x_axis, threshold_yes, color = 'r')
 #p2 = plt.bar(x_axis, threshold_no, color = 'y')
 #p3 = plt.bar(x_axis, threshold_unknown, color = 'b')
-rect_unknown = ax.bar(x_axis, threshold_unknown, color='b', align='center')
-rect_no = ax.bar(x_axis, threshold_no, bottom=threshold_unknown, color='y', align='center')
-rect_yes = ax.bar(x_axis, threshold_yes, bottom=[threshold_no[i] + threshold_unknown[i] for i in range(0, 10)], color='r', align='center')
+edgecol = "black"
+rect_unknown = ax.bar(x_axis, threshold_unknown, color='b', align='center', edgecolor = edgecol)
+rect_no = ax.bar(x_axis, threshold_no, bottom=threshold_unknown, color='y', align='center', edgecolor = edgecol)
+rect_yes = ax.bar(x_axis, threshold_yes, bottom=[threshold_no[i] + threshold_unknown[i] for i in range(0, 10)], color='r', align='center', edgecolor = edgecol)
 
 #plt.gca().set_position((.1, .3, .8, .6))
 ax.set_ylabel("# of Variants")
-ax.set_xlabel("Band Number") # PUT IN A KEY
+ax.set_xlabel("Frequency Range") # PUT IN A KEY
 ax.set_yticks(scipy.arange(0, max(y_axis)+5, 2))
 ax.set_xticks(np.arange(0, 10, 1))
 ax.set_xticklabels(['< ' + str(math.pow(10, -(k))) for k in x_axis], rotation=25, fontsize=8)

@@ -1,0 +1,5 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+RAB7A	NM_004637.5:c.385C>T	3:128525419	-	Pathogenic	AD
+RAB7A	NM_004637.5:c.471G>C	3:128526457	-	Pathogenic	AD
+RAB7A	NM_004637.5:c.482A>C	3:128526468	-	Pathogenic	AD
+RAB7A	NM_004637.5:c.484G>A	3:128526470	-	Pathogenic	AD

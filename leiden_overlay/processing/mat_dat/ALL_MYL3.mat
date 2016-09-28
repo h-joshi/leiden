@@ -1,0 +1,21 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+MYL3	NM_000258.2:c.69C>T	3:46904812	-	Mixed reported pathogenicity	none
+MYL3	NM_000258.2:c.167A>G	3:46902306	-	Pathogenic	none
+MYL3	NM_000258.2:c.170C>A	3:46902303	-	Pathogenic	none
+MYL3	NM_000258.2:c.170C>G	3:46902303	-	Probably pathogenic	none
+MYL3	NM_000258.2:c.242G>A	3:46902231	-	Pathogenic	none
+MYL3	NM_000258.2:c.261C>T	3:46902212	-	Probably not pathogenic	none
+MYL3	NM_000258.2:c.281G>A	3:46902192	-	Pathogenic	none
+MYL3	NM_000258.2:c.382G>T	3:46901064	-	Pathogenic	none
+MYL3	NM_000258.2:c.399C>T	3:46901047	-	Probably not pathogenic	none
+MYL3	NM_000258.2:c.420C>T	3:46901026	-	No known pathogenicity	none
+MYL3	NM_000258.2:c.427G>A	3:46901019	-	Pathogenic	none
+MYL3	NM_000258.2:c.445A>G	3:46901001	-	Pathogenic	none
+MYL3	NM_000258.2:c.454G>A	3:46900992	-	Pathogenic	none
+MYL3	NM_000258.2:c.461G>A	3:46900985	0.000008237	Pathogenic	none
+MYL3	NM_000258.2:c.463C>G	3:46900983	-	Pathogenic	none
+MYL3	NM_000258.2:c.466G>A	3:46900980	-	Pathogenic	none
+MYL3	NM_000258.2:c.482-2A>G	3:46899953	-	Pathogenic	none
+MYL3	NM_000258.2:c.517A>G	3:46899916	-	Pathogenic	none
+MYL3	NM_000258.2:c.559+6C>T	3:46899868	-	Probably not pathogenic	none
+MYL3	NM_000258.2:c.*27G>A	3:46899578	-	Unknown	none

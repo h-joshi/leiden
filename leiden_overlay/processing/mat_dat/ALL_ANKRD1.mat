@@ -1,0 +1,22 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+ANKRD1	NM_014391.2:c.-1276G>T	10:92682060	-	Probably not pathogenic	none
+ANKRD1	NM_014391.2:c.-1170T>C	10:92681954	-	Probably not pathogenic	none
+ANKRD1	NM_014391.2:c.-145T>C	10:92680929	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.-79C>T	10:92680863	-	No known pathogenicity	none
+ANKRD1	NM_014391.2:c.108T>C	10:92680025	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.154C>G	10:92679979	-	Pathogenic	none
+ANKRD1	NM_014391.2:c.169G>C	10:92679964	-	Pathogenic	none
+ANKRD1	NM_014391.2:c.175C>T	10:92679958	-	Probably not pathogenic	none
+ANKRD1	NM_014391.2:c.197G>A	10:92679936	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.208-16C>T	10:92679041	-	No known pathogenicity	none
+ANKRD1	NM_014391.2:c.313C>T	10:92678920	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.319G>T	10:92678914	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.346-36T>C	10:92678765	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.347C>T	10:92678728	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.368C>T	10:92678707	-	Pathogenic	none
+ANKRD1	NM_014391.2:c.552G>A	10:92677489	-	Pathogenic	none
+ANKRD1	NM_014391.2:c.596T>G	10:92675983	-	Pathogenic	none
+ANKRD1	NM_014391.2:c.827C>T	10:92675322	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.838A>G	10:92675311	-	Mixed reported pathogenicity	none
+ANKRD1	NM_014391.2:c.849+6T>G	10:92675294	0.000008373	No known pathogenicity	none
+ANKRD1	NM_014391.2:c.*59A>G	10:92672564	-	Mixed reported pathogenicity	none

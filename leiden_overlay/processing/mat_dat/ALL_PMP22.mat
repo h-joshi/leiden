@@ -1,0 +1,3 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+PMP22	NM_000304.2:c.215C>T	17:15142892	-	Pathogenic	AR,AD
+PMP22	NM_000304.2:c.325T>C	17:15134392	-	Pathogenic	AR,AD

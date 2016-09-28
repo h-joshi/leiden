@@ -1,0 +1,7 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+CHKB	NM_005198.4:c.116C>A	22:51021095	-	Pathogenic	AR
+CHKB	NM_005198.4:c.677+1G>A	22:51018993	-	Pathogenic	AR
+CHKB	NM_005198.4:c.810T>A	22:51018627	-	Pathogenic	AR
+CHKB	NM_005198.4:c.847G>A	22:51018483	-	Pathogenic	AR
+CHKB	NM_005198.4:c.922C>T	22:51018408	-	Pathogenic	AR
+CHKB	NM_005198.4:c.1031+1G>A	22:51018155	-	Pathogenic	AR

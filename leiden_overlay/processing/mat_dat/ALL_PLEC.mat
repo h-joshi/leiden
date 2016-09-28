@@ -1,0 +1,44 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+PLEC	NM_000445.3:c.255+22G>C	8:145012777	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.459T>C	8:145011204	0.002789000	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.1027-33C>G	8:145008931	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.1176T>C	8:145008560	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.1250+43T>A	8:145008443	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.1345-15G>A	8:145007534	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.1592C>T	8:145007187	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.1896+13A>G	8:145006790	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.2538+6C>T	8:145004546	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.3004+37C>T	8:145003777	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.3064C>T	8:145003680	-	Probably pathogenic	AR,AD
+PLEC	NM_000445.3:c.3631T>C	8:145001784	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.3827G>A	8:145001588	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.3838-6A>G	8:145001509	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.4046A>G	8:145001031	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.4126-4A>G	8:145000056	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.4494T>C	8:144999684	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.4536T>G	8:144999642	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.4557G>A	8:144999621	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.4761G>A	8:144999417	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.5310G>A	8:144998868	-	Unknown	AR,AD
+PLEC	NM_000445.3:c.5988T>C	8:144998190	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.6009G>A	8:144998169	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.6251C>T	8:144997927	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.6522G>A	8:144997656	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.7506+37C>T	8:144996635	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.7507-35C>T	8:144996598	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.7662A>C	8:144996408	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.8041T>C	8:144996029	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.8073G>A	8:144995997	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.8334C>T	8:144995736	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.8576G>A	8:144995494	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.9154G>A	8:144994916	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.9858T>A	8:144994212	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.10693T>C	8:144993377	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.10746G>A	8:144993324	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.11208T>C	8:144992862	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.11503G>A	8:144992567	-	Probably pathogenic	AR,AD
+PLEC	NM_000445.3:c.11709A>G	8:144992361	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.11967A>G	8:144992103	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.12894A>G	8:144991176	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.13542T>C	8:144990528	-	No known pathogenicity	AR,AD
+PLEC	NM_000445.3:c.*10C>T	8:144990335	-	No known pathogenicity	AR,AD

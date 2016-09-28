@@ -1,0 +1,6 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+PDK3	NM_005391.4:c.336G>C	X:24521459	0.000023930	Probably not pathogenic	XL
+PDK3	NM_005391.4:c.341A>C	X:24521464	0.000095360	Probably not pathogenic	XL
+PDK3	NM_005391.4:c.376A>G	X:24521499	0.001191000	Unknown	XL
+PDK3	NM_005391.4:c.473G>A	X:24521596	-	Pathogenic	XL
+PDK3	NM_005391.4:c.1001A>C	X:24549811	-	Probably not pathogenic	XL

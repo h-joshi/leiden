@@ -1,0 +1,31 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+TPM2	NM_003289.3:c.5A>T	9:35689810	-	Unknown	AD
+TPM2	NM_003289.3:c.8C>G	9:35689807	-	Unknown	AD
+TPM2	NM_003289.3:c.115-105A>G	9:35689373	-	No known pathogenicity	AD
+TPM2	NM_003289.3:c.121G>A	9:35689262	-	Pathogenic	AD
+TPM2	NM_003289.3:c.181T>C	9:35689202	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.240+2T>G	9:35689141	-	Mixed reported pathogenicity	AD
+TPM2	NM_003289.3:c.240+5G>A	9:35689138	-	Unknown	AD
+TPM2	NM_003289.3:c.271C>G	9:35685747	-	Pathogenic	AD
+TPM2	NM_003289.3:c.278A>G	9:35685740	-	Unknown	AD
+TPM2	NM_003289.3:c.279G>C	9:35685739	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.349G>A	9:35685669	-	Pathogenic	AD
+TPM2	NM_003289.3:c.349G>C	9:35685669	-	Pathogenic	AD
+TPM2	NM_003289.3:c.357G>A	9:35685661	-	Unknown	AD
+TPM2	NM_003289.3:c.382A>G	9:35685541	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.397C>T	9:35685526	-	Pathogenic	AD
+TPM2	NM_003289.3:c.398G>C	9:35685525	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.428T>C	9:35685495	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.440A>C	9:35685483	-	Pathogenic	AD
+TPM2	NM_003289.3:c.443T>C	9:35685480	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.464C>T	9:35685459	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.478C>T	9:35685445	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.530A>T	9:35685299	-	Probably pathogenic	AD
+TPM2	NM_003289.3:c.606C>G	9:35684762	-	Pathogenic	AD
+TPM2	NM_003289.3:c.628C>T	9:35684740	-	Pathogenic	AD
+TPM2	NM_003289.3:c.639+33G>T	9:35684696	0.000008248	No known pathogenicity	AD
+TPM2	NM_003289.3:c.699G>T	9:35684488	-	No known pathogenicity	AD
+TPM2	NM_003289.3:c.773-3C>A	9:35683241	-	Unknown	AD
+TPM2	NM_003289.3:c.802A>G	9:35683209	-	Unknown	AD
+TPM2	NM_003289.3:c.*7C>T	9:35683149	-	No known pathogenicity	AD
+TPM2	NM_003289.3:c.*8G>A	9:35683148	-	No known pathogenicity	AD

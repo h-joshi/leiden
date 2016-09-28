@@ -1,0 +1,4 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+DPM3	NM_153741.1:c.-143C>A	1:155113104	-	Unknown	none
+DPM3	NM_153741.1:c.-113T>G	1:155113074	-	Unknown	none
+DPM3	NM_153741.1:c.254T>C	1:155112463	-	Pathogenic	none

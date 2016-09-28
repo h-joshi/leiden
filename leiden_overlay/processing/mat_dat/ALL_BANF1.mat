@@ -1,0 +1,5 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+BANF1	NM_003860.3:c.-278T>G	11:65769780	-	Mixed reported pathogenicity	AR
+BANF1	NM_003860.3:c.-249G>C	11:65769809	-	Mixed reported pathogenicity	AR
+BANF1	NM_003860.3:c.-16-48A>G	11:65770658	-	Mixed reported pathogenicity	AR
+BANF1	NM_003860.3:c.34G>A	11:65770755	-	Pathogenic	AR

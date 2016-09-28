@@ -1,0 +1,6 @@
+gene	variant	genomic_coord	exac_freq	type	inher_pat
+DNAJB6	NM_058246.3:c.265T>A	7:157160096	-	Mixed reported pathogenicity	AD
+DNAJB6	NM_058246.3:c.277T>C	7:157160108	-	Pathogenic	AD
+DNAJB6	NM_058246.3:c.279C>A	7:157160110	-	Pathogenic	AD
+DNAJB6	NM_058246.3:c.279C>G	7:157160110	-	Mixed reported pathogenicity	AD
+DNAJB6	NM_058246.3:c.287C>G	7:157160118	-	Pathogenic	AD
