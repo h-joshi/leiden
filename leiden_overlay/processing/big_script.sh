@@ -1,25 +1,36 @@
 #! /usr/bin/env sh
-#USE: ./run_script DYSF
+#USE: ./big_script
+
+# Runs the data grabber script (./run_script) on all the reported genes in the
+# Leiden database [as retrieved from get_gene_list.py in ../dat/gene_list.txt]
+# Requires no previous program to have run beforehand.
 
 echo "Gathering gene names from Leiden..."
 python get_gene_list.py
 loc="./../dat/gene_list.txt"
 echo "Performing analysis..."
-var=1
 num="`wc -l < $loc`"
-# FIX THIS LINE
 
-echo > genes.txt
-echo > good_genes
+var=1
+echo > bad_genes.txt
+echo > good_genes.txt
 
 while read p; do
   echo "Gene $var out of $num [$p]..."
   ./run_script.sh $p
+
+  # categorise it as a good gene or bad gene depending on if its data could be
+  # retrieved from the Leiden site (bad means no data is available)
   if [ $? -eq 0 ]; then
-    echo $p >> genes.txt
+    echo $p >> bad_genes.txt
   else
     echo $p >> good_genes.txt
   fi
+
   ((++var))
+
+  # wait 6 seconds - this is to prevent being blocked from accessing the Leiden
+  # site due to too many requests
   sleep 6
+
 done < $loc

@@ -1,3 +1,5 @@
+
+
 import math
 new_mat = open("full_matrix.txt", "w")
 genes = open("good_genes.txt", "r")

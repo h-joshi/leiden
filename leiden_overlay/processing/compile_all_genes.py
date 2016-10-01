@@ -1,17 +1,27 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import sys
-import math
-import scipy #get rid of this? useless - replace later use
+###---###---###---###---###
+#   Makes a final table for a specific given gene that puts together all the
+#   necessary information needed to create the final Leiden Matrix later on.
+#
+#   Run this script only using the encompassing "finish_mat.sh" script, which also
+#   completes the data processing to produce the final matrix in a tab-delimited
+#   format.
+#
+#   Outputs ALL_GENE.mat into the mat_dat folder in the current directory.
+###---###---###---###---###
 
+import sys
+
+# get the current gene name
 input_gene = sys.argv[1]
 
+# open all the gene's relevant data
 gene_csv = open("../results/" + input_gene + "/" + input_gene + "_full_output.txt")
-mat_dat = open("mat_dat/ALL_"+input_gene+".mat", "w")
 lines = [line.rstrip('\n').split('\t') for line in gene_csv]
 gene_csv.close()
 
+mat_dat = open("mat_dat/ALL_"+input_gene+".mat", "w")
 
+# open inheritance pattern information
 with open("resc/inheritance_patterns.txt", "r") as f:
     patterns = [x.rstrip('\n').rstrip('\r').split('\t') for x in f.readlines()]
 col_names = patterns.pop(0)
@@ -24,6 +34,7 @@ is_ind = col_names.index("IS")
 
 pat_dict = {pat[gene_ind]:pat[ar_ind:is_ind+1] for pat in patterns}
 
+# map the input gene to its inheritance pattern in the OMIM dataset
 if input_gene in pat_dict:
     vals = pat_dict[input_gene]
     result = []
@@ -61,8 +72,12 @@ bands = {}
 pathogenics = {}
 snp_count = 0
 
+# write each row to the table appropriately
 for line in lines:
+    # we only want SNPs in the final matrix for now
     if line[type_index] == 'snp':
+        # don't use this at the moment, but uncomment if needed
+        """
         try:
             bands[line[band_index]] += 1
             if line[pathogenicity_index] == "Pathogenic" or line[pathogenicity_index] == "Probably pathogenic":
@@ -80,14 +95,15 @@ for line in lines:
                 pathogenics[line[band_index]][1] += 1
             else:
                 pathogenics[line[band_index]][2] += 1
+        """
+        # check if it has ExAC data or not
         if 'No' in line[al_freq_index]:
             ex_freq = '-'
         else:
             ex_freq = line[al_freq_index]
+
+        # write the row to the table
         mat_dat.write("\t".join([input_gene, line[name_index], line[location_index], ex_freq, line[pathogenicity_index], ip]) + '\n')
         snp_count += 1
-
-#band_pairs = [(int(k),v) for k,v in bands.items()]
-#band_pairs = sorted(band_pairs, key = lambda x: x[0])
 
 mat_dat.close()

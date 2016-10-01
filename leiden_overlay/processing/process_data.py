@@ -2,9 +2,12 @@
 #   Combines all the raw leiden data with VEP and ExAC data for a given gene
 #
 #   Assumes that Andrew Hill's scripts have been run to produce a GENE.vep.txt
-#   file and a GENE.txt file in the dat folder
+#   file and a GENE.txt file in the dat folder. It also requires the
+#   GENE_pathogenicity.txt file to be in the dat folder as well.
 #
 #   Outputs GENE_final_output.txt and GENE_concise_output.txt in the dat folder
+#
+#   Note: Only SNPs have been worked out properly - rest is (theoretically) incomplete
 ###---###---###---###---###
 
 import re
@@ -205,7 +208,6 @@ for line in rows:
         var_type = "dup"
     else:
         var_type = "other"
-
 
     # add the row to the relevant files
     row_to_add = [line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band, reported_pathogenicity] + (leiden_dict[line[var_name_ind]])

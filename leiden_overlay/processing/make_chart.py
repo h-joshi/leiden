@@ -1,14 +1,34 @@
+###---###---###---###---###
+#   Makes a chart for a given gene that displays the spread of the variants based
+#   on ExAC frequency, with the variants marked based on pathogenicity (whether
+#   they are pathogenic, non-pathogenic, or unknown).
+#
+#   The script also outputs the table data for the gene that will be used to
+#   create the Leiden matrix. This is for efficiency purposes, as they both need
+#   to calculate similar data with regards to pathogenicity, etc.
+#
+#   The script requires ./run_script to have been run on this particular gene
+#   at least once beforehand, and the data to not have been deleted from its
+#   results folder or from the dat folder.
+#
+#   Outputs GENE_chart.png in the gene's results folder. Also outputs
+#   GENE_table_data.txt in the dat folder.
+###---###---###---###---###
+
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
 import math
-import scipy #get rid of this? useless - replace later use
+import scipy # possibly remove this
 import seaborn as sb
 
+# set chart style using seaborn
 sb.set_style("whitegrid")
 
+# get the gene name
 input_gene = sys.argv[1]
 
+# get the gene's data
 gene_csv = open("../results/" + input_gene + "/" + input_gene + "_full_output.txt")
 lines = [line.rstrip('\n').split('\t') for line in gene_csv]
 gene_csv.close()
@@ -26,6 +46,7 @@ bands = {}
 pathogenics = {}
 snp_count = 0
 
+# get the count for each type of pathogenicity (essentially yes, no, and unknown)
 for line in lines:
     if line[type_index] == 'snp':
         try:
@@ -46,18 +67,20 @@ for line in lines:
             else:
                 pathogenics[line[band_index]][2] += 1
         snp_count += 1
-#print pathogenics
-#print bands
+
+# remove those with no ExAC data (marked as NA in the table)
 if 'NA' in bands:
     snp_count -= bands['NA']
     del bands['NA']
     del pathogenics['NA']
 
-#band_pairs = [(int(k),v) for k,v in bands.items()]
-#band_pairs = sorted(band_pairs, key = lambda x: x[0])
-
 bands_dic = {int(k):v for k,v in bands.items()}
 pathogenics = {int(k):v for k,v in pathogenics.items()}
+
+####----
+# Create the stacked chart
+####----
+
 x_axis = np.arange(0, 10)
 
 y_axis = [0 for i in range(0, 10)]
@@ -72,26 +95,17 @@ for key in bands_dic:
     threshold_no[key] = pathogenics[key][1]
     threshold_unknown[key] = pathogenics[key][2]
 
-#y_axis = []
-#for val in band_pairs:
-#    x_axis.append(val[0])
-#    y_axis.append(val[1])
-
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.xaxis.grid(False)
 ax.yaxis.grid(alpha=0.4)
 plt.gcf().subplots_adjust(bottom=0.15)
 
-#p1 = plt.bar(x_axis, threshold_yes, color = 'r')
-#p2 = plt.bar(x_axis, threshold_no, color = 'y')
-#p3 = plt.bar(x_axis, threshold_unknown, color = 'b')
 edgecol = "black"
 rect_unknown = ax.bar(x_axis, threshold_unknown, color='b', align='center', edgecolor = edgecol)
 rect_no = ax.bar(x_axis, threshold_no, bottom=threshold_unknown, color='y', align='center', edgecolor = edgecol)
 rect_yes = ax.bar(x_axis, threshold_yes, bottom=[threshold_no[i] + threshold_unknown[i] for i in range(0, 10)], color='r', align='center', edgecolor = edgecol)
 
-#plt.gca().set_position((.1, .3, .8, .6))
 ax.set_ylabel("# of Variants")
 ax.set_xlabel("Frequency Range") # PUT IN A KEY
 ax.set_yticks(scipy.arange(0, max(y_axis)+5, 2))
@@ -99,29 +113,17 @@ ax.set_xticks(np.arange(0, 10, 1))
 ax.set_xticklabels(['< ' + str(math.pow(10, -(k))) for k in x_axis], rotation=25, fontsize=8)
 ax.set_title("%s SNP Band Count"%(input_gene))
 
-
-#ax.suplots_adjust(left=0.09, bottom=0.20)
 legend1 = plt.legend((rect_yes, rect_no, rect_unknown), ("Pathogenic/probably pathogenic", "Not pathogenic/probably not pathogenic", "Unknown pathogenicity or mixed reports"), fontsize='x-small', loc=1)
 
-
-#bandstr = "\n'Band' measures percentage allele frequency within the ExAC sample population.\nBand 0: 10^-1 to 1\n"
-#for i in range(1, 9):
-#    bandstr+="Band %d: 10^-%d to 10^-%d\n"%(i, i+1, i)
-
-#plt.figtext(.02, .02, bandstr, fontsize='x-small')
-#plt.figtext(0.2, 0.2, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band i if its allele frequency is between 10^-(i+1) and 10^-i.\nA variant in a higher band hence implies lower allele frequency.", fontsize="x-small")
-#plt.setp(ax.set_xticklabels(x_axis))
-
-### UNCOMMENT IF YOU WANT THE BAND STUFF...
-#plt.subplots_adjust(bottom=0.20)
-#plt.figtext(0.05, 0.02, "'Band' measures the percentage allele frequency within the ExAC sample population.\nA variant is in Band k if its allele frequency is between 10^-(k+1) and 10^(-k)\nA variant in a higher band hence implies lower allele frequency.")
-###
-
+# save the chart
 fig.savefig("../results/" + input_gene + "/" + input_gene + "_chart.png")
 #plt.show()
 
+####----
+# Matrix-related data output
+####----
 
-# THROW IN NOW THE NEW MATRIX STUFF
+# Output the pathogenicity-related table data for the Leiden matrix into its own file
 table_data = open("../dat/" + input_gene + "_table_data.txt", "w")
 for i in range(0, 10):
     if i in pathogenics:

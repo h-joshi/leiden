@@ -1,5 +1,9 @@
 #! /usr/bin/env sh
-#USE: ./run_script DYSF
+#USE: ./run_script.sh DYSF
+
+# Performs the entire data retrieval and organisation workflow for a single gene
+# Requires no other program to be run first.
+# Uncomment the cleaning step to remove all temporary files from the dat folder at the end
 
 if [ "$#" -ne 1 ]; then
     echo "Error: No gene argument supplied"
@@ -44,7 +48,7 @@ awk '!x[$1]++' ./../dat/$1_snp_fixed.txt > ./../dat/$1_snp_fixed_nodup.txt
 echo "Producing logarithmic-grouping data..."
 python group_data.py $1
 
-#results
+# move results into the results folder
 echo "Finalising results folder..."
 mkdir -p ./../results/$1
 cp ./../dat/$1_final_output.txt ./../results/$1/$1_raw_output.txt
