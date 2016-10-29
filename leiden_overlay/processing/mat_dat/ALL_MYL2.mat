@@ -1,21 +1,21 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-MYL2	NM_000432.3:c.4-13T>C	12:111357010	-	No known pathogenicity	none
-MYL2	NM_000432.3:c.37G>A	12:111356964	-	Mixed reported pathogenicity	none
-MYL2	NM_000432.3:c.52T>C	12:111356949	-	Mixed reported pathogenicity	none
-MYL2	NM_000432.3:c.58A>C	12:111356943	0.000008268	Pathogenic	none
-MYL2	NM_000432.3:c.64G>A	12:111356937	-	Pathogenic	none
-MYL2	NM_000432.3:c.132T>C	12:111353556	-	No known pathogenicity	none
-MYL2	NM_000432.3:c.135C>T	12:111353553	-	No known pathogenicity	none
-MYL2	NM_000432.3:c.141C>A	12:111353547	0.000008238	Pathogenic	none
-MYL2	NM_000432.3:c.170G>A	12:111352094	-	Pathogenic	none
-MYL2	NM_000432.3:c.173G>A	12:111352091	-	Pathogenic	none
-MYL2	NM_000432.3:c.274+1G>C	12:111351989	-	No known pathogenicity	none
-MYL2	NM_000432.3:c.275-58G>A	12:111351186	-	No known pathogenicity	none
-MYL2	NM_000432.3:c.283C>G	12:111351120	-	Pathogenic	none
-MYL2	NM_000432.3:c.310A>G	12:111351093	-	Unknown	none
-MYL2	NM_000432.3:c.353+51C>T	12:111350999	0.012020000	No known pathogenicity	none
-MYL2	NM_000432.3:c.354-2A>G	12:111350950	-	Pathogenic	none
-MYL2	NM_000432.3:c.401A>C	12:111350901	-	Pathogenic	none
-MYL2	NM_000432.3:c.403-1G>C	12:111348980	-	Probably pathogenic	none
-MYL2	NM_000432.3:c.484G>A	12:111348898	-	Pathogenic	none
-MYL2	NM_000432.3:c.497A>T	12:111348885	-	Pathogenic	none
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYL2	NM_000432.3:c.4-13T>C	12:111357010	p.(=)	-	No known pathogenicity	none	-
+MYL2	NM_000432.3:c.37G>A	12:111356964	p.(Ala13Thr)	0.000306800	Mixed reported pathogenicity	none	?
+MYL2	NM_000432.3:c.52T>C	12:111356949	p.(Phe18Leu)	-	Mixed reported pathogenicity	none	-
+MYL2	NM_000432.3:c.58A>C	12:111356943	p.(Met20Leu)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.64G>A	12:111356937	p.(Glu22Lys)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.132T>C	12:111353556	p.(=)	0.102500000	No known pathogenicity	none	?
+MYL2	NM_000432.3:c.135C>T	12:111353553	p.(=)	-	No known pathogenicity	none	-
+MYL2	NM_000432.3:c.141C>A	12:111353547	p.(Asn47Lys)	0.000181200	Pathogenic	none	?
+MYL2	NM_000432.3:c.170G>A	12:111352094	p.(Gly57Glu)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.173G>A	12:111352091	p.(Arg58Gln)	0.000008284	Pathogenic	none	?
+MYL2	NM_000432.3:c.274+1G>C	12:111351989	p.(=)	-	No known pathogenicity	none	-
+MYL2	NM_000432.3:c.275-58G>A	12:111351186	p.(=)	-	No known pathogenicity	none	-
+MYL2	NM_000432.3:c.283C>G	12:111351120	p.(Pro95Ala)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.310A>G	12:111351093	p.(Lys104Glu)	0.000008237	Unknown	none	?
+MYL2	NM_000432.3:c.353+51C>T	12:111350999	p.(=)	0.204700000	No known pathogenicity	none	?
+MYL2	NM_000432.3:c.354-2A>G	12:111350950	p.(fs*)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.401A>C	12:111350901	p.(Glu134Ala)	0.000156500	Pathogenic	none	?
+MYL2	NM_000432.3:c.403-1G>C	12:111348980	p.?	0.000024820	Probably pathogenic	none	?
+MYL2	NM_000432.3:c.484G>A	12:111348898	p.(Gly162Arg)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.497A>T	12:111348885	p.(Asp166Val)	-	Pathogenic	none	-

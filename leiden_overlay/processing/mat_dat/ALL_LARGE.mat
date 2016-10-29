@@ -1,36 +1,36 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-LARGE	NM_004737.4:c.-63C>T	22:34157526	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.-31G>A	22:34157494	0.000008345	Unknown	-
-LARGE	NM_004737.4:c.16A>C	22:34157448	-	Probably not pathogenic	-
-LARGE	NM_004737.4:c.211G>A	22:34046550	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.309C>A	22:34046452	0.005644000	Unknown	-
-LARGE	NM_004737.4:c.309C>T	22:34046452	-	Unknown	-
-LARGE	NM_004737.4:c.409-19C>T	22:34022329	-	Probably not pathogenic	-
-LARGE	NM_004737.4:c.435C>T	22:34022284	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.552G>A	22:34000484	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.576C>T	22:34000460	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.862T>C	22:33828177	-	Unknown	-
-LARGE	NM_004737.4:c.892+50C>T	22:33828097	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.992C>T	22:33780191	-	Pathogenic	-
-LARGE	NM_004737.4:c.1092C>T	22:33777944	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1102C>T	22:33777934	-	Pathogenic	-
-LARGE	NM_004737.4:c.1116C>T	22:33777920	-	Unknown	-
-LARGE	NM_004737.4:c.1287+11C>T	22:33733621	-	Unknown	-
-LARGE	NM_004737.4:c.1287+105G>C	22:33733527	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1287+146C>T	22:33733486	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1431C>T	22:33712091	-	Unknown	-
-LARGE	NM_004737.4:c.1451+38C>T	22:33712033	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1452-28C>T	22:33700521	0.000000000	No known pathogenicity	-
-LARGE	NM_004737.4:c.1483T>C	22:33700462	-	Pathogenic	-
-LARGE	NM_004737.4:c.1525G>A	22:33700420	-	Mixed reported pathogenicity	-
-LARGE	NM_004737.4:c.1548C>G	22:33700397	-	Pathogenic	-
-LARGE	NM_004737.4:c.1548C>T	22:33700397	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1640G>A	22:33700305	-	Unknown	-
-LARGE	NM_004737.4:c.1731-24T>C	22:33679358	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1827A>G	22:33679238	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1827A>T	22:33679238	-	Unknown	-
-LARGE	NM_004737.4:c.1878-24A>G	22:33673265	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1949G>A	22:33673170	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.1994G>A	22:33673125	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.2073+36C>T	22:33673010	-	No known pathogenicity	-
-LARGE	NM_004737.4:c.2100C>T	22:33670584	-	No known pathogenicity	-
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+LARGE	NM_004737.4:c.-63C>T	22:34157526	p.(=)	-	No known pathogenicity	-	-
+LARGE	NM_004737.4:c.-31G>A	22:34157494	p.(=)	0.008228000	Unknown	-	?
+LARGE	NM_004737.4:c.16A>C	22:34157448	p.(=)	-	Probably not pathogenic	-	-
+LARGE	NM_004737.4:c.211G>A	22:34046550	p.(Glu71Lys)	0.000720000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.309C>A	22:34046452	p.(=)	-	Unknown	-	-
+LARGE	NM_004737.4:c.309C>T	22:34046452	p.(=)	0.005644000	Unknown	-	?
+LARGE	NM_004737.4:c.409-19C>T	22:34022329	p.(=)	0.000241900	Probably not pathogenic	-	?
+LARGE	NM_004737.4:c.435C>T	22:34022284	p.(?)	0.477100000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.552G>A	22:34000484	p.(?)	0.002620000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.576C>T	22:34000460	p.(=)	0.022940000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.862T>C	22:33828177	p.(Trp288Arg)	-	Unknown	-	-
+LARGE	NM_004737.4:c.892+50C>T	22:33828097	p.(=)	0.004537000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.992C>T	22:33780191	p.(Ser331Phe)	-	Pathogenic	-	-
+LARGE	NM_004737.4:c.1092C>T	22:33777944	p.(?)	0.000823700	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1102C>T	22:33777934	p.(Gln368*)	-	Pathogenic	-	-
+LARGE	NM_004737.4:c.1116C>T	22:33777920	p.(=)	0.000008237	Unknown	-	?
+LARGE	NM_004737.4:c.1287+11C>T	22:33733621	p.(=)	0.000025180	Unknown	-	?
+LARGE	NM_004737.4:c.1287+105G>C	22:33733527	p.(=)	-	No known pathogenicity	-	-
+LARGE	NM_004737.4:c.1287+146C>T	22:33733486	p.(=)	-	No known pathogenicity	-	-
+LARGE	NM_004737.4:c.1431C>T	22:33712091	p.(=)	-	Unknown	-	-
+LARGE	NM_004737.4:c.1451+38C>T	22:33712033	p.(=)	0.002170000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1452-28C>T	22:33700521	p.(=)	0.022170000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1483T>C	22:33700462	p.(Trp495Arg)	-	Pathogenic	-	-
+LARGE	NM_004737.4:c.1525G>A	22:33700420	p.(Glu509Lys)	0.000008469	Mixed reported pathogenicity	-	?
+LARGE	NM_004737.4:c.1548C>G	22:33700397	p.(Trp516*)	-	Pathogenic	-	-
+LARGE	NM_004737.4:c.1548C>T	22:33700397	p.(=)	0.008156000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1640G>A	22:33700305	p.(Arg547His)	-	Unknown	-	-
+LARGE	NM_004737.4:c.1731-24T>C	22:33679358	p.(=)	0.010540000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1827A>G	22:33679238	p.(=)	0.017140000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1827A>T	22:33679238	p.(=)	-	Unknown	-	-
+LARGE	NM_004737.4:c.1878-24A>G	22:33673265	p.(=)	0.001094000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1949G>A	22:33673170	p.(Arg650Gln)	0.006060000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.1994G>A	22:33673125	p.(Arg665His)	0.005034000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.2073+36C>T	22:33673010	p.(=)	0.008817000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.2100C>T	22:33670584	p.(?)	0.047170000	No known pathogenicity	-	?

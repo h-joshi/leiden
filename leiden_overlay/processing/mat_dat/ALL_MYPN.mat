@@ -1,57 +1,57 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-MYPN	NM_032578.3:c.59A>G	10:69881254	0.000916300	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.420T>C	10:69881615	0.000082580	No known pathogenicity	AD
-MYPN	NM_032578.3:c.458A>G	10:69881653	-	Probably pathogenic	AD
-MYPN	NM_032578.3:c.465C>G	10:69881660	0.000272600	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.637A>G	10:69881832	-	Unknown	AD
-MYPN	NM_032578.3:c.650C>A	10:69881845	-	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.843A>G	10:69882038	0.010370000	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.1016A>T	10:69902810	-	Probably pathogenic	AD
-MYPN	NM_032578.3:c.1078+47T>C	10:69902919	0.058580000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1104C>T	10:69905257	0.001418000	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.1128T>C	10:69905281	-	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.1130+17G>A	10:69905300	0.156200000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1134C>T	10:69908113	0.005967000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1178T>C	10:69908157	0.045240000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1210T>C	10:69908189	-	No known pathogenicity	AD
-MYPN	NM_032578.3:c.1229T>C	10:69908208	0.000041200	Unknown	AD
-MYPN	NM_032578.3:c.1251G>A	10:69909802	0.084460000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1399G>A	10:69918324	0.013700000	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.1419T>C	10:69918344	0.000024920	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.1575A>G	10:69925550	-	Unknown	AD
-MYPN	NM_032578.3:c.1585C>T	10:69925560	-	Pathogenic	AD
-MYPN	NM_032578.3:c.1647T>C	10:69926097	0.622700000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1662A>C	10:69926112	0.000288400	No known pathogenicity	AD
-MYPN	NM_032578.3:c.1831G>A	10:69926281	-	Probably pathogenic	AD
-MYPN	NM_032578.3:c.1840G>A	10:69926290	0.000074160	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.1869C>A	10:69926319	0.156500000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1875C>T	10:69926325	0.180900000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1884C>G	10:69926334	0.438300000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.1935C>T	10:69926385	0.000742600	No known pathogenicity	AD
-MYPN	NM_032578.3:c.2072G>A	10:69933921	0.430800000	No known pathogenicity	AD
-MYPN	NM_032578.3:c.2072G>C	10:69933921	-	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.2120G>A	10:69933969	0.425800000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2163C>A	10:69934012	0.023840000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2190G>A	10:69934039	0.000041180	No known pathogenicity	AD
-MYPN	NM_032578.3:c.2409C>G	10:69934258	-	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2410G>A	10:69934259	0.018380000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2521C>A	10:69934370	-	Probably pathogenic	AD
-MYPN	NM_032578.3:c.2565-21A>G	10:69935059	0.652000000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2642A>T	10:69935157	0.000032960	No known pathogenicity	AD
-MYPN	NM_032578.3:c.2644G>A	10:69935159	0.000008240	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2653C>T	10:69935168	0.000008239	Pathogenic	AD
-MYPN	NM_032578.3:c.2862C>A	10:69948820	-	Probably pathogenic	AD
-MYPN	NM_032578.3:c.2863C>T	10:69948821	0.000428700	Unknown	AD
-MYPN	NM_032578.3:c.2864G>A	10:69948822	0.000057720	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.2882C>T	10:69948840	-	Pathogenic	AD
-MYPN	NM_032578.3:c.2886T>C	10:69948844	0.995600000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.2926-30A>G	10:69954090	0.017400000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.3219A>G	10:69957169	-	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.3263G>A	10:69957213	0.000008248	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.3335C>T	10:69959174	0.003034000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.3403C>A	10:69959242	0.432300000	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.3417C>A	10:69959256	-	Probably not pathogenic	AD
-MYPN	NM_032578.3:c.3481C>A	10:69959320	0.003296000	Probably pathogenic	AD
-MYPN	NM_032578.3:c.3583G>A	10:69961675	0.000256300	Mixed reported pathogenicity	AD
-MYPN	NM_032578.3:c.3793G>C	10:69966660	-	Probably pathogenic	AD
-MYPN	NM_032578.3:c.3917T>G	10:69970166	-	Probably not pathogenic	AD
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYPN	NM_032578.3:c.59A>G	10:69881254	p.(Tyr20Cys)	0.000916300	Mixed reported pathogenicity	AD	4.5815
+MYPN	NM_032578.3:c.420T>C	10:69881615	p.(=)	0.000082580	No known pathogenicity	AD	0.4129
+MYPN	NM_032578.3:c.458A>G	10:69881653	p.(Lys153Arg)	-	Probably pathogenic	AD	-
+MYPN	NM_032578.3:c.465C>G	10:69881660	p.(=)	0.000272600	Probably not pathogenic	AD	1.363
+MYPN	NM_032578.3:c.637A>G	10:69881832	p.(Ile213Val)	-	Unknown	AD	-
+MYPN	NM_032578.3:c.650C>A	10:69881845	p.(Ala217Glu)	-	Probably not pathogenic	AD	-
+MYPN	NM_032578.3:c.843A>G	10:69882038	p.(=)	0.010370000	Probably not pathogenic	AD	51.85
+MYPN	NM_032578.3:c.1016A>T	10:69902810	p.(Tyr339Phe)	-	Probably pathogenic	AD	-
+MYPN	NM_032578.3:c.1078+47T>C	10:69902919	p.=	0.058580000	Mixed reported pathogenicity	AD	292.9
+MYPN	NM_032578.3:c.1104C>T	10:69905257	p.(=)	0.001418000	Probably not pathogenic	AD	7.09
+MYPN	NM_032578.3:c.1128T>C	10:69905281	p.(=)	-	Probably not pathogenic	AD	-
+MYPN	NM_032578.3:c.1130+17G>A	10:69905300	p.=	0.156200000	Mixed reported pathogenicity	AD	781.0
+MYPN	NM_032578.3:c.1134C>T	10:69908113	p.=	0.005967000	Mixed reported pathogenicity	AD	29.835
+MYPN	NM_032578.3:c.1178T>C	10:69908157	p.(Val393Ala)	0.045240000	Mixed reported pathogenicity	AD	226.2
+MYPN	NM_032578.3:c.1210T>C	10:69908189	p.=	-	No known pathogenicity	AD	-
+MYPN	NM_032578.3:c.1229T>C	10:69908208	p.(Val410Ala)	0.000041200	Unknown	AD	0.206
+MYPN	NM_032578.3:c.1251G>A	10:69909802	p.(=)	0.084460000	Mixed reported pathogenicity	AD	422.3
+MYPN	NM_032578.3:c.1399G>A	10:69918324	p.(Glu467Lys)	0.013700000	Probably not pathogenic	AD	68.5
+MYPN	NM_032578.3:c.1419T>C	10:69918344	p.(=)	0.000024920	Probably not pathogenic	AD	0.1246
+MYPN	NM_032578.3:c.1575A>G	10:69925550	p.(=)	-	Unknown	AD	-
+MYPN	NM_032578.3:c.1585C>T	10:69925560	p.(Gln529*)	-	Pathogenic	AD	-
+MYPN	NM_032578.3:c.1647T>C	10:69926097	p.(=)	0.622700000	Mixed reported pathogenicity	AD	3113.5
+MYPN	NM_032578.3:c.1662A>C	10:69926112	p.(=)	0.000288400	No known pathogenicity	AD	1.442
+MYPN	NM_032578.3:c.1831G>A	10:69926281	p.(Ala611Trhr)	-	Probably pathogenic	AD	-
+MYPN	NM_032578.3:c.1840G>A	10:69926290	p.(Glu614Lys)	0.000074160	Probably not pathogenic	AD	0.3708
+MYPN	NM_032578.3:c.1869C>A	10:69926319	p.(=)	0.156500000	Mixed reported pathogenicity	AD	782.5
+MYPN	NM_032578.3:c.1875C>T	10:69926325	p.(=)	0.180900000	Mixed reported pathogenicity	AD	904.5
+MYPN	NM_032578.3:c.1884C>G	10:69926334	p.(Phe628Leu)	0.438300000	Mixed reported pathogenicity	AD	2191.5
+MYPN	NM_032578.3:c.1935C>T	10:69926385	p.(=)	0.000742600	No known pathogenicity	AD	3.713
+MYPN	NM_032578.3:c.2072G>A	10:69933921	p.(Ser691Asn)	0.430800000	No known pathogenicity	AD	2154.0
+MYPN	NM_032578.3:c.2072G>C	10:69933921	p.(Ser691Asn)	-	Probably not pathogenic	AD	-
+MYPN	NM_032578.3:c.2120G>A	10:69933969	p.(Ser707Asn)	0.425800000	Mixed reported pathogenicity	AD	2129.0
+MYPN	NM_032578.3:c.2163C>A	10:69934012	p.(=)	0.023840000	Mixed reported pathogenicity	AD	119.2
+MYPN	NM_032578.3:c.2190G>A	10:69934039	p.(=)	0.000041180	No known pathogenicity	AD	0.2059
+MYPN	NM_032578.3:c.2409C>G	10:69934258	p.(Ser803Arg)	-	Mixed reported pathogenicity	AD	-
+MYPN	NM_032578.3:c.2410G>A	10:69934259	p.(Gly804Arg)	0.018380000	Mixed reported pathogenicity	AD	91.9
+MYPN	NM_032578.3:c.2521C>A	10:69934370	p.(Pro841Thr)	-	Probably pathogenic	AD	-
+MYPN	NM_032578.3:c.2565-21A>G	10:69935059	p.=	0.652000000	Mixed reported pathogenicity	AD	3260.0
+MYPN	NM_032578.3:c.2642A>T	10:69935157	p.(Asn881Ile)	0.000032960	No known pathogenicity	AD	0.1648
+MYPN	NM_032578.3:c.2644G>A	10:69935159	p.(Ala882Thr)	0.000008240	Mixed reported pathogenicity	AD	0.0412
+MYPN	NM_032578.3:c.2653C>T	10:69935168	p.(Arg885*)	0.000008239	Pathogenic	AD	0.041195
+MYPN	NM_032578.3:c.2862C>A	10:69948820	p.(Phe954Leu)	-	Probably pathogenic	AD	-
+MYPN	NM_032578.3:c.2863C>T	10:69948821	p.(Arg955Trp)	0.000428700	Unknown	AD	2.1435
+MYPN	NM_032578.3:c.2864G>A	10:69948822	p.(Arg955Gln)	0.000057720	Probably not pathogenic	AD	0.2886
+MYPN	NM_032578.3:c.2882C>T	10:69948840	p.(Pro961Leu)	-	Pathogenic	AD	-
+MYPN	NM_032578.3:c.2886T>C	10:69948844	p.(=)	0.995600000	Mixed reported pathogenicity	AD	4978.0
+MYPN	NM_032578.3:c.2926-30A>G	10:69954090	p.=	0.017400000	Mixed reported pathogenicity	AD	87.0
+MYPN	NM_032578.3:c.3219A>G	10:69957169	p.(=)	-	Probably not pathogenic	AD	-
+MYPN	NM_032578.3:c.3263G>A	10:69957213	p.(Arg1088His)	0.000008248	Mixed reported pathogenicity	AD	0.04124
+MYPN	NM_032578.3:c.3335C>T	10:69959174	p.(Pro1112Leu)	0.003034000	Mixed reported pathogenicity	AD	15.17
+MYPN	NM_032578.3:c.3403C>A	10:69959242	p.(Pro1135Thr)	0.432300000	Mixed reported pathogenicity	AD	2161.5
+MYPN	NM_032578.3:c.3417C>A	10:69959256	p.(=)	-	Probably not pathogenic	AD	-
+MYPN	NM_032578.3:c.3481C>A	10:69959320	p.(Leu1161Ile)	0.003296000	Probably pathogenic	AD	16.48
+MYPN	NM_032578.3:c.3583G>A	10:69961675	p.(Val1195Met)	0.000256300	Mixed reported pathogenicity	AD	1.2815
+MYPN	NM_032578.3:c.3793G>C	10:69966660	p.(Ala1265Pro)	-	Probably pathogenic	AD	-
+MYPN	NM_032578.3:c.3917T>G	10:69970166	p.(Val1306Gly)	-	Probably not pathogenic	AD	-

@@ -1,12 +1,12 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-TRIM32	NM_012210.3:c.339G>C	9:119460360	0.000191900	Unknown	AR
-TRIM32	NM_012210.3:c.388C>T	9:119460409	-	Pathogenic	AR
-TRIM32	NM_012210.3:c.480G>A	9:119460501	0.000315000	Unknown	AR
-TRIM32	NM_012210.3:c.770C>G	9:119460791	0.000709400	No known pathogenicity	AR
-TRIM32	NM_012210.3:c.1181G>A	9:119461202	0.000041360	Pathogenic	AR
-TRIM32	NM_012210.3:c.1254G>A	9:119461275	0.109500000	No known pathogenicity	AR
-TRIM32	NM_012210.3:c.1459G>A	9:119461480	-	Pathogenic	AR
-TRIM32	NM_012210.3:c.1815T>C	9:119461836	-	No known pathogenicity	AR
-TRIM32	NM_012210.3:c.*129C>T	9:119462112	-	No known pathogenicity	AR
-TRIM32	NM_012210.3:c.*589G>A	9:119462572	-	No known pathogenicity	AR
-TRIM32	NM_012210.3:c.651T>C	9:119460672	-	No known pathogenicity	AR
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+TRIM32	NM_012210.3:c.339G>C	9:119460360	p.(=)	0.000191900	Unknown	AR	0.01919
+TRIM32	NM_012210.3:c.388C>T	9:119460409	p.(Pro130Ser)	-	Pathogenic	AR	-
+TRIM32	NM_012210.3:c.480G>A	9:119460501	p.(Met160Ile)	0.000315000	Unknown	AR	0.0315
+TRIM32	NM_012210.3:c.770C>G	9:119460791	p.=	0.000709400	No known pathogenicity	AR	0.07094
+TRIM32	NM_012210.3:c.1181G>A	9:119461202	p.(Arg394His)	0.000041360	Pathogenic	AR	0.004136
+TRIM32	NM_012210.3:c.1254G>A	9:119461275	p.=	0.109500000	No known pathogenicity	AR	10.95
+TRIM32	NM_012210.3:c.1459G>A	9:119461480	p.(Asp487Asn)	-	Pathogenic	AR	-
+TRIM32	NM_012210.3:c.1815T>C	9:119461836	p.=	-	No known pathogenicity	AR	-
+TRIM32	NM_012210.3:c.*129C>T	9:119462112	p.=	-	No known pathogenicity	AR	-
+TRIM32	NM_012210.3:c.*589G>A	9:119462572	p.(=)	-	No known pathogenicity	AR	-
+TRIM32	NM_012210.3:c.651T>C	9:119460672	p.(=)	-	No known pathogenicity	AR	-

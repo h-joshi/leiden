@@ -1,4 +1,4 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-DPM3	NM_153741.1:c.-143C>A	1:155113104	-	Unknown	none
-DPM3	NM_153741.1:c.-113T>G	1:155113074	-	Unknown	none
-DPM3	NM_153741.1:c.254T>C	1:155112463	-	Pathogenic	none
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+DPM3	NM_153741.1:c.-143C>A	1:155113104	p.(=)	-	Unknown	none	-
+DPM3	NM_153741.1:c.-113T>G	1:155113074	p.(=)	-	Unknown	none	-
+DPM3	NM_153741.1:c.254T>C	1:155112463	p.(Leu85Ser)	0.000008388	Pathogenic	none	?

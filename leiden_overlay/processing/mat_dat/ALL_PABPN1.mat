@@ -1,6 +1,6 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-PABPN1	NM_004643.3:c.27A>G	14:23790705	-	Unknown	AD
-PABPN1	NM_004643.3:c.35G>C	14:23790713	-	Mixed reported pathogenicity	AD
-PABPN1	NM_004643.3:c.186G>A	14:23790864	0.047600000	Unknown	AD
-PABPN1	NM_004643.3:c.474G>A	14:23792215	0.027080000	No known pathogenicity	AD
-PABPN1	NM_004643.3:c.730-42C>T	14:23793305	0.114200000	No known pathogenicity	AD
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+PABPN1	NM_004643.3:c.27A>G	14:23790705	p.(=)	-	Unknown	AD	-
+PABPN1	NM_004643.3:c.35G>C	14:23790713	p.(Gly12Ala)	-	Mixed reported pathogenicity	AD	-
+PABPN1	NM_004643.3:c.186G>A	14:23790864	p.(=)	0.047600000	Unknown	AD	238.0
+PABPN1	NM_004643.3:c.474G>A	14:23792215	p.(=)	0.027080000	No known pathogenicity	AD	135.4
+PABPN1	NM_004643.3:c.730-42C>T	14:23793305	p.(=)	0.114200000	No known pathogenicity	AD	571.0

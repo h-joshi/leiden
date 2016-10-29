@@ -1,32 +1,32 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-SMN1	NM_000344.3:c.-14C>T	5:69345499	-	Pathogenic	AR
-SMN1	NM_000344.3:c.5C>G	5:69345517	-	Mixed reported pathogenicity	AR
-SMN1	NM_000344.3:c.5C>T	5:69345517	-	Pathogenic	AR
-SMN1	NM_000344.3:c.40G>T	5:69345552	-	Pathogenic	AR
-SMN1	NM_000344.3:c.43C>T	5:69345555	-	Pathogenic	AR
-SMN1	NM_000344.3:c.88G>A	5:69359248	-	Pathogenic	AR
-SMN1	NM_000344.3:c.131A>T	5:69359291	-	Pathogenic	AR
-SMN1	NM_000344.3:c.275G>C	5:69362762	-	Pathogenic	AR
-SMN1	NM_000344.3:c.283G>C	5:69362770	-	Pathogenic	AR
-SMN1	NM_000344.3:c.305G>A	5:69362792	-	Pathogenic	AR
-SMN1	NM_000344.3:c.326A>G	5:69362813	-	Probably pathogenic	AR
-SMN1	NM_000344.3:c.332C>G	5:69362819	-	Pathogenic	AR
-SMN1	NM_000344.3:c.346A>T	5:69362833	-	Pathogenic	AR
-SMN1	NM_000344.3:c.400G>A	5:69362887	-	Pathogenic	AR
-SMN1	NM_000344.3:c.406C>G	5:69362893	-	Pathogenic	AR
-SMN1	NM_000344.3:c.689C>T	5:69365123	-	Probably pathogenic	AR
-SMN1	NM_000344.3:c.683T>A	5:69365117	-	Pathogenic	AR
-SMN1	NM_000344.3:c.734C>T	5:69366478	-	Pathogenic	AR
-SMN1	NM_000344.3:c.784A>G	5:69366528	-	Pathogenic	AR
-SMN1	NM_000344.3:c.785G>T	5:69366529	-	Pathogenic	AR
-SMN1	NM_000344.3:c.815A>G	5:69366559	-	Pathogenic	AR
-SMN1	NM_000344.3:c.821C>T	5:69366565	-	Pathogenic	AR
-SMN1	NM_000344.3:c.823G>A	5:69366567	-	Pathogenic	AR
-SMN1	NM_000344.3:c.830A>G	5:69366574	-	Pathogenic	AR
-SMN1	NM_000344.3:c.834+2T>G	5:69366580	-	Pathogenic	AR
-SMN1	NM_000344.3:c.835-5T>G	5:69372343	-	Pathogenic	AR
-SMN1	NM_000344.3:c.835-3C>T	5:69372345	-	Unknown	AR
-SMN1	NM_000344.3:c.835G>T	5:69372348	-	Pathogenic	AR
-SMN1	NM_000344.3:c.836G>T	5:69372349	-	Pathogenic	AR
-SMN1	NM_000344.3:c.863G>T	5:69372376	-	Probably pathogenic	AR
-SMN1	NM_000344.3:c.*3+6T>G	5:69372407	-	Pathogenic	AR
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+SMN1	NM_000344.3:c.-14C>T	5:69345499	p.(=)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.5C>G	5:69345517	p.(Ala2Gly)	-	Mixed reported pathogenicity	AR	-
+SMN1	NM_000344.3:c.5C>T	5:69345517	p.Ala2Val	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.40G>T	5:69345552	p.Glu14*	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.43C>T	5:69345555	p.(Gln15*)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.88G>A	5:69359248	p.(Asp30Asn)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.131A>T	5:69359291	p.(Asp44Val)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.275G>C	5:69362762	p.Trp92Ser	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.283G>C	5:69362770	p.(Gly95Arg)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.305G>A	5:69362792	p.Trp92_Glu158del	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.326A>G	5:69362813	p.(Tyr109Cys)	-	Probably pathogenic	AR	-
+SMN1	NM_000344.3:c.332C>G	5:69362819	p.(Ala111Gly)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.346A>T	5:69362833	p.(Ile116Phe)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.400G>A	5:69362887	p.(Glu134Lys)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.406C>G	5:69362893	p.(Gln136Glu)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.689C>T	5:69365123	p.Ser230Leu	-	Probably pathogenic	AR	-
+SMN1	NM_000344.3:c.683T>A	5:69365117	p.(Leu228*)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.734C>T	5:69366478	p.(Pro245Leu)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.784A>G	5:69366528	p.(Ser262Gly)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.785G>T	5:69366529	p.(Ser262Ile)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.815A>G	5:69366559	p.(Tyr272Cys)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.821C>T	5:69366565	p.(Thr274Ile)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.823G>A	5:69366567	p.(Gly275Ser)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.830A>G	5:69366574	p.Tyr277Cys	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.834+2T>G	5:69366580	p.(?)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.835-5T>G	5:69372343	p.Gly279Glufs*5	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.835-3C>T	5:69372345	p.(=)	-	Unknown	AR	-
+SMN1	NM_000344.3:c.835G>T	5:69372348	p.(Gly279Cys)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.836G>T	5:69372349	p.(Gly279Val)	-	Pathogenic	AR	-
+SMN1	NM_000344.3:c.863G>T	5:69372376	p.Gly279Glufs*5	-	Probably pathogenic	AR	-
+SMN1	NM_000344.3:c.*3+6T>G	5:69372407	p.(?)	-	Pathogenic	AR	-

@@ -1,4 +1,4 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-MYOZ3	NM_001122853.2:c.62-46T>G	5:150050000	-	Probably not pathogenic	none
-MYOZ3	NM_001122853.2:c.425-51G>A	5:150051851	0.030950000	Probably not pathogenic	none
-MYOZ3	NM_001122853.2:c.588-56T>A	5:150056213	-	Probably not pathogenic	none
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYOZ3	NM_001122853.2:c.62-46T>G	5:150050000	p.(=)	-	Probably not pathogenic	none	-
+MYOZ3	NM_001122853.2:c.425-51G>A	5:150051851	p.(=)	0.030950000	Probably not pathogenic	none	?
+MYOZ3	NM_001122853.2:c.588-56T>A	5:150056213	p.(=)	-	Probably not pathogenic	none	-

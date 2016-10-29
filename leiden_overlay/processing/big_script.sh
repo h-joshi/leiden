@@ -12,8 +12,10 @@ echo "Performing analysis..."
 num="`wc -l < $loc`"
 
 var=1
-echo > bad_genes.txt
-echo > good_genes.txt
+rm -rf bad_genes.txt
+rm -rf good_genes.txt
+touch bad_genes.txt
+touch good_genes.txt
 
 while read p; do
   echo "Gene $var out of $num [$p]..."
@@ -22,9 +24,9 @@ while read p; do
   # categorise it as a good gene or bad gene depending on if its data could be
   # retrieved from the Leiden site (bad means no data is available)
   if [ $? -eq 0 ]; then
-    echo $p >> bad_genes.txt
-  else
     echo $p >> good_genes.txt
+  else
+    echo $p >> bad_genes.txt
   fi
 
   ((++var))

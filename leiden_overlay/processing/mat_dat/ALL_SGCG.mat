@@ -1,73 +1,73 @@
-gene	variant	genomic_coord	exac_freq	type	inher_pat
-SGCG	NM_000231.2:c.-88G>A	13:23755127	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.-1+5G>A	13:23755219	-	Unknown	AR
-SGCG	NM_000231.2:c.-1+1380G>A	13:23756594	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.1-8906G>A	13:23768928	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.1-6638T>C	13:23771196	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.31G>T	13:23777864	-	Unknown	AR
-SGCG	NM_000231.2:c.92G>A	13:23777925	-	Pathogenic	AR
-SGCG	NM_000231.2:c.93G>A	13:23777926	-	Pathogenic	AR
-SGCG	NM_000231.2:c.112T>C	13:23777945	0.000016490	No known pathogenicity	AR
-SGCG	NM_000231.2:c.128T>G	13:23777961	-	Pathogenic	AR
-SGCG	NM_000231.2:c.158T>C	13:23777991	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.195+3A>T	13:23778031	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.195+4549T>C	13:23782577	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.195+8717C>T	13:23786745	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.195+12614G>T	13:23790642	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.195+12798C>T	13:23790826	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.205G>C	13:23808759	-	Pathogenic	AR
-SGCG	NM_000231.2:c.206G>C	13:23808760	-	Pathogenic	AR
-SGCG	NM_000231.2:c.228T>C	13:23808782	0.109100000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.233T>C	13:23808787	-	Unknown	AR
-SGCG	NM_000231.2:c.240G>C	13:23808794	-	Unknown	AR
-SGCG	NM_000231.2:c.244G>A	13:23808798	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.269T>C	13:23808823	-	Pathogenic	AR
-SGCG	NM_000231.2:c.297+6A>T	13:23808857	-	Unknown	AR
-SGCG	NM_000231.2:c.298-1G>A	13:23824768	-	Pathogenic	AR
-SGCG	NM_000231.2:c.307C>G	13:23824778	0.000008717	Pathogenic	AR
-SGCG	NM_000231.2:c.312T>G	13:23824783	0.434300000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.317A>C	13:23824788	-	Unknown	AR
-SGCG	NM_000231.2:c.320C>T	13:23824791	0.000008359	Unknown	AR
-SGCG	NM_000231.2:c.347G>A	13:23824818	0.110400000	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.355G>T	13:23824826	-	Pathogenic	AR
-SGCG	NM_000231.2:c.371G>A	13:23824842	-	Unknown	AR
-SGCG	NM_000231.2:c.385G>A	13:23824856	0.000042900	Unknown	AR
-SGCG	NM_000231.2:c.386-30A>G	13:23853468	0.096350000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.386-1G>A	13:23853497	-	Probably pathogenic	AR
-SGCG	NM_000231.2:c.496C>T	13:23853608	-	Pathogenic	AR
-SGCG	NM_000231.2:c.505+2T>C	13:23853619	-	Pathogenic	AR
-SGCG	NM_000231.2:c.505+46T>A	13:23853663	0.031540000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.526G>T	13:23869574	0.000016480	Pathogenic	AR
-SGCG	NM_000231.2:c.551T>G	13:23869599	-	Pathogenic	AR
-SGCG	NM_000231.2:c.559G>A	13:23869607	-	Unknown	AR
-SGCG	NM_000231.2:c.578+677A>G	13:23870303	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.578+4524A>G	13:23874150	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.578+8664G>T	13:23878290	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-8540C>T	13:23886236	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-32T>G	13:23894744	0.482800000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-30T>G	13:23894746	0.468000000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-28T>G	13:23894748	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-26T>G	13:23894750	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-24T>G	13:23894752	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-22G>T	13:23894754	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.579-2A>G	13:23894774	0.000027120	Pathogenic	AR
-SGCG	NM_000231.2:c.581T>C	13:23894778	0.000052020	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.583G>T	13:23894780	-	Pathogenic	AR
-SGCG	NM_000231.2:c.629A>G	13:23894826	-	Pathogenic	AR
-SGCG	NM_000231.2:c.690T>A	13:23894887	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.703-53C>T	13:23898454	-	Probably not pathogenic	AR
-SGCG	NM_000231.2:c.703-18T>C	13:23898489	0.016670000	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.705T>C	13:23898509	0.674400000	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.787G>A	13:23898591	0.000024710	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.815T>G	13:23898619	-	Unknown	AR
-SGCG	NM_000231.2:c.848G>A	13:23898652	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.*7T>C	13:23898687	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*13C>T	13:23898693	0.043060000	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*54C>T	13:23898734	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*64G>A	13:23898744	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*90G>A	13:23898770	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*102A>C	13:23898782	-	Mixed reported pathogenicity	AR
-SGCG	NM_000231.2:c.*136T>C	13:23898816	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*254G>A	13:23898934	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*295T>C	13:23898975	-	No known pathogenicity	AR
-SGCG	NM_000231.2:c.*505A>G	13:23899185	-	No known pathogenicity	AR
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+SGCG	NM_000231.2:c.-88G>A	13:23755127	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.-1+5G>A	13:23755219	p.(?)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.-1+1380G>A	13:23756594	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.1-8906G>A	13:23768928	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.1-6638T>C	13:23771196	p.(=)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.31G>T	13:23777864	p.(Glu11*)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.92G>A	13:23777925	p.(Trp31*)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.93G>A	13:23777926	p.(Trp31*)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.112T>C	13:23777945	p.(=)	0.000016490	No known pathogenicity	AR	0.001649
+SGCG	NM_000231.2:c.128T>G	13:23777961	p.Leu43*	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.158T>C	13:23777991	p.(Leu53Pro)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.195+3A>T	13:23778031	p.(?)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.195+4549T>C	13:23782577	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.195+8717C>T	13:23786745	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.195+12614G>T	13:23790642	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.195+12798C>T	13:23790826	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.205G>C	13:23808759	p.Gly69Arg	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.206G>C	13:23808760	p.(Gly69Ala)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.228T>C	13:23808782	p.(=)	0.109100000	No known pathogenicity	AR	10.91
+SGCG	NM_000231.2:c.233T>C	13:23808787	p.(Leu78Pro)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.240G>C	13:23808794	p.(Leu80Phe)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.244G>A	13:23808798	p.(Gly82Arg)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.269T>C	13:23808823	p.(Leu90Ser)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.297+6A>T	13:23808857	p.(?)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.298-1G>A	13:23824768	p.(fs*)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.307C>G	13:23824778	p.(Leu103Val)	0.000008717	Pathogenic	AR	0.0008717
+SGCG	NM_000231.2:c.312T>G	13:23824783	p.(=)	0.434300000	No known pathogenicity	AR	43.43
+SGCG	NM_000231.2:c.317A>C	13:23824788	p.(Gln106Pro)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.320C>T	13:23824791	p.(Ser107Leu)	0.000008359	Unknown	AR	0.0008359
+SGCG	NM_000231.2:c.347G>A	13:23824818	p.(Arg116His)	0.110400000	Mixed reported pathogenicity	AR	11.04
+SGCG	NM_000231.2:c.355G>T	13:23824826	p.(Glu119*)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.371G>A	13:23824842	p.(Gly124Asp)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.385G>A	13:23824856	p.(Gly129Ser)	0.000042900	Unknown	AR	0.00429
+SGCG	NM_000231.2:c.386-30A>G	13:23853468	p.(=)	0.096350000	No known pathogenicity	AR	9.635
+SGCG	NM_000231.2:c.386-1G>A	13:23853497	p.(del?)	-	Probably pathogenic	AR	-
+SGCG	NM_000231.2:c.496C>T	13:23853608	p.(Arg166*)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.505+2T>C	13:23853619	p.(?)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.505+46T>A	13:23853663	p.(=)	0.031540000	No known pathogenicity	AR	3.154
+SGCG	NM_000231.2:c.526G>T	13:23869574	p.(Glu176*)	0.000016480	Pathogenic	AR	0.001648
+SGCG	NM_000231.2:c.551T>G	13:23869599	p.(Val184Gly)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.559G>A	13:23869607	p.(Asp187Asn)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.578+677A>G	13:23870303	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.578+4524A>G	13:23874150	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.578+8664G>T	13:23878290	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.579-8540C>T	13:23886236	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.579-32T>G	13:23894744	p.(=)	0.482800000	No known pathogenicity	AR	48.28
+SGCG	NM_000231.2:c.579-30T>G	13:23894746	p.(=)	0.468000000	No known pathogenicity	AR	46.8
+SGCG	NM_000231.2:c.579-28T>G	13:23894748	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.579-26T>G	13:23894750	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.579-24T>G	13:23894752	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.579-22G>T	13:23894754	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.579-2A>G	13:23894774	p.(? )	0.000027120	Pathogenic	AR	0.002712
+SGCG	NM_000231.2:c.581T>C	13:23894778	p.(Leu194Ser)	0.000052020	Mixed reported pathogenicity	AR	0.005202
+SGCG	NM_000231.2:c.583G>T	13:23894780	p.(Glu195*)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.629A>G	13:23894826	p.(His210Arg)	-	Pathogenic	AR	-
+SGCG	NM_000231.2:c.690T>A	13:23894887	p.(Ser230Arg)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.703-53C>T	13:23898454	p.(?)	-	Probably not pathogenic	AR	-
+SGCG	NM_000231.2:c.703-18T>C	13:23898489	p.(=)	0.016670000	Mixed reported pathogenicity	AR	1.667
+SGCG	NM_000231.2:c.705T>C	13:23898509	p.(=)	0.674400000	Mixed reported pathogenicity	AR	67.44
+SGCG	NM_000231.2:c.787G>A	13:23898591	p.(Glu263Lys)	0.000024710	Mixed reported pathogenicity	AR	0.002471
+SGCG	NM_000231.2:c.815T>G	13:23898619	p.(Leu272Arg)	-	Unknown	AR	-
+SGCG	NM_000231.2:c.848G>A	13:23898652	p.(Cys283Tyr)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.*7T>C	13:23898687	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*13C>T	13:23898693	p.(=)	0.043060000	No known pathogenicity	AR	4.306
+SGCG	NM_000231.2:c.*54C>T	13:23898734	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*64G>A	13:23898744	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*90G>A	13:23898770	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*102A>C	13:23898782	p.(=)	-	Mixed reported pathogenicity	AR	-
+SGCG	NM_000231.2:c.*136T>C	13:23898816	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*254G>A	13:23898934	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*295T>C	13:23898975	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.*505A>G	13:23899185	p.(=)	-	No known pathogenicity	AR	-

@@ -57,13 +57,14 @@ else:
 col_list = lines[0]
 col_names = '\t'.join(col_list)
 
-columns = ["gene", "variant", "genomic_coord", "exac_freq", "type", "inher_pat"]
+columns = ["gene", "variant", "genomic_coord", "protein_change", "exac_freq", "type", "inher_pat", "occurrence_factor"]
 mat_dat.write('\t'.join(columns) + '\n')
 
 del lines[0]
 band_index = col_list.index("band")
 type_index = col_list.index("type")
 name_index = col_list.index("leiden_reported_variant")
+protein_change_index = col_list.index("protein_change")
 pathogenicity_index = col_list.index("reported_pathogenicity")
 location_index = col_list.index("location")
 al_freq_index = col_list.index("deduced_allele_frequency")
@@ -102,8 +103,27 @@ for line in lines:
         else:
             ex_freq = line[al_freq_index]
 
+        # find occurrence factor
+        factor = ""
+        if ex_freq == "-":
+            factor = "-"
+        else:
+            int_freq = float(line[al_freq_index])
+            if input_gene == "DMD":
+                factor = str(int_freq / (1.0/3500))
+            elif ip == "AD":
+                factor = str(int_freq / (1.0/5000))
+            elif ip == "AR":
+                factor = str(int_freq / (1.0/100))
+            elif ip == "AR,AD":
+                factor = str(int_freq / (1.0/100)) + ", " + str(int_freq / (1.0/5000))
+            elif ip == "XL":
+                factor = str(int_freq / (1.0/10000))
+            else:
+                factor = "?"
+
         # write the row to the table
-        mat_dat.write("\t".join([input_gene, line[name_index], line[location_index], ex_freq, line[pathogenicity_index], ip]) + '\n')
+        mat_dat.write("\t".join([input_gene, line[name_index], line[location_index], line[protein_change_index], ex_freq, line[pathogenicity_index], ip, factor]) + '\n')
         snp_count += 1
 
 mat_dat.close()

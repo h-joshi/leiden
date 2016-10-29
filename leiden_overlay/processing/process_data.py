@@ -13,6 +13,7 @@
 import re
 import math
 import sys
+import remapping
 import utilities
 
 # cleans up a given hgvs coordinate to standardise it
@@ -130,6 +131,10 @@ var_type = "?"
 
 var_info = {}
 
+# set up the variant converter
+rem = remapping.VariantRemapper()
+
+
 for line in rows:
     # get out allele frequency information from the extra ExAC data
     extra_data = line[col_names.index("Extra")].split(';')
@@ -141,6 +146,12 @@ for line in rows:
     add_to_concise = True
 
     var_name = line[var_name_ind]
+
+    # get the base change based on genomic coordinate (NOTE: May be different from HGVS!!)
+    genomic = rem.hgvs_to_vcf(var_name)
+    old_base = genomic[2]
+    new_base = genomic[3]
+
     reported_pathogenicity = path_dict[var_name.split(':')[1]]
 
     # deduce allele frequency from options - really straightforward with SNPs,
@@ -150,7 +161,6 @@ for line in rows:
         # get the correct variation and its frequency from the ExAC allele freq data
         tmp_freq_data = freq_data.replace(',', ':')
         res_list = tmp_freq_data.split(':')
-        new_base = var_name[-1]
         formed_base = new_base
         try:
             main_ind = res_list.index(new_base)
