@@ -1,0 +1,5 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+RAB7A	NM_004637.5:c.385C>T	3:128525419	p.(Leu129Phe)	-	Pathogenic	AD	-
+RAB7A	NM_004637.5:c.471G>C	3:128526457	p.(Lys157Asn)	-	Pathogenic	AD	-
+RAB7A	NM_004637.5:c.482A>C	3:128526468	p.(Asn161Thr)	-	Pathogenic	AD	-
+RAB7A	NM_004637.5:c.484G>A	3:128526470	p.(Val162Met)	-	Pathogenic	AD	-

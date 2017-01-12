@@ -1,0 +1,21 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYL3	NM_000258.2:c.69C>T	3:46904812	p.(=)	0.018350000	Mixed reported pathogenicity	none	?
+MYL3	NM_000258.2:c.167A>G	3:46902306	p.(Glu56Gly)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.170C>A	3:46902303	p.(Ala57Asp)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.170C>G	3:46902303	p.(Ala57Gly)	-	Probably pathogenic	none	-
+MYL3	NM_000258.2:c.242G>A	3:46902231	p.(Arg81Gln)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.261C>T	3:46902212	p.(=)	0.000313500	Probably not pathogenic	none	?
+MYL3	NM_000258.2:c.281G>A	3:46902192	p.(Arg94His)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.382G>T	3:46901064	p.(Gly128Cys)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.399C>T	3:46901047	p.(=)	0.000008236	Probably not pathogenic	none	?
+MYL3	NM_000258.2:c.420C>T	3:46901026	p.(=)	0.000041180	No known pathogenicity	none	?
+MYL3	NM_000258.2:c.427G>A	3:46901019	p.(Glu143Lys)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.445A>G	3:46901001	p.(Met149Val)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.454G>A	3:46900992	p.(Glu152Lys)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.461G>A	3:46900985	p.(Arg154His)	0.000024710	Pathogenic	none	?
+MYL3	NM_000258.2:c.463C>G	3:46900983	p.(His155Asp)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.466G>A	3:46900980	p.(Val156Met)	0.000016470	Pathogenic	none	?
+MYL3	NM_000258.2:c.482-2A>G	3:46899953	p.Gly161_Glu186del	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.517A>G	3:46899916	p.(Met173Val)	-	Pathogenic	none	-
+MYL3	NM_000258.2:c.559+6C>T	3:46899868	p.=	0.000197700	Probably not pathogenic	none	?
+MYL3	NM_000258.2:c.*27G>A	3:46899578	p.(=)	-	Unknown	none	-

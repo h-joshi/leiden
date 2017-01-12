@@ -1,0 +1,37 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+SGCE	NM_003919.2:c.-1067T>C	7:94286477	p.(?)	-	No known pathogenicity	AD	-
+SGCE	NM_003919.2:c.-1062T>C	7:94286472	p.(?)	-	No known pathogenicity	AD	-
+SGCE	NM_003919.2:c.54G>A	7:94285357	p.(=)	-	No known pathogenicity	AD	-
+SGCE	NM_003919.2:c.110-20T>C	7:94259173	p.(=)	-	Unknown	AD	-
+SGCE	NM_003919.2:c.146A>G	7:94259117	p.Asn49Ser	-	No known pathogenicity	AD	-
+SGCE	NM_003919.2:c.179A>C	7:94259084	p.(His60Pro)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.179A>G	7:94259084	p.(His60Arg)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.208G>T	7:94259055	p.(Glu70*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.232G>T	7:94259031	p.(?)	-	Unknown	AD	-
+SGCE	NM_003919.2:c.232+1G>A	7:94259030	p.(?)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.232+2T>C	7:94259029	p.Val37_Pro77del	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.233-1G>A	7:94257672	p.(?)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.233-1G>T	7:94257672	p.(?)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.275T>C	7:94257629	p.(Met92Thr)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.289C>T	7:94257615	p.(Arg97*)	0.000008562	Pathogenic	AD	0.04281
+SGCE	NM_003919.2:c.300G>A	7:94257604	p.(Trp100*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.304C>T	7:94257600	p.(Arg102*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.344A>G	7:94257560	p.(Tyr115Cys)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.391-79G>T	7:94252788	p.(=)	-	No known pathogenicity	AD	-
+SGCE	NM_003919.2:c.391-43A>C	7:94252752	p.(?)	0.166900000	Mixed reported pathogenicity	AD	834.5
+SGCE	NM_003919.2:c.391-42A>C	7:94252751	p.(=)	0.000009921	No known pathogenicity	AD	0.049605
+SGCE	NM_003919.2:c.391-3T>C	7:94252712	p.(?)	0.026470000	Mixed reported pathogenicity	AD	132.35
+SGCE	NM_003919.2:c.463+6T>C	7:94252631	p.(?)	-	Unknown	AD	-
+SGCE	NM_003919.2:c.572G>A	7:94248160	p.(Trp191*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.587T>G	7:94248145	p.(Leu196Arg)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.709C>T	7:94232718	p.(Arg237*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.808T>C	7:94232619	p.(Trp270Arg)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.812G>A	7:94232615	p.(Cys271Tyr)	0.000009228	Pathogenic	AD	0.04614
+SGCE	NM_003919.2:c.825+1G>A	7:94232601	p.(?)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.856C>T	7:94230139	p.(Gln286*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.1037+2T>C	7:94229956	p.(?)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.1037+5G>A	7:94229953	p.(?)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.1114C>T	7:94228226	p.(Arg372*)	-	Pathogenic	AD	-
+SGCE	NM_003919.2:c.1253+811A>C	7:94227276	p.(Ser418+14Arg)	0.695400000	No known pathogenicity	AD	3477.0
+SGCE	NM_003919.2:c.1253+812G>A	7:94227275	p.(Ser418+14Asn)	0.000000000	No known pathogenicity	AD	0.0
+SGCE	NM_003919.2:c.1253+814G>A	7:94227273	p.(Asp418+15Asn)	0.021740000	No known pathogenicity	AD	108.7

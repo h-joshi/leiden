@@ -1,1 +1,1 @@
-gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor

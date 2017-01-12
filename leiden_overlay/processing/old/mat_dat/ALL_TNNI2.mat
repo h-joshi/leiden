@@ -1,0 +1,7 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+TNNI2	NM_003282.3:c.15+140C>A	11:1861772	p.(=)	-	No known pathogenicity	AD	-
+TNNI2	NM_003282.3:c.60T>C	11:1861760	p.(=)	-	No known pathogenicity	AD	-
+TNNI2	NM_003282.3:c.186+26G>A	11:1861912	p.(=)	0.185800000	No known pathogenicity	AD	929.0
+TNNI2	NM_003282.3:c.276+30C>T	11:1862168	p.(=)	0.265900000	No known pathogenicity	AD	1329.5
+TNNI2	NM_003282.3:c.466C>T	11:1862698	p.(Arg156*)	-	Pathogenic	AD	-
+TNNI2	NM_003282.3:c.521G>A	11:1862753	p.(Arg174Gln)	-	Pathogenic	AD	-

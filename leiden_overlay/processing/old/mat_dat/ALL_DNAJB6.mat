@@ -1,0 +1,6 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+DNAJB6	NM_058246.3:c.265T>A	7:157160096	p.Phe89Ile	-	Mixed reported pathogenicity	AD	-
+DNAJB6	NM_058246.3:c.277T>C	7:157160108	p.(Phe93Leu)	-	Pathogenic	AD	-
+DNAJB6	NM_058246.3:c.279C>A	7:157160110	p.(Phe93Leu)	-	Pathogenic	AD	-
+DNAJB6	NM_058246.3:c.279C>G	7:157160110	p.Phe93Leu	-	Mixed reported pathogenicity	AD	-
+DNAJB6	NM_058246.3:c.287C>G	7:157160118	p.(Pro96Arg)	-	Pathogenic	AD	-

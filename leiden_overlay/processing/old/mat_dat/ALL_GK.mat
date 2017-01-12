@@ -1,0 +1,28 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+GK	NM_001205019.1:c.165G>A	X:30686141	p.(=)	0.052390000	Mixed reported pathogenicity	XL	523.9
+GK	NM_001205019.1:c.182T>C	X:30686158	p.Leu61Pro	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.259+1G>A	X:30686236	p.Trp52Tyrfs*29	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.259+2254G>A	X:30688489	p.[Ala87Valfs*3, Trp52Tyrfs*24]	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.287C>T	X:30695519	p.(Thr96Ile)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.338-1G>A	X:30709239	p.Trp114Glnfs*7	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.553-1G>C	X:30714158	p.Ser184Phefs*17	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.593A>G	X:30714199	p.(Asp198Gly)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.601A>G	X:30714207	p.(Asn201Asp)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.729+17C>A	X:30714817	p.(=)	0.052110000	No known pathogenicity	XL	521.1
+GK	NM_001205019.1:c.784T>C	X:30718955	p.262CysArg	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.852-1G>A	X:30725672	p.?	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.857G>C	X:30725678	p.(Gly286Ala)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.880A>G	X:30725701	p.(Asn294Asp)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.894+1G>T	X:30725716	p.Tyr845Valfs*30	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.932C>T	X:30726208	p.(Ala311Val)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.946A>T	X:30726222	p.(Arg316*)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1091G>A	X:30737572	p.(Cys364Tyr)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1212A>C	X:30738188	p.Glu404Asp	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1225C>T	X:30738201	p.(Gln409*)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1232G>A	X:30738208	p.(Arg411Gln)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1255C>T	X:30738756	p.(Arg419*)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1301T>C	X:30738802	p.(Met434Thr)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1331A>G	X:30738832	p.(Gln444Arg)	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1337A>T	X:30738838	p.Asp446Val	-	Pathogenic	XL	-
+GK	NM_001205019.1:c.1357+20T>C	X:30738878	-	0.051510000	No known pathogenicity	XL	515.1
+GK	NM_001205019.1:c.1525T>C	X:30742241	p.(Trp509Arg)	-	Mixed reported pathogenicity	XL	-

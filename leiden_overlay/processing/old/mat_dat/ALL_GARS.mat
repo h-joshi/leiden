@@ -1,0 +1,21 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+GARS	NM_002047.2:c.93G>C	7:30634630	p.(=)	0.144900000	No known pathogenicity	AD	724.5
+GARS	NM_002047.2:c.124C>G	7:30634661	p.(Pro42Ala)	0.703000000	No known pathogenicity	AD	3515.0
+GARS	NM_002047.2:c.222+5C>T	7:30634764	p.(=)	0.148300000	No known pathogenicity	AD	741.5
+GARS	NM_002047.2:c.332C>T	7:30639570	p.(Ala111Val)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.374A>G	7:30639612	p.(Glu125Gly)	-	Mixed reported pathogenicity	AD	-
+GARS	NM_002047.2:c.548T>C	7:30640795	p.(Leu183Pro)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.880G>C	7:30649345	p.(Gly294Arg)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.893C>T	7:30651723	p.(Pro298Leu)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.1000A>T	7:30651830	p.(Ile334Phe)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.1032-23A>T	7:30655489	p.(=)	0.109900000	No known pathogenicity	AD	549.5
+GARS	NM_002047.2:c.1359+97A>G	7:30656991	p.(=)	-	No known pathogenicity	AD	-
+GARS	NM_002047.2:c.1415A>G	7:30661064	p.(His472Arg)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.1660G>A	7:30665896	p.(Asp554Asn)	0.000026640	Pathogenic	AD	0.1332
+GARS	NM_002047.2:c.1716G>A	7:30668192	p.(=)	0.000190500	No known pathogenicity	AD	0.9525
+GARS	NM_002047.2:c.1738G>C	7:30668214	p.(Gly580Arg)	-	Mixed reported pathogenicity	AD	-
+GARS	NM_002047.2:c.1904C>T	7:30671863	p.(Ser635Leu)	0.000134100	Pathogenic	AD	0.6705
+GARS	NM_002047.2:c.1955G>C	7:30671914	p.(Gly652Ala)	-	Pathogenic	AD	-
+GARS	NM_002047.2:c.2094+26T>G	7:30672079	p.(=)	-	No known pathogenicity	AD	-
+GARS	NM_002047.2:c.2095-6C>T	7:30673345	p.(=)	0.552500000	No known pathogenicity	AD	2762.5
+GARS	NM_002047.2:c.2212G>A	7:30673468	p.(Glu738Lys)	0.000216000	No known pathogenicity	AD	1.08

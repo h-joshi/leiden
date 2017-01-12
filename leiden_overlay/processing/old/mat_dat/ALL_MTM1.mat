@@ -1,0 +1,179 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MTM1	NM_000252.2:c.-164C>T	X:149736959	p.(=)	-	No known pathogenicity	XL	-
+MTM1	NM_000252.2:c.1A>G	X:149761077	p.0?	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.2T>A	X:149761078	p.0?	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.2T>G	X:149761078	p.0?	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.27T>A	X:149761103	p.(Tyr9*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.27T>G	X:149761103	p.(Tyr9*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.32C>A	X:149761108	p.(Ser11*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.32C>G	X:149761108	p.(Ser11*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.49G>T	X:149761125	p.(Glu17*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.58A>T	X:149761134	p.(Lys20*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.63+1G>A	X:149761140	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.63+2T>C	X:149761141	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.63+2T>G	X:149761141	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.64-50A>T	X:149764912	p.(=)	0.001379000	Mixed reported pathogenicity	XL	13.79
+MTM1	NM_000252.2:c.64-14T>C	X:149764948	p.(=)	0.004953000	No known pathogenicity	XL	49.53
+MTM1	NM_000252.2:c.64-2A>G	X:149764960	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.70C>T	X:149764968	p.(Arg24*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.85C>T	X:149764983	p.(Arg29*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.109C>T	X:149765007	p.(Arg37*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.122A>G	X:149765020	p.(Glu41Gly)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.136+1G>A	X:149765035	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.136+1G>C	X:149765035	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.137-11T>A	X:149767045	p.Asp46Glyfs*7	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.137-7T>G	X:149767049	p.Asp46Glyfs*7	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.137-4A>G	X:149767052	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.137-3T>A	X:149767053	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.137-2A>T	X:149767054	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.142G>T	X:149767061	p.(Glu48*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.145G>T	X:149767064	p.(Val49Phe)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.181G>T	X:149767100	p.(Gly61*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.184A>T	X:149767103	p.(Arg62*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.202T>G	X:149767121	p.(Tyr68Asp)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.205C>A	X:149767124	p.(Arg69Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.205C>T	X:149767124	p.(Arg69Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.206G>C	X:149767125	p.(Arg69Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.208C>T	X:149767127	p.(Leu70Phe)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.231+1G>T	X:149767151	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.232-28C>T	X:149783034	p.(=)	0.019460000	Probably not pathogenic	XL	194.6
+MTM1	NM_000252.2:c.232-3C>A	X:149783059	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.232-2A>C	X:149783060	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.232-1G>A	X:149783061	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.232G>T	X:149783062	p.(Asp78Tyr)	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.260T>C	X:149783090	p.(Leu87Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.321T>A	X:149783151	p.(Tyr107*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.323G>A	X:149783153	p.(Gly108Asp)	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.342+5G>A	X:149783177	p.Ser79_Asp115del	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.343-2A>C	X:149787509	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.417A>G	X:149787585	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.420C>G	X:149787588	p.(Tyr140*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.444G>C	X:149787612	p.Asp115_Leu148del	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.445-33C>T	X:149807383	p.(=)	0.001934000	No known pathogenicity	XL	19.34
+MTM1	NM_000252.2:c.461T>G	X:149807432	p.(Leu154*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.469G>A	X:149807440	p.(Glu157Lys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.469G>T	X:149807440	p.(Glu157*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.526C>T	X:149807497	p.(Gln176*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.528+1G>A	X:149807500	p.(Gly177Valfs*4)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.529-909A>G	X:149808833	p.0	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.529-1G>T	X:149809741	p.[Gly177Asnfs*5, Gly177_Lys190del]	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.535C>T	X:149809748	p.(Pro179Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.540T>G	X:149809753	p.(Asn180Lys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.549G>A	X:149809762	p.(Trp183*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.550A>G	X:149809763	p.(Arg184Gly)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.551G>T	X:149809764	p.(Arg184Ile)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.557C>T	X:149809770	p.(Thr186Ile)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.561T>C	X:149809774	p.(=)	-	No known pathogenicity	XL	-
+MTM1	NM_000252.2:c.566A>G	X:149809779	p.(Asn189Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.575A>G	X:149809788	p.(Tyr192Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.590C>T	X:149809803	p.(Thr197Ile)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.592T>A	X:149809805	p.(Tyr198Asn)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.594C>A	X:149809807	p.(Tyr198*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.595C>A	X:149809808	p.(Pro199Thr)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.595C>T	X:149809808	p.(Pro199Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.596C>T	X:149809809	p.(Pro199Leu)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.605T>C	X:149809818	p.(Leu202Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.614C>T	X:149809827	p.(Pro205Leu)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.637C>T	X:149809850	p.(Leu213Phe)	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.659G>C	X:149809872	p.(Arg220Thr)	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.664C>T	X:149809877	p.(Arg222*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.670C>T	X:149809883	p.(Arg224*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.671G>T	X:149809884	p.(Arg224Leu)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.674T>C	X:149809887	p.(Ile225Thr)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.676C>A	X:149809889	p.(Pro226Thr)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.678+1G>A	X:149809892	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.678+1G>C	X:149809892	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.678+2T>A	X:149809893	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.679-2A>G	X:149814154	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.679-1G>A	X:149814155	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.679G>A	X:149814156	p.(Val227Met)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.683T>C	X:149814160	p.(Leu228Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.684G>C	X:149814161	p.(=)	-	No known pathogenicity	XL	-
+MTM1	NM_000252.2:c.685T>C	X:149814162	p.(Ser229Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.688T>A	X:149814165	p.(Trp230Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.689G>A	X:149814166	p.(Trp230*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.690G>T	X:149814167	p.(Trp230Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.695A>G	X:149814172	p.(His232Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.721C>T	X:149814198	p.(Arg241Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.722G>T	X:149814199	p.(Arg241Leu)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.757C>T	X:149814234	p.(Arg253*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.779A>C	X:149814256	p.(Tyr260Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.780T>A	X:149814257	p.(Tyr260*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.791T>G	X:149814268	p.(Ile264Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.796G>T	X:149814273	p.(Glu266*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.836C>G	X:149814313	p.(Ala279Gly)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.867+1G>A	X:149814345	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.867+1G>C	X:149814345	p.Val227_Lys289del	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.867+1G>T	X:149814345	p.Val227_Lys289del	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.867+2T>A	X:149814346	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.868-13T>A	X:149818176	p.0?	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.899C>T	X:149818220	p.(Ala300Val)	-	Probably not pathogenic	XL	-
+MTM1	NM_000252.2:c.950T>G	X:149818271	p.(Met317Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1037G>C	X:149818358	p.(Trp346Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1038G>T	X:149818359	p.(Trp346Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1053+1G>A	X:149818375	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1054-5G>C	X:149826289	p.(=)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.1054-1G>T	X:149826293	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1067G>A	X:149826307	p.(Gly356Glu)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1091T>G	X:149826331	p.(Val364Gly)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1097C>G	X:149826337	p.(Ser366*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1120C>G	X:149826360	p.(His374Asp)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1127G>A	X:149826367	p.(Ser376Asn)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1132G>A	X:149826372	p.(Gly378Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1133G>A	X:149826373	p.(Gly378Glu)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1137G>A	X:149826377	p.(Trp379*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1160C>A	X:149826400	p.(Ser387Tyr)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1160C>T	X:149826400	p.(Ser387Phe)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1166C>A	X:149826406	p.(Ala389Asp)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1172T>C	X:149826412	p.(Leu391Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1190A>G	X:149826430	p.(Tyr397Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1204G>A	X:149826444	p.(Gly402Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1205G>C	X:149826445	p.(Gly402Ala)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1205G>T	X:149826445	p.(Gly402Val)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1210G>A	X:149826450	p.(Glu404Lys)	0.000000000	Pathogenic	XL	0.0
+MTM1	NM_000252.2:c.1217T>C	X:149826457	p.(Leu406Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1223A>C	X:149826463	p.(Gln408Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1228G>A	X:149826468	p.(Glu410Lys)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.1233G>C	X:149826473	p.(Trp411Cys)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1234A>G	X:149826474	p.Ile412_Ser420del	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1241T>C	X:149826481	p.(Phe414Ser)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1244G>T	X:149826484	p.(Gly415Val)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1247A>G	X:149826487	p.(His416Arg)	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.1254T>C	X:149826494	p.(=)	-	No known pathogenicity	XL	-
+MTM1	NM_000252.2:c.1260+1G>C	X:149826501	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1260+3G>A	X:149826503	p.(=)	0.579700000	Mixed reported pathogenicity	XL	5797.0
+MTM1	NM_000252.2:c.1260+17A>G	X:149826517	p.(=)	0.007850000	No known pathogenicity	XL	78.5
+MTM1	NM_000252.2:c.1261-10A>G	X:149828127	p.Ser420_Arg421insPheIleGln	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1261C>T	X:149828137	p.(Arg421*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1262G>A	X:149828138	p.(Arg421Gln)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1291G>A	X:149828167	p.(Asp431Asn)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1297G>A	X:149828173	p.(Asp433Asn)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1318C>T	X:149828194	p.(Gln440*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1331G>A	X:149828207	p.(Cys444Tyr)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1338G>A	X:149828214	p.(Trp446*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1346C>G	X:149828222	p.(Ser449*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1353G>A	X:149828229	p.(=)	-	No known pathogenicity	XL	-
+MTM1	NM_000252.2:c.1353+1G>A	X:149828230	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1353+1G>C	X:149828230	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1354-1G>A	X:149828843	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1369G>A	X:149828859	p.(Glu457Lys)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.1406A>C	X:149828896	p.(His469Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1406A>G	X:149828896	p.(His469Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1409T>C	X:149828899	p.(Leu470Pro)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1420C>T	X:149828910	p.(Arg474*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1441A>T	X:149828931	p.(Asn481Tyr)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1456C>T	X:149828946	p.(Arg486*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1467+1G>A	X:149828958	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1467+1G>T	X:149828958	p.(?)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1467+5G>A	X:149828962	p.Lys490_Gln548del	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1492T>C	X:149831930	p.(=)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.1493T>A	X:149831931	p.(Leu498*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1495T>C	X:149831933	p.(Trp499Arg)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1549G>T	X:149831987	p.(Glu517*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1558C>T	X:149831996	p.(Arg520*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1569T>A	X:149832007	p.(Tyr523*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1600T>C	X:149832038	p.(Trp534Arg)	-	Probably pathogenic	XL	-
+MTM1	NM_000252.2:c.1611C>G	X:149832049	p.(Tyr537*)	-	Pathogenic	XL	-
+MTM1	NM_000252.2:c.1644+1G>T	X:149832083	p.(?)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.1701C>T	X:149839957	p.(=)	0.000914400	Probably not pathogenic	XL	9.144
+MTM1	NM_000252.2:c.1702A>G	X:149839958	p.(Ile568Val)	0.000034290	Probably not pathogenic	XL	0.3429

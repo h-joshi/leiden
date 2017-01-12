@@ -1,0 +1,12 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+VCP	NM_007126.3:c.283C>G	9:35067907	p.(Arg95Gly)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.376A>T	9:35066741	p.(Ile126Phe)	-	Unknown	AD	-
+VCP	NM_007126.3:c.383G>C	9:35066734	p.(Gly128Ala)	-	Unknown	AD	-
+VCP	NM_007126.3:c.451A>G	9:35065373	p.(Ile151Val)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.463C>T	9:35065361	p.(Arg155Cys)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.464G>A	9:35065360	p.(Arg155His)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.464G>C	9:35065360	p.(Arg155Pro)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.476G>A	9:35065348	p.(Arg159His)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.572G>A	9:35065252	p.(Arg191Gln)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.695C>A	9:35064164	p.(Ala232Glu)	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.1732G>C	9:35059762	p.Glu578Gln	-	Pathogenic	AD	-

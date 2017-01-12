@@ -1,0 +1,12 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+CFL2	NM_138638.4:c.-482G>A	14:35184228	p.=	-	Unknown	AR	-
+CFL2	NM_138638.4:c.-241C>A	14:35183987	p.=	0.268200000	Unknown	AR	26.82
+CFL2	NM_138638.4:c.3+99C>T	14:35183645	p.(=)	-	Unknown	AR	-
+CFL2	NM_138638.4:c.19G>A	14:35182752	p.(Val7Met)	-	Pathogenic	AR	-
+CFL2	NM_138638.4:c.103G>A	14:35182668	p.(Ala35Thr)	-	Mixed reported pathogenicity	AR	-
+CFL2	NM_138638.4:c.353C>A	14:35182301	p.(Ala118Asp)	-	Probably pathogenic	AR	-
+CFL2	NM_138638.4:c.*285A>G	14:35181786	p.(=)	0.256300000	Unknown	AR	25.63
+CFL2	NM_138638.4:c.*806C>T	14:35181265	p.(=)	-	Unknown	AR	-
+CFL2	NM_138638.4:c.*1682A>T	14:35180389	p.(=)	0.413000000	Unknown	AR	41.3
+CFL2	NM_138638.4:c.*1905A>G	14:35180166	p.(=)	0.002137000	Unknown	AR	0.2137
+CFL2	NM_138638.4:c.*2038G>T	14:35180033	p.(=)	0.246900000	Unknown	AR	24.69

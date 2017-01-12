@@ -36,3 +36,7 @@ while read p; do
   sleep 6
 
 done < $loc
+
+# make the matrix
+echo "Generating Leiden matrix..."
+./make_matrix.sh

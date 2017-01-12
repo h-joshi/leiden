@@ -1,0 +1,3 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+PMP22	NM_000304.2:c.215C>T	17:15142892	p.(Ser72Leu)	-	Pathogenic	AR,AD	-
+PMP22	NM_000304.2:c.325T>C	17:15134392	p.(Cys109Arg)	-	Pathogenic	AR,AD	-

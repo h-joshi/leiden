@@ -1,0 +1,6 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYOZ1	NM_021245.3:c.147G>A	10:75397607	p.(=)	0.000733100	Probably not pathogenic	none	?
+MYOZ1	NM_021245.3:c.153T>C	10:75397601	p.(=)	-	Probably not pathogenic	none	-
+MYOZ1	NM_021245.3:c.282G>T	10:75394462	p.(=)	0.001577000	Probably not pathogenic	none	?
+MYOZ1	NM_021245.3:c.516C>T	10:75393810	p.(=)	0.000082910	Probably not pathogenic	none	?
+MYOZ1	NM_021245.3:c.765G>T	10:75391823	p.(=)	0.051410000	Probably not pathogenic	none	?

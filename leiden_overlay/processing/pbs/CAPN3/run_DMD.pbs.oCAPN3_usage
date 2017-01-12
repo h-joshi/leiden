@@ -1,0 +1,10 @@
+Job Id: 1159889.pbsserver for user azre6702 in queue small
+Job Name: run_DMD.pbs
+Project: RDS-SMS-GDT-RW
+Exit Status: 0
+Walltime requested:   00:15:00 :      Walltime used:   00:02:14
+    Cpus requested:          1 :
+          Cpu Time:   00:00:18 :        Cpu percent:         21
+     Mem requested:        4gb :           Mem used:   829680kb
+    VMem requested:       None :          VMem used:   829680kb
+    PMem requested:       None :          PMem used:       None

@@ -1,0 +1,70 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+DES	NM_001927.3:c.5G>T	2:220283189	p.Ser2Ile	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.9G>A	2:220283193	p.(=)	-	No known pathogenicity	AR,AD	-
+DES	NM_001927.3:c.35C>T	2:220283219	p.(Ser12Phe)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.38C>T	2:220283222	p.(Ser13Phe)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.46C>T	2:220283230	p.(Arg16Cys)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.75A>G	2:220283259	p.(=)	0.965200000	No known pathogenicity	AR,AD	96.52, 4826.0
+DES	NM_001927.3:c.93T>C	2:220283277	p.(=)	0.961100000	No known pathogenicity	AR,AD	96.11, 4805.5
+DES	NM_001927.3:c.137C>A	2:220283321	p.Ser46Tyr	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.137C>T	2:220283321	p.(Ser46Phe)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.322G>A	2:220283506	p.(Glu108Lys)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.347A>G	2:220283531	p.Asn116Ser	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.359C>A	2:220283543	p.Ala120Asp	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.408C>T	2:220283592	p.(=)	0.041240000	No known pathogenicity	AR,AD	4.124, 206.2
+DES	NM_001927.3:c.499G>C	2:220283683	p.(Glu167Gln)	-	Probably pathogenic	AR,AD	-
+DES	NM_001927.3:c.579-38C>T	2:220284779	p.(=)	0.616900000	No known pathogenicity	AR,AD	61.69, 3084.5
+DES	NM_001927.3:c.638C>T	2:220284876	p.(Ala213Val)	0.010150000	Mixed reported pathogenicity	AR,AD	1.015, 50.75
+DES	NM_001927.3:c.640-2A>C	2:220284971	p.?	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.640-2A>G	2:220284971	p.?	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.640-2A>T	2:220284971	p.del?	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.640-1G>A	2:220284972	p.Asp214_Glu245del	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.669T>C	2:220285002	p.(=)	0.008570000	No known pathogenicity	AR,AD	0.857, 42.85
+DES	NM_001927.3:c.735G>C	2:220285068	p.(Glu245Asp)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.735G>Y	2:220285068	p.(Glu245Asp)	-	Unknown	AR,AD	-
+DES	NM_001927.3:c.735+1G>A	2:220285069	p.del?	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.735+3A>G	2:220285071	p.Asp214_Glu245del	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.821T>C	2:220285302	p.(Ley274Pro)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.821T>G	2:220285302	p.(Ley274Arg)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.828C>T	2:220285309	p.(=)	0.336300000	No known pathogenicity	AR,AD	33.63, 1681.5
+DES	NM_001927.3:c.854C>T	2:220285335	p.(Ala285Val)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.893C>T	2:220285374	p.(Ser298Leu)	0.000082700	Pathogenic	AR,AD	0.00827, 0.4135
+DES	NM_001927.3:c.934G>A	2:220285586	p.(Asp312Asn)	0.000182200	Mixed reported pathogenicity	AR,AD	0.01822, 0.911
+DES	NM_001927.3:c.977A>G	2:220285629	p.His326Arg	-	Probably not pathogenic	AR,AD	-
+DES	NM_001927.3:c.1009G>C	2:220285661	p.Ala337Pro	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1013T>G	2:220285665	p.(Leu338Arg)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1014G>C	2:220285666	p.=	0.341400000	No known pathogenicity	AR,AD	34.14, 1707.0
+DES	NM_001927.3:c.1024A>G	2:220286062	p.Asn342Asp	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1034T>C	2:220286072	p.(Leu345Pro)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1048C>T	2:220286086	p.(Arg350Trp)	0.000016510	Pathogenic	AR,AD	0.001651, 0.08255
+DES	NM_001927.3:c.1049G>C	2:220286087	p.(Arg350Pro)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1064G>C	2:220286102	p.(Arg355Pro)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1069G>C	2:220286107	p.(Ala357Pro)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1078G>C	2:220286116	p.Ala360Pro	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1099A>T	2:220286137	p.(Ile367Phe)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1104G>A	2:220286142	p.(=)	0.336200000	No known pathogenicity	AR,AD	33.62, 1681.0
+DES	NM_001927.3:c.1109T>C	2:220286147	p.(Leu370Pro)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1130T>C	2:220286168	p.(Leu377Pro)	-	Unknown	AR,AD	-
+DES	NM_001927.3:c.1154T>C	2:220286192	p.Leu385Pro	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1166A>C	2:220286204	p.(Gln389Pro)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1175T>C	2:220286213	p.(Leu392Pro)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1178A>T	2:220286216	p.Asn393Ile	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1195G>T	2:220286233	p.(Asp399Tyr)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1201G>A	2:220286239	p.(Glu401Lys)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1216C>T	2:220286254	p.(Arg406Trp)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1222C>T	2:220286260	p.(=)	-	No known pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1237G>A	2:220286275	p.(Glu413Lys)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1255C>T	2:220288509	p.(Pro419Ser)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1289-2A>G	2:220290383	p.?	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1325C>T	2:220290421	p.(Thr442Ile)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1333A>G	2:220290429	p.(Thr445Ala)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1346A>C	2:220290442	p.Lys449Thr	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1346A>T	2:220290442	p.(Lys449Met)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1353C>G	2:220290449	p.(Ile451Met)	0.000124000	Mixed reported pathogenicity	AR,AD	0.0124, 0.62
+DES	NM_001927.3:c.1358C>T	2:220290454	p.(Thr453Ile)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1360C>T	2:220290456	p.(Arg454Trp)	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.1370A>T	2:220290466	p.(Glu457Val)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1375G>A	2:220290674	p.(Val459Ile)	0.003033000	Mixed reported pathogenicity	AR,AD	0.3033, 15.165
+DES	NM_001927.3:c.1379G>T	2:220290678	p.(Ser460Ile)	-	Pathogenic	AR,AD	-
+DES	NM_001927.3:c.1388C>T	2:220290687	p.(Thr463Ile)	-	Probably pathogenic	AR,AD	-
+DES	NM_001927.3:c.1405G>A	2:220290704	p.Val469Met	-	Mixed reported pathogenicity	AR,AD	-

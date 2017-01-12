@@ -1,0 +1,29 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+TCAP	NM_003673.3:c.-178G>T	17:37821435	p.(=)	-	No known pathogenicity	AR,AD	-
+TCAP	NM_003673.3:c.32C>A	17:37821644	p.(Ser11*)	-	Probably pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.53G>A	17:37821665	p.(Arg18Gln)	0.000041410	Probably pathogenic	AR,AD	0.004141, 0.20705
+TCAP	NM_003673.3:c.75G>A	17:37821687	p.(Trp25*)	0.000016570	Pathogenic	AR,AD	0.001657, 0.08285
+TCAP	NM_003673.3:c.110+48C>T	17:37821770	p.(=)	0.040780000	No known pathogenicity	AR,AD	4.078, 203.9
+TCAP	NM_003673.3:c.145G>A	17:37822003	p.(Glu49Lys)	0.000104300	Probably pathogenic	AR,AD	0.01043, 0.5215
+TCAP	NM_003673.3:c.156C>T	17:37822014	p.(=)	-	No known pathogenicity	AR,AD	-
+TCAP	NM_003673.3:c.157C>T	17:37822015	p.(Gln53*)	-	Pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.171C>G	17:37822029	p.(Cys57Trp)	0.000031230	Unknown	AR,AD	0.003123, 0.15615
+TCAP	NM_003673.3:c.191C>T	17:37822049	p.(Ser64Leu)	0.001114000	No known pathogenicity	AR,AD	0.1114, 5.57
+TCAP	NM_003673.3:c.208C>G	17:37822066	p.(Arg70Trp)	-	Pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.225C>A	17:37822083	p.(=)	-	No known pathogenicity	AR,AD	-
+TCAP	NM_003673.3:c.226C>T	17:37822084	p.(Arg76Cys)	0.000051690	Pathogenic	AR,AD	0.005169, 0.25845
+TCAP	NM_003673.3:c.255C>A	17:37822113	p.(Tyr85*)	-	Pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.258G>A	17:37822116	p.(=)	-	Unknown	AR,AD	-
+TCAP	NM_003673.3:c.260G>A	17:37822118	p.(Arg87Gln)	-	Unknown	AR,AD	-
+TCAP	NM_003673.3:c.269C>T	17:37822127	p.(Pro90Leu)	-	Pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.316C>T	17:37822174	p.(Arg106Cys)	0.019580000	Mixed reported pathogenicity	AR,AD	1.958, 97.9
+TCAP	NM_003673.3:c.394G>C	17:37822252	p.(Glu132Gln)	-	Pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.410C>T	17:37822268	p.(Thr137Ile)	-	Pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.421C>G	17:37822279	p.(Pro141Ala)	0.000033390	Probably not pathogenic	AR,AD	0.003339, 0.16695
+TCAP	NM_003673.3:c.447C>T	17:37822305	p.(=)	0.000050060	No known pathogenicity	AR,AD	0.005006, 0.2503
+TCAP	NM_003673.3:c.453A>C	17:37822311	p.(=)	0.670600000	No known pathogenicity	AR,AD	67.06, 3353.0
+TCAP	NM_003673.3:c.458G>A	17:37822316	p.(Arg153His)	0.000167700	Pathogenic	AR,AD	0.01677, 0.8385
+TCAP	NM_003673.3:c.*76G>T	17:37822438	p.(=)	-	Probably not pathogenic	AR,AD	-
+TCAP	NM_003673.3:c.*199G>T	17:37822561	p.(=)	-	No known pathogenicity	AR,AD	-
+TCAP	NM_003673.3:c.*377G>C	17:37822739	p.(=)	-	No known pathogenicity	AR,AD	-
+TCAP	NM_003673.3:c.*395C>T	17:37822757	p.(=)	-	No known pathogenicity	AR,AD	-

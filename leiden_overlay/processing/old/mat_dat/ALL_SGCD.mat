@@ -1,0 +1,35 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+SGCD	NM_000337.5:c.-412A>T	5:155753874	p.(=)	-	Unknown	none	-
+SGCD	NM_000337.5:c.-94C>G	5:155754192	p.(=)	-	Mixed reported pathogenicity	none	-
+SGCD	NM_000337.5:c.-43-45C>A	5:155756499	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.-43-44A>C	5:155756500	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.-14G>T	5:155756573	p.(=)	-	Pathogenic	none	-
+SGCD	NM_000337.5:c.3+19C>G	5:155756608	p.(=)	0.000008289	Unknown	none	?
+SGCD	NM_000337.5:c.4-41G>T	5:155771458	p.(=)	0.008617000	Unknown	none	?
+SGCD	NM_000337.5:c.84T>C	5:155771579	p.(=)	0.466000000	Mixed reported pathogenicity	none	?
+SGCD	NM_000337.5:c.89G>A	5:155771584	p.Trp30*	-	Pathogenic	none	-
+SGCD	NM_000337.5:c.192+39267T>C	5:155810954	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.192+76044A>G	5:155847731	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.193-14304A>T	5:155921307	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.193-13512C>T	5:155922099	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.193-13439G>T	5:155922172	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.212G>C	5:155935630	p.(Arg71Thr)	0.000026120	Pathogenic	none	?
+SGCD	NM_000337.5:c.226G>T	5:155935644	p.(Gly76Cys)	0.000008541	Pathogenic	none	?
+SGCD	NM_000337.5:c.277G>T	5:155935695	p.(Glu93*)	-	Pathogenic	none	-
+SGCD	NM_000337.5:c.290G>A	5:155935708	p.(Arg97Gln)	0.045090000	No known pathogenicity	none	?
+SGCD	NM_000337.5:c.295-498A>G	5:156015743	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.295-40T>A	5:156016201	p.(=)	0.013590000	Unknown	none	?
+SGCD	NM_000337.5:c.295-38T>A	5:156016203	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.309C>T	5:156016255	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.382+2036A>G	5:156018364	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.383-171A>G	5:156021771	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.383-21C>G	5:156021921	p.(=)	0.000000000	No known pathogenicity	none	?
+SGCD	NM_000337.5:c.391G>C	5:156021950	p.(Ala131Pro)	-	Pathogenic	none	-
+SGCD	NM_000337.5:c.451T>G	5:156022010	p.(Ser151Ala)	0.000259500	Mixed reported pathogenicity	none	?
+SGCD	NM_000337.5:c.493C>T	5:156022052	p.Arg165*	-	Mixed reported pathogenicity	none	-
+SGCD	NM_000337.5:c.575+167A>C	5:156074713	p.(=)	-	Probably not pathogenic	none	-
+SGCD	NM_000337.5:c.575+54942C>T	5:156129488	p.(=)	-	No known pathogenicity	none	-
+SGCD	NM_000337.5:c.593G>C	5:156184609	p.Arg198Pro	-	Pathogenic	none	-
+SGCD	NM_000337.5:c.631A>T	5:156184647	p.(Asn211Tyr)	-	Unknown	none	-
+SGCD	NM_000337.5:c.700-19T>C	5:156186209	p.(=)	0.005875000	Unknown	none	?
+SGCD	NM_000337.5:c.784G>A	5:156186312	p.(Glu262Lys)	-	Pathogenic	none	-

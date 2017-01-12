@@ -1,0 +1,61 @@
+gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+DMD_d	NM_004006.2:c.-13496_31+1783del	X:33227616-33242925	del	p.0?	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.-1443_31+4726delinsTTTTTAAAATTA	X:33224673-33230872	delins	p.0?	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.32-10601_93+2319del	X:33035937-33048918	del	p.[Met1_Val123del, Met1_Ile127del]	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.357+628_649+15291delinsATG	X:32812319-32840784	delins	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.358-1330_649+38946del	X:32788664-32836087	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.649+15289_3277-39del	X:32481750-32812321	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.649+21364_2623-1945del	X:32505161-32806246	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.649+26342_1993-3367del	X:32566818-32801268	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.650-35387_1332-8041delinsGGCA	X:32640611-32752797	delins	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.650-8720_961-10680delinsAA	X:32673949-32726129	delins	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.650-2751_1812+394del	X:32591253-32720161	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.1483-196_6290+13272del	X:32292372-32614187	del	p.(fs*?)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6438+61447_6438+61545del	X:32173488-32173586	del	p.(=)	-	Unknown	-	-
+DMD_d	NM_004006.2:c.6438+42430_6912+1938del	X:31945775-32192603	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6438+66008_6439-10983del	X:31997614-32169025	del	-	-	Unknown	-	-
+DMD_d	NM_004006.2:c.6438+79733_6913-15338del	X:31908828-32155300	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6438+106397_6912+1296del	X:31946417-32128636	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6438+110849_6912+22729del	X:31924984-32124184	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6438+114317_6913-16580del	X:31910070-32120716	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6438+120826_7099-2485del	X:31857421-32114207	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-106504_6913-10498del	X:31903988-32093135	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-73691_7099-17854delinsGCAC	X:31872790-32060322	delins	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-65488_6913-9120delinsT	X:31902610-32052119	delins	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-65161_7099-14638del	X:31869574-32051792	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-59229_7099-14411delinsGTTGA	X:31869347-32045860	delins	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-51754_6913-1366del	X:31894856-32038385	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6439-47294_6913-2289del	X:31895779-32033925	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-38163_6912+4117delinsCCTATTTCCAAA	X:31943596-32024794	delins	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-27542_7099-941delinsCA	X:31855877-32014173	delins	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-26753_7310-63delinsCAAAT	X:31792372-32013384	delins	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6439-26031_7099-5216delinsTCAGTTC	X:31860152-32012662	delins	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-20966_6912+10755del	X:31936958-32007597	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-12611_7098+17524del	X:31837413-31999242	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6439-1155_7099-4947del	X:31859883-31987786	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.6614+14125_6763-810del	X:31948672-31972331	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6762+425_7099-11606del	X:31866541-31949771	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+4228_7201-3042del	X:31841242-31943485	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+5682_7201-5740delinsCAGT	X:31843940-31942031	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+7362_7201-975delins18	X:31839175-31940351	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+18156_7200+4736delinsTTCT	X:31850099-31929557	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+19160_7201-1542del	X:31839742-31928553	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+25452_7098+10913delinsA	X:31844025-31922261	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6912+25607_7201-2830del	X:31841030-31922106	del	p.(del?)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-20333_7201-4433del	X:31842633-31913823	del	p.(del?)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-16304_7543-9903delinsT	X:31757768-31909794	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-16065_7098+15476del	X:31839460-31909554	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-15315_7099-8770del	X:31863706-31908805	del	p.(del?)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-14601_7201-5987del	X:31844187-31908091	del	p.?	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-12708_7200+4640del	X:31850195-31906198	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-8528_7099-1945delinsAGTGAGG	X:31856881-31902018	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-8478_7099-7731delins13	X:31862667-31901968	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-7550_7201-5291del	X:31843491-31901040	del	p.(del?)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-6024_7099-16008del	X:31870944-31899514	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-3947_7098+3412del	X:31851525-31897437	del	p.(del?)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-1654_7098+154delins27	X:31854783-31895144	delins	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.6913-1072_7099-16450del	X:31871386-31894562	del	p.(del)	-	No known pathogenicity	-	-
+DMD_d	NM_004006.2:c.7098+6307_7542+16881del	X:31775196-31848630	del	p.(del)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.7200+2037_7660+17389del	X:31730359-31852798	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.7309+19467_7543-4971del	X:31752836-31818625	del	p.(fs*)	-	Pathogenic	-	-
+DMD_d	NM_004006.2:c.9085_9163del	X:31366671-31366749	del	p.Val3029Argfs*34	-	Pathogenic	-	-

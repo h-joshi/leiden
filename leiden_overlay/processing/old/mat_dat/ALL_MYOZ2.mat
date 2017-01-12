@@ -1,0 +1,7 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYOZ2	NM_016599.4:c.-87A>G	4:120057065	p.(=)	-	Mixed reported pathogenicity	AD	-
+MYOZ2	NM_016599.4:c.142T>C	4:120072092	p.(Ser48Pro)	-	Pathogenic	AD	-
+MYOZ2	NM_016599.4:c.237A>G	4:120072187	p.(=)	0.009918000	Mixed reported pathogenicity	AD	49.59
+MYOZ2	NM_016599.4:c.247-18A>G	4:120079159	p.(=)	0.649400000	Mixed reported pathogenicity	AD	3247.0
+MYOZ2	NM_016599.4:c.459A>G	4:120085448	p.(=)	0.044340000	Mixed reported pathogenicity	AD	221.7
+MYOZ2	NM_016599.4:c.738A>G	4:120107298	p.(Ile246Met)	0.001897000	Probably pathogenic	AD	9.485

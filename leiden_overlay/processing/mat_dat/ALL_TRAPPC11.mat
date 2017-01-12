@@ -1,3 +1,0 @@
-gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
-TRAPPC11	NM_021942.5:c.2799G>C	4:184618936	p.(Gln933His)	0.137100000	Probably pathogenic	AR	13.71
-TRAPPC11	NM_021942.5:c.2938G>A	4:184622936	p.(Gly980Arg)	0.000041220	Probably pathogenic	AR	0.004122

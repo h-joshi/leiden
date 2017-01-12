@@ -1,0 +1,32 @@
+gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+LAMP2	NM_002294.2:c.14delG	X:119603011	del	p.(Arg5Profs*15)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.36_42del	X:119602983-119602989	del	p.(Gly13Phefs*5)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.64+1G>T	X:119602960	snp	p.?	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.65-2A>G	X:119590626	snp	p.?	-	Mixed reported pathogenicity	XL	-
+LAMP2	NM_002294.2:c.103_104del	X:119590585-119590586	del	p.(Asp35Phefs*20)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.138G>A	X:119590551	snp	p.(Trp46*)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.156A>T	X:119590533	snp	p.(=)	0.428000000	Mixed reported pathogenicity	XL	4280.0
+LAMP2	NM_002294.2:c.299C>T	X:119589310	snp	p.(Ala100Val)	0.000034190	Unknown	XL	0.3419
+LAMP2	NM_002294.2:c.327T>A	X:119589282	snp	p.(Tyr109*)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.440T>A	X:119582941	snp	p.(Leu147*)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.470C>G	X:119582911	snp	p.(Ser157*)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.519A>G	X:119582862	snp	p.(=)	-	Unknown	XL	-
+LAMP2	NM_002294.2:c.520C>T	X:119582861	snp	p.(Gln174*)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.573delA	X:119581864	del	p.(Asp192Thrfs*50)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.579_586del	X:119581851-119581858	del	p.(Lys193Asnfs*31)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.586A>T	X:119581851	snp	p.(Thr196Ser)	0.000239300	Unknown	XL	2.393
+LAMP2	NM_002294.2:c.716delT	X:119581721	del	p.(Leu239Argfs*3)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.741+1G>A	X:119581695	snp	p.?	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.742-4_747del	X:119580277-119580286	del	p.?	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.864+1_864+4del	X:119580154-119580157	del	p.?	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.864+5G>C	X:119580155	snp	p.?	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.865-2A>G	X:119576519	snp	p.?	-	Probably pathogenic	XL	-
+LAMP2	NM_002294.2:c.877_900del	X:119576482-119576505	del	p.(Arg293_Asn300del)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.927C>T	X:119576455	snp	p.(=)	0.027460000	Mixed reported pathogenicity	XL	274.6
+LAMP2	NM_002294.2:c.928G>A	X:119576454	snp	p.(Val310Ile)	-	Mixed reported pathogenicity	XL	-
+LAMP2	NM_002294.2:c.929-1G>A	X:119575750	snp	p.?	-	Probably pathogenic	XL	-
+LAMP2	NM_002294.2:c.961T>C	X:119575717	snp	p.(Trp321Arg)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.974delinsAA	X:119575704	delins	p.(Leu325Glnfs*25)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.1093+1G>C	X:119575584	snp	p.?	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.1097_1098del	X:119565313-119565314	del	p.(Gln366Argfs*6)	-	Pathogenic	XL	-
+LAMP2	NM_002294.2:c.*2746A>G	X:119562432	snp	p.(=)	0.015450000	Unknown	XL	154.5

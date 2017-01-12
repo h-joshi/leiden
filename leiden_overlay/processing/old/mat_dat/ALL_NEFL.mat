@@ -1,0 +1,4 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+NEFL	NM_006158.3:c.64C>A	8:24813966	p.(Pro22Thr)	-	Pathogenic	AR,AD	-
+NEFL	NM_006158.3:c.1150A>T	8:24811714	p.(Ile384Phe)	-	Probably pathogenic	AR,AD	-
+NEFL	NM_006158.3:c.1186G>A	8:24811293	p.(Glu396Lys)	-	Pathogenic	AR,AD	-

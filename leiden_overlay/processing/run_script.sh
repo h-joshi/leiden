@@ -51,7 +51,7 @@ python group_data.py $1
 # move results into the results folder
 echo "Finalising results folder..."
 mkdir -p ./../results/$1
-cp ./../dat/$1_final_output.txt ./../results/$1/$1_raw_output.txt
+cp ./../dat/$1_full_output.txt ./../results/$1/$1_raw_output.txt
 cp ./../dat/$1_sorted.txt ./../results/$1/$1_concise_sorted.txt
 cp ./../dat/$1_grouped.txt ./../results/$1/
 uniq ./../results/$1/$1_raw_output.txt > ./../results/$1/$1_full_output.txt
@@ -61,7 +61,7 @@ uniq ./../results/$1/$1_raw_output.txt > ./../results/$1/$1_full_output.txt
 
 # create the bar chart
 echo "Creating image..."
-python make_chart.py $1
+#python make_chart.py $1
 
 # done!
 echo "Processing complete for $1."

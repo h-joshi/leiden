@@ -1,0 +1,17 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+FHL1	NM_001159702.2:c.302G>T	X:135289320	p.(Cys101Phe)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.310T>C	X:135289328	p.(Cys104Arg)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.365G>C	X:135289984	p.(Trp122Ser)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.367C>T	X:135289986	p.(His123Tyr)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.395G>T	X:135290014	p.(Cys132Phe)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.441C>T	X:135290060	p.(=)	0.001609000	Probably not pathogenic	XL	16.09
+FHL1	NM_001159702.2:c.449G>A	X:135290068	p.(Cys150Tyr)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.457T>C	X:135290076	p.(Cys153Arg)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.458G>A	X:135290077	p.(Cys153Tyr)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.461A>C	X:135290080	p.(His154Pro)	-	Probably pathogenic	XL	-
+FHL1	NM_001159702.2:c.502-2A>T	X:135290612	p.Ala168_Pro296del	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.625T>C	X:135290737	p.(Cys209Arg)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.672C>G	X:135290784	p.(Cys224Trp)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.*51G>A	X:135292164	p.(Asp230+48Asn)	0.011280000	Unknown	XL	112.8
+FHL1	NM_001159702.2:c.*55G>A	X:135292168	p.(Cys230+48Tyr)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.*69T>G	X:135292182	p.(*230+50Gluext*53)	-	Pathogenic	XL	-

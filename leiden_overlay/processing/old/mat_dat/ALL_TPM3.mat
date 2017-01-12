@@ -1,0 +1,30 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+TPM3	NM_152263.2:c.7G>C	1:154164488	p.(Glu3Gln)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.11C>T	1:154164484	p.(Ala4Val)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.26T>G	1:154164469	p.(Met9Arg)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.43G>C	1:154164452	p.(Asp15His)	-	Unknown	AR,AD	-
+TPM3	NM_152263.2:c.92A>C	1:154164403	p.(Lys31Thr)	0.001490000	No known pathogenicity	AR,AD	0.149, 7.45
+TPM3	NM_152263.2:c.94C>T	1:154164401	p.(Gln32*)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.238G>C	1:154163667	p.(Ala80Pro)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.244-5T>C	1:154148729	p.(=)	-	No known pathogenicity	AR,AD	-
+TPM3	NM_152263.2:c.249G>A	1:154148719	p.(=)	0.000272100	No known pathogenicity	AR,AD	0.02721, 1.3605
+TPM3	NM_152263.2:c.263C>T	1:154148705	p.(Ser88Phe)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.271C>T	1:154148697	p.(Arg91Cys)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.272G>C	1:154148696	p.(Arg91Pro)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.298C>A	1:154148670	p.(Leu100Met)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.298C>G	1:154148670	p.(Leu100Val)	-	Unknown	AR,AD	-
+TPM3	NM_152263.2:c.327T>G	1:154148641	p.(=)	0.000164800	No known pathogenicity	AR,AD	0.01648, 0.824
+TPM3	NM_152263.2:c.452A>C	1:154145603	p.(Glu151Ala)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.466G>A	1:154145589	p.(Ala156Thr)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.502C>G	1:154145448	p.(Arg168Gly)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.502C>T	1:154145448	p.(Arg168Cys)	-	Mixed reported pathogenicity	AR,AD	-
+TPM3	NM_152263.2:c.503G>A	1:154145447	p.(Arg168His)	-	Mixed reported pathogenicity	AR,AD	-
+TPM3	NM_152263.2:c.505A>G	1:154145445	p.(Lys169Glu)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.521A>C	1:154145429	p.(Glu174Ala)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.642+4G>T	1:154143885	p.(?)	-	Unknown	AR,AD	-
+TPM3	NM_152263.2:c.721G>A	1:154142930	p.(Glu241Lys)	-	Probably pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.733A>G	1:154142918	p.(Arg245Gly)	-	Pathogenic	AR,AD	-
+TPM3	NM_152263.2:c.758C>A	1:154142893	p.(Thr253Lys)	-	Unknown	AR,AD	-
+TPM3	NM_152263.2:c.776-49T>C	1:154141908	p.(=)	0.607700000	No known pathogenicity	AR,AD	60.77, 3038.5
+TPM3	NM_152263.2:c.855-1G>A	1:154140417	p.=	0.000008306	Pathogenic	AR,AD	0.0008306, 0.04153
+TPM3	NM_152263.2:c.857A>C	1:154140414	p.(*286Serext*57)	0.000008306	Mixed reported pathogenicity	AR,AD	0.0008306, 0.04153

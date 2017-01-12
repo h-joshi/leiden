@@ -1,0 +1,64 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+CAV3	NM_033337.2:c.-122C>T	3:8775441	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.-106G>A	3:8775457	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.-37G>A	3:8775526	p.(=)	0.002763000	Unknown	AR,AD	0.2763, 13.815
+CAV3	NM_033337.2:c.-1G>A	3:8775562	p.(?)	0.000746200	Unknown	AR,AD	0.07462, 3.731
+CAV3	NM_033337.2:c.27C>T	3:8775589	p.(=)	0.087290000	No known pathogenicity	AR,AD	8.729, 436.45
+CAV3	NM_033337.2:c.40G>C	3:8775602	p.(Val14Leu)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.79C>G	3:8775641	p.(Arg27Gly)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.80G>A	3:8775642	p.(Arg27Gln)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.80G>C	3:8775642	p.(Arg27Pro)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.84C>A	3:8775646	p.(Asp28Glu)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.85C>A	3:8775647	p.(Pro29Thr)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.86C>T	3:8775648	p.(Pro29Leu)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.99C>G	3:8775661	p.(Asn33Lys)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.99C>T	3:8775661	p.(=)	0.301000000	No known pathogenicity	AR,AD	30.1, 1505.0
+CAV3	NM_033337.2:c.100G>A	3:8775662	p.Glu34Lys	0.000008459	Pathogenic	AR,AD	0.0008459, 0.042295
+CAV3	NM_033337.2:c.114+2T>C	3:8775678	p.[Val39Alafs*20, Val25_Lys38del, =]	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.114+26G>A	3:8775702	p.(=)	0.057180000	Mixed reported pathogenicity	AR,AD	5.718, 285.9
+CAV3	NM_033337.2:c.114+99T>C	3:8775775	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.115-89G>T	3:8787123	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.115-23G>C	3:8787189	p.(=)	0.074200000	No known pathogenicity	AR,AD	7.42, 371.0
+CAV3	NM_033337.2:c.158G>A	3:8787255	p.(Ser53Asn)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.123T>C	3:8787220	p.(=)	0.188600000	No known pathogenicity	AR,AD	18.86, 943.0
+CAV3	NM_033337.2:c.131T>A	3:8787228	p.(Val44Glu)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.136G>A	3:8787233	p.(Ala46Thr)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.136G>T	3:8787233	p.(Ala46Ser)	-	Probably pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.137C>A	3:8787234	p.(Ala46Glu)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.137C>T	3:8787234	p.(Ala46Val)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.139G>A	3:8787236	p.(Glu47Lys)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.140A>C	3:8787237	p.(Glu47Ala)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.141G>T	3:8787238	p.(Glu47Asp)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.157A>G	3:8787254	p.(Ser53Gly)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.166G>A	3:8787263	p.Gly56Ser	0.010730000	Mixed reported pathogenicity	AR,AD	1.073, 53.65
+CAV3	NM_033337.2:c.168C>A	3:8787265	p.(=)	-	No known pathogenicity	AR,AD	-
+CAV3	NM_033337.2:c.169G>A	3:8787266	p.(Val57Met)	0.000016530	Mixed reported pathogenicity	AR,AD	0.001653, 0.08265
+CAV3	NM_033337.2:c.170T>G	3:8787267	p.(Val57Gly)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.171G>A	3:8787268	p.(=)	0.005049000	Mixed reported pathogenicity	AR,AD	0.5049, 25.245
+CAV3	NM_033337.2:c.172T>C	3:8787269	p.(Trp58Arg)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.183C>A	3:8787280	p.(Ser61Arg)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.190A>C	3:8787287	p.(Thr64Pro)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.191C>G	3:8787288	p.(Thr64Ser)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.204C>A	3:8787301	p.(=)	0.000090920	No known pathogenicity	AR,AD	0.009092, 0.4546
+CAV3	NM_033337.2:c.212G>A	3:8787309	p.(Trp71*)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.216C>G	3:8787313	p.Cys72Trp	0.001125000	Mixed reported pathogenicity	AR,AD	0.1125, 5.625
+CAV3	NM_033337.2:c.218A>G	3:8787315	p.(Tyr73Cys)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.233C>A	3:8787330	p.(Thr78Lys)	0.000008278	Pathogenic	AR,AD	0.0008278, 0.04139
+CAV3	NM_033337.2:c.233C>T	3:8787330	p.(Thr78Met)	0.003038000	Mixed reported pathogenicity	AR,AD	0.3038, 15.19
+CAV3	NM_033337.2:c.236T>G	3:8787333	p.(Leu79Arg)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.253G>A	3:8787350	p.(Ala85Thr)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.260T>C	3:8787357	p.(Leu87Pro)	0.000008268	Mixed reported pathogenicity	AR,AD	0.0008268, 0.04134
+CAV3	NM_033337.2:c.277G>A	3:8787374	p.(Ala93Thr)	0.000140500	Mixed reported pathogenicity	AR,AD	0.01405, 0.7025
+CAV3	NM_033337.2:c.290T>G	3:8787387	p.(Phe97Cys)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.298A>T	3:8787395	p.(Ile100Phe)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.301T>C	3:8787398	p.(Trp101Arg)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.314C>T	3:8787411	p.Pro105Leu	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.377G>A	3:8787474	p.(Arg126His)	-	No known pathogenicity	AR,AD	-
+CAV3	NM_033337.2:c.423C>G	3:8787520	p.(Ser141Arg)	-	Pathogenic	AR,AD	-
+CAV3	NM_033337.2:c.*543T>C	3:8788096	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.*645A>T	3:8788198	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.*740C>G	3:8788293	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.*783A>G	3:8788336	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.*811C>G	3:8788364	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.*932T>A	3:8788485	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.*937C>A	3:8788490	p.(=)	-	Unknown	AR,AD	-

@@ -1,0 +1,21 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+MYOT	NM_006790.2:c.-251A>G	5:137203603	p.(=)	-	No known pathogenicity	AD	-
+MYOT	NM_006790.2:c.-124T>G	5:137206217	p.(=)	-	No known pathogenicity	AD	-
+MYOT	NM_006790.2:c.106A>G	5:137206446	p.(Lys36Glu)	0.000008238	Pathogenic	AD	0.04119
+MYOT	NM_006790.2:c.116C>T	5:137206456	p.(Ser39Phe)	-	Pathogenic	AD	-
+MYOT	NM_006790.2:c.149A>G	5:137206489	p.(Gln50Arg)	0.007718000	No known pathogenicity	AD	38.59
+MYOT	NM_006790.2:c.164C>T	5:137206504	p.(Ser55Phe)	-	Mixed reported pathogenicity	AD	-
+MYOT	NM_006790.2:c.170C>T	5:137206510	p.Thr57Ile	-	Pathogenic	AD	-
+MYOT	NM_006790.2:c.179C>G	5:137206519	p.(Ser60Cys)	-	Pathogenic	AD	-
+MYOT	NM_006790.2:c.179C>T	5:137206519	p.(Ser60Phe)	0.000041180	Mixed reported pathogenicity	AD	0.2059
+MYOT	NM_006790.2:c.284G>T	5:137206624	p.(Ser95Ile)	-	Pathogenic	AD	-
+MYOT	NM_006790.2:c.323A>C	5:137206663	p.(Asn108Thr)	0.000242100	Unknown	AD	1.2105
+MYOT	NM_006790.2:c.343G>A	5:137206683	p.(Ala115Thr)	0.000882400	No known pathogenicity	AD	4.412
+MYOT	NM_006790.2:c.445G>C	5:137211606	p.(Glu149Gln)	0.001838000	Unknown	AD	9.19
+MYOT	NM_006790.2:c.482T>G	5:137211643	p.(Leu161Trp)	-	No known pathogenicity	AD	-
+MYOT	NM_006790.2:c.617G>A	5:137213294	p.(Gly206Asp)	0.000734200	Unknown	AD	3.671
+MYOT	NM_006790.2:c.1008G>T	5:137219264	p.(=)	0.003938000	Unknown	AD	19.69
+MYOT	NM_006790.2:c.1214G>A	5:137222576	p.(Arg405Lys)	-	Pathogenic	AD	-
+MYOT	NM_006790.2:c.1325-47T>C	5:137222855	p.(=)	0.000107600	No known pathogenicity	AD	0.538
+MYOT	NM_006790.2:c.1413G>T	5:137222990	p.(Leu471Phe)	0.000024730	Unknown	AD	0.12365
+MYOT	NM_006790.2:c.*98G>A	5:137223172	p.(=)	-	No known pathogenicity	AD	-

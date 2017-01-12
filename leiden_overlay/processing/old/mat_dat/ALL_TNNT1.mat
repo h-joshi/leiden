@@ -1,0 +1,12 @@
+gene	variant	genomic_coord	protein_change	exac_freq	type	inher_pat	occurrence_factor
+TNNT1	NM_003283.4:c.-20A>G	19:55660537	p.(=)	0.831500000	Unknown	AR	83.15
+TNNT1	NM_003283.4:c.-12+30T>C	19:55660499	p.(=)	0.205700000	Unknown	AR	20.57
+TNNT1	NM_003283.4:c.35A>G	19:55658387	p.(Glu12Gly)	0.081470000	Mixed reported pathogenicity	AR	8.147
+TNNT1	NM_003283.4:c.47-13C>T	19:55658088	p.(=)	0.234600000	Mixed reported pathogenicity	AR	23.46
+TNNT1	NM_003283.4:c.107-108G>T	19:55657041	p.(=)	-	Unknown	AR	-
+TNNT1	NM_003283.4:c.193-88T>C	19:55652758	p.(=)	-	Unknown	AR	-
+TNNT1	NM_003283.4:c.279A>G	19:55652584	p.(=)	0.000948000	Unknown	AR	0.0948
+TNNT1	NM_003283.4:c.538G>T	19:55648544	p.0	0.000008289	Pathogenic	AR	0.0008289
+TNNT1	NM_003283.4:c.611+201C>T	19:55648270	p.(=)	-	Unknown	AR	-
+TNNT1	NM_003283.4:c.792-278C>A	19:55644606	p.(=)	-	Unknown	AR	-
+TNNT1	NM_003283.4:c.792-114C>T	19:55644442	p.(=)	-	Unknown	AR	-
