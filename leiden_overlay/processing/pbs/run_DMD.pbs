@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #PBS -P RDS-SMS-GDT-RW
-#PBS -l select=1:ncpus=1:mem=4GB
-#PBS -l walltime=00:15:00
+#PBS -l select=1:ncpus=1:mem=10GB
+#PBS -l walltime=02:30:00
 #PBS -q defaultQ
 
 cd $PBS_O_WORKDIR
