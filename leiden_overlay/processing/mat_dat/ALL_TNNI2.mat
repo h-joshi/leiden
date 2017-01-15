@@ -8,4 +8,4 @@ TNNI2	NM_003282.3:c.499_501del	11:1862728-1862730	del	p.(Glu167del)	-	Pathogenic
 TNNI2	NM_003282.3:c.521G>A	11:1862753	snp	p.(Arg174Gln)	-	Pathogenic	AD	-
 TNNI2	NM_003282.3:c.527_529del	11:1862754-1862756	del	p.(Lys176del)	-	Pathogenic	AD	-
 TNNI2	NM_003282.3:c.=	bad_hgvs	-	-	-	-	AD	-
-TNNI2	NM_003282.3:c.15+21C>G	ERROR	-	-	-	-	AD	-
+TNNI2	NM_003282.3:c.15+21C>G	NM_003282.3:c.15+21C>G	11:1861653	-	-	-	AD	-

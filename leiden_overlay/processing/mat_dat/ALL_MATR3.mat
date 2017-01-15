@@ -1,1 +1,5 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+MATR3	NM_199189.2:c.254C>G	5:138643358	snp	p.(Ser85Cys)	-	Pathogenic	AD	-
+MATR3	NM_199189.2:c.913-2598T>C	5:138647766	snp	p.(=)	-	Mixed reported pathogenicity	AD	-
+MATR3	NM_199189.2:c.913-2535G>A	5:138647829	snp	p.(=)	-	Mixed reported pathogenicity	AD	-
+MATR3	NM_199189.2:c.=	bad_hgvs	-	-	-	-	AD	-

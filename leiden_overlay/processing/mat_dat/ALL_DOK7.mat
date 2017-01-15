@@ -98,10 +98,10 @@ DOK7	NM_173660.4:c.1508dupC	4:3495215-3495216	dup	p.(Pro504Serfs*15)	-	Pathogeni
 DOK7	NM_173660.4:c.1511_1513del	4:3495224-3495226	del	p.(Pro504delins182)	0.000022320	Mixed reported pathogenicity	AR	0.002232
 DOK7	NM_173660.4:c.1513T>C	4:3495226	snp	p.(*505Argext*182)	-	Pathogenic	AR	-
 DOK7	NM_173660.4:c.?	bad_hgvs	-	-	-	-	AR	-
-DOK7	/nmdb2/variants.php?select_db=DOK7&action=search_all&search_Variant%2FDNA=c%5B101-24_141del%3B%20176_206delinsAG%5D	bad_hgvs	-	-	-	-	AR	-
+DOK7	[DownloadError]c[101-24_141del; 176_206delinsAG]	bad_hgvs	-	-	-	-	AR	-
 DOK7	NM_173660.4:c.101-124_141del;176_206delinsAG	bad_hgvs	-	-	-	-	AR	-
 DOK7	NM_173660.4:c.101-?_772+?del	bad_hgvs	-	-	-	-	AR	-
-DOK7	NM_173660.4:c.737-2A>G	ERROR	-	-	-	-	AR	-
-DOK7	NM_173660.4:c.1001_1011dup	ERROR	-	-	-	-	AR	-
-DOK7	NM_173660.4:c.1124_1127dup	ERROR	-	-	-	-	AR	-
-DOK7	NM_173660.4:c.1339_1342dup	ERROR	-	-	-	-	AR	-
+DOK7	NM_173660.4:c.737-2A>G	NM_173660.4:c.737-2A>G	4:3491486	-	-	-	AR	-
+DOK7	NM_173660.4:c.1001_1011dup	NM_173660.4:c.1001_1011dup	4:3494713	-	-	-	AR	-
+DOK7	NM_173660.4:c.1124_1127dup	NM_173660.4:c.1124_1127dup	4:3494836	-	-	-	AR	-
+DOK7	NM_173660.4:c.1339_1342dup	NM_173660.4:c.1339_1342dup	4:3495051	-	-	-	AR	-

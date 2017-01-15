@@ -30,6 +30,6 @@ TPM3	NM_152263.2:c.855-1G>A	1:154140417	snp	p.=	0.000008306	Pathogenic	AR,AD	0.0
 TPM3	NM_152263.2:c.855delA	1:154140416	del	p.(*286Asnext*74)	-	Pathogenic	AR,AD	-
 TPM3	NM_152263.2:c.857A>C	1:154140414	snp	p.(*286Serext*57)	0.000008306	Mixed reported pathogenicity	AR,AD	0.0008306, 0.04153
 TPM3	NM_152263.2:c.=	bad_hgvs	-	-	-	-	AR,AD	-
-TPM3	NM_152263.2:c.456_458dup	ERROR	-	-	-	-	AR,AD	-
+TPM3	NM_152263.2:c.456_458dup	NM_152263.2:c.456_458dup	1:154145596	-	-	-	AR,AD	-
 TPM3	NM_152263.2:t(1;5)(q21.2;q33.1)c.775+?_776-?	bad_hgvs	-	-	-	-	AR,AD	-
 TPM3	NM_152263.2:c.?	bad_hgvs	-	-	-	-	AR,AD	-

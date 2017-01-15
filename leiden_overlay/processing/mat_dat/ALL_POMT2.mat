@@ -80,6 +80,6 @@ POMT2	NM_013382.5:c.2243G>C	14:77743729	snp	p.(Trp748Ser)	-	Pathogenic	AR	-
 POMT2	NM_013382.5:c.*75C>T	14:77743644	snp	p.(=)	-	No known pathogenicity	AR	-
 POMT2	NM_013382.5:c.*587G>A	14:77743132	snp	p.(=)	-	No known pathogenicity	AR	-
 POMT2	NM_013382.5:c.?	bad_hgvs	-	-	-	-	AR	-
-POMT2	NM_013382.5:c.1383A>G	ERROR	-	-	-	-	AR	-
+POMT2	NM_013382.5:c.1383A>G	NM_013382.5:c.1383A>G	14:77751925	-	-	-	AR	-
 POMT2	NM_013382.5:c.(1785G>C)?	bad_hgvs	-	-	-	-	AR	-
-POMT2	NM_013382.5:c.1911G>T	ERROR	-	-	-	-	AR	-
+POMT2	NM_013382.5:c.1911G>T	NM_013382.5:c.1911G>T	14:77745193	-	-	-	AR	-

@@ -243,6 +243,6 @@ ACTA1	NM_001100.3:c.1133A>G	1:229567247	snp	p.(*378Trpext*47)	-	Pathogenic	AR,AD
 ACTA1	NM_001100.3:c.1134G>T	1:229567246	snp	p.(*378Tyrext*47)	-	Pathogenic	AR,AD	-
 ACTA1	NM_001100.3:c.=	bad_hgvs	-	-	-	-	AR,AD	-
 ACTA1	NM_001100.3:c.(?_12)_(*254_?)del	bad_hgvs	-	-	-	-	AR,AD	-
-ACTA1	NM_001100.3:c.437_442dup	ERROR	-	-	-	-	AR,AD	-
+ACTA1	NM_001100.3:c.437_442dup	NM_001100.3:c.437_442dup	1:229568314	-	-	-	AR,AD	-
 ACTA1	NM_001100.3:c.454+30CCCGCC(3_5)	bad_hgvs	-	-	-	-	AR,AD	-
-ACTA1	NM_001100.3:c.809-15dup	ERROR	-	-	-	-	AR,AD	-
+ACTA1	NM_001100.3:c.809-15dup	NM_001100.3:c.809-15dup	1:229567663	-	-	-	AR,AD	-

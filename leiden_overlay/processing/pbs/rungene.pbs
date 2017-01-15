@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#PBS -P RDS-SMS-GDT-RW
+#PBS -l select=1:ncpus=1:mem=8GB
+#PBS -l walltime=00:05:00
+#PBS -q defaultQ
+
+cd $PBS_O_WORKDIR
+cd ..
+source ../../../venv/bin/activate
+
+./run_script.sh DTNA |& tee log.tmp

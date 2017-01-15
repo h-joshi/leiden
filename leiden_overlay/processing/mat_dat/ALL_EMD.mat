@@ -94,17 +94,3 @@ EMD	NM_000117.2:c.740_743del	X:153609530-153609533	del	p.Gln247Leufs*110	-	Patho
 EMD	NM_000117.2:c.759delC	X:153609548	del	p.(Phe254Serfs*104)	-	Pathogenic	XL	-
 EMD	NM_000117.2:c.*59G>C	X:153609616	snp	p.(=)	-	No known pathogenicity	XL	-
 EMD	NM_000117.2:c.*60C>T	X:153609617	snp	p.(=)	-	No known pathogenicity	XL	-
-EMD	/nmdb2/variants.php?select_db=EMD&action=search_all&search_Variant%2FDNA=BX936346.4%3Ag.15589_35869del	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.(?_-269)_(*325_?)del	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.(?_-269)_(*325_?)inv	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.0	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.=	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.?	bad_hgvs	-	-	-	-	XL	-
-EMD	/nmdb2/variants.php?select_db=EMD&action=search_all&search_Variant%2FDNA=Z49258.1%3A29638_o.BX936346.4%3A15806del	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.3_31del?	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.139_140dup	ERROR	-	-	-	-	XL	-
-EMD	NM_000117.2:c.266-?_*325+?del	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.450-?_(1090_?)del	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.450_451ins?	bad_hgvs	-	-	-	-	XL	-
-EMD	NM_000117.2:c.650_654dup	ERROR	-	-	-	-	XL	-
-EMD	NM_000117.2:c.654_658dup	ERROR	-	-	-	-	XL	-

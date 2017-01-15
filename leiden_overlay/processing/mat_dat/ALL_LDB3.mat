@@ -1,1 +1,18 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+LDB3	NM_007078.2:c.93+1916T>G	10:88430457	snp	-	-	Mixed reported pathogenicity	AD	-
+LDB3	NM_007078.2:c.93+3657G>A	10:88432198	snp	-	-	Mixed reported pathogenicity	AD	-
+LDB3	NM_007078.2:c.163G>A	10:88439193	snp	p.(Val55Ile)	0.007222000	No known pathogenicity	AD	36.11
+LDB3	NM_007078.2:c.566C>T	10:88441437	snp	p.(Ser189Leu)	0.000570800	Pathogenic	AD	2.854
+LDB3	NM_007078.2:c.617C>T	10:88441488	snp	p.(Thr206Ile)	-	Pathogenic	AD	-
+LDB3	NM_007078.2:c.690-4823G>A	10:88446830	snp	p.(Asp230+10Asn)	0.004554000	Pathogenic	AD	22.77
+LDB3	NM_007078.2:c.690-4765A>T	10:88446888	snp	p.(Lys230+29Met)	-	Pathogenic	AD	-
+LDB3	NM_007078.2:c.690-4733G>A	10:88446920	snp	p.(Ala230+40Thr)	-	Pathogenic	AD	-
+LDB3	NM_007078.2:c.690-4678C>T	10:88446975	snp	p.(Ala230+58Val)	0.000008284	Pathogenic	AD	0.04142
+LDB3	NM_007078.2:c.690-6T>C	10:88451647	snp	p.(=)	-	No known pathogenicity	AD	-
+LDB3	NM_007078.2:c.752A>G	10:88451715	snp	p.(Lys251Arg)	0.006645000	Mixed reported pathogenicity	AD	33.225
+LDB3	NM_007078.2:c.896+6753C>T	10:88459081	snp	p.(Arg299+16Cys)	0.000066300	Pathogenic	AD	0.3315
+LDB3	NM_007078.2:c.1035C>G	10:88466426	snp	p.(Ile345Met)	-	Pathogenic	AD	-
+LDB3	NM_007078.2:c.1903G>A	10:88478529	snp	p.(Val635Ile)	0.006989000	No known pathogenicity	AD	34.945
+LDB3	NM_007078.2:c.2017G>A	10:88485932	snp	p.(Asp673Asn)	0.000173000	Pathogenic	AD	0.865
+LDB3	NM_007078.2:c.2073C>T	10:88485988	snp	p.(=)	0.000057750	No known pathogenicity	AD	0.28875
+LDB3	NM_007078.2:c.=	bad_hgvs	-	-	-	-	AD	-

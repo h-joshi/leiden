@@ -15,6 +15,7 @@ import math
 import sys
 import remapping
 import utilities
+import urllib
 
 # cleans up a given hgvs coordinate to standardise it
 # based on Andrew Hill's scripts
@@ -66,9 +67,10 @@ leiden_file = open("../dat/" + input_gene + ".txt")
 leiden_lines = leiden_file.readlines()
 leiden_file.close()
 leiden_cols = leiden_lines[0].rstrip('\n').split('\t')
+dna_change_index = leiden_cols.index("dna_change")
 
 # remove the dna_change column name; going to be extracted manually
-del leiden_cols[1]
+del leiden_cols[dna_change_index]
 
 # remove the line of column names
 del leiden_lines[0]
@@ -82,8 +84,8 @@ rem = remapping.VariantRemapper()
 # for each line, pick out the dna_change and assign its properties to it
 for line in leiden_lines:
     values = line.rstrip('\n').split('\t')
-    dna_change = values[1]
-    del values[1] # remove dna_change from the sequence of values
+    dna_change = values[dna_change_index]
+    del values[dna_change_index] # remove dna_change from the sequence of values
     leiden_dict[dna_change] = values
     reverse_dict[convert_hgvs(dna_change)] = dna_change;
     all_vars.append(dna_change)
@@ -130,7 +132,8 @@ extra_index = col_names.index("Extra")
 allele_index = col_names.index("Allele")
 
 # column names in the output files
-first_row_names = ["leiden_reported_variant", "hgvs_name_clean", "location", "type","raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency", "band", "reported_pathogenicity"] + (leiden_cols)
+# first_row_names = ["leiden_reported_variant", "hgvs_name_clean", "location", "type","raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency", "band", "reported_pathogenicity"] + (leiden_cols)
+first_row_names = ["variant", "location", "type","raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency", "band", "reported_pathogenicity"] + (leiden_cols)
 first_row_out = '\t'.join(first_row_names)+'\n'
 concise_file.write(first_row_out)
 output_file.write(first_row_out)
@@ -157,8 +160,12 @@ for line in rows:
 
     var_name = line[var_name_ind]
 
-    original_name = reverse_dict[var_name]
-    added.append(original_name)
+    try:
+        original_name = reverse_dict[var_name]
+        added.append(original_name)
+    except:
+        original_name = "ERROR: %s"%(var_name) # TODO: Fix this error check
+        print "ERROR: %s"%(var_name)
     # get the base change based on genomic coordinate (NOTE: May be different from HGVS!!)
     #genomic = rem.hgvs_to_vcf(var_name)
     #old_base = genomic[2]
@@ -199,7 +206,8 @@ for line in rows:
 
     # add the row to the relevant files
     len_dict_line = len(leiden_dict[line[var_name_ind]])
-    row_to_add = [original_name, line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band, reported_pathogenicity] + (leiden_dict[line[var_name_ind]])
+    # row_to_add = [original_name, line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band, reported_pathogenicity] + (leiden_dict[line[var_name_ind]])
+    row_to_add = [line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band, reported_pathogenicity] + (leiden_dict[line[var_name_ind]])
     row_str = '\t'.join(row_to_add) + '\n'
     output_file.write(row_str)
     if add_to_concise:
@@ -208,15 +216,25 @@ for line in rows:
 for var in all_vars:
     if var not in added:
         try:
-            translated = rem.hgvs_to_vcf(var)
+            clean_name = convert_hgvs(var) # what does this even do? is it just automatically done originally?
+            translated = rem.hgvs_to_vcf(clean_name)
+            genomic_name = translated[0] + ":" + translated[1]
             dashes = ["-" for i in range(len_dict_line)]
-            row_to_add = [var, "ERROR", "ERROR", "-", "-", "-", "-", "-", "-"] + dashes
+            row_to_add = [var, clean_name, genomic_name, "-", "-", "-", "-", "-", "-"] + dashes
             row_str = '\t'.join(row_to_add) + '\n'
             output_file.write(row_str)
-            print "ERROR: %s can be translated to %s"%(var, translated)
+            #print "ERROR: %s can be translated to %s"%(var, translated)
         except:
-            dashes = ["-" for i in range(len_dict_line)]
-            row_to_add = [var, "bad_hgvs", "bad_hgvs", "-", "-", "-", "-", "-", "-"] + dashes
+            if "nmdb2" in var:
+                var_name = urllib.unquote(var.split("DNA=")[1])
+                #row_to_add = ["[DownloadError]" + var_name, "bad_hgvs", "bad_hgvs", "-", "-", "-", "-", "-", "-"] + dashes # change bad_hgvs to just a -?
+                row_to_add = ["[DownloadError]" + var_name, "bad_hgvs", "-", "-", "-", "-", "-", "-"] + dashes # change bad_hgvs to just a -?
+            elif "NM" not in var:
+                row_to_add = ["[DownloadError]" + var, "bad_hgvs", "-", "-", "-", "-", "-", "-"] + dashes # change bad_hgvs to just a -?
+            else:
+                #clean_name = convert_hgvs(var)
+                dashes = ["-" for i in range(len_dict_line)]
+                row_to_add = [var, "bad_hgvs", "-", "-", "-", "-", "-", "-"] + dashes # change bad_hgvs to just a -?
             row_str = '\t'.join(row_to_add) + '\n'
             output_file.write(row_str)
 

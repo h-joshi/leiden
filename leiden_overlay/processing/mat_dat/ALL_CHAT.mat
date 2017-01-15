@@ -35,4 +35,4 @@ CHAT	NM_020549.4:c.2081C>G	10:50872926	snp	p.(?)	-	Pathogenic	AR	-
 CHAT	NM_020549.4:c.2110T>C	10:50872955	snp	p.(?)	-	Pathogenic	AR	-
 CHAT	NM_020549.4:c.?	bad_hgvs	-	-	-	-	AR	-
 CHAT	NM_020549.4:c.1635-?_1776+?del	bad_hgvs	-	-	-	-	AR	-
-CHAT	NM_020549.4:c.1657_1659dup	ERROR	-	-	-	-	AR	-
+CHAT	NM_020549.4:c.1657_1659dup	NM_020549.4:c.1657_1659dup	10:50863162	-	-	-	AR	-

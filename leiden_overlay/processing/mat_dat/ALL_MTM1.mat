@@ -279,13 +279,13 @@ MTM1	NM_000252.2:c.232-?_342+?del	bad_hgvs	-	-	-	-	XL	-
 MTM1	NM_000252.2:c.232-?_444+?del	bad_hgvs	-	-	-	-	XL	-
 MTM1	NM_000252.2:c.343-?_1260+?del	bad_hgvs	-	-	-	-	XL	-
 MTM1	NM_000252.2:c.445-?_678+?del	bad_hgvs	-	-	-	-	XL	-
-MTM1	NM_000252.2:c.509_528dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.509_528dup	NM_000252.2:c.509_528dup	X:149807479	-	-	-	XL	-
 MTM1	NM_000252.2:c.529-?_678+?del	bad_hgvs	-	-	-	-	XL	-
-MTM1	NM_000252.2:c.594_596dup	ERROR	-	-	-	-	XL	-
-MTM1	NM_000252.2:c.596dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.594_596dup	NM_000252.2:c.594_596dup	X:149809806	-	-	-	XL	-
+MTM1	NM_000252.2:c.596dup	NM_000252.2:c.596dup	X:149809808	-	-	-	XL	-
 MTM1	NM_000252.2:c.679-?_867+?del	bad_hgvs	-	-	-	-	XL	-
 MTM1	NM_000252.2:c.868-?_1053+?del	bad_hgvs	-	-	-	-	XL	-
 MTM1	NM_000252.2:c.1053+114_1053+2680del;1053+3055_1053+3056ins679-82_1053+37	bad_hgvs	-	-	-	-	XL	-
-MTM1	NM_000252.2:c.1177_1180dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.1177_1180dup	NM_000252.2:c.1177_1180dup	X:149826416	-	-	-	XL	-
 MTM1	NM_000252.2:c.1388_1389ins376,GenBankJQ403527	bad_hgvs	-	-	-	-	XL	-
 MTM1	NM_000252.2:c.1645-?_(*1548_?)del	bad_hgvs	-	-	-	-	XL	-

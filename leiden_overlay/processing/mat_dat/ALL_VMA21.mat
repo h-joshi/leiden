@@ -1,1 +1,8 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+VMA21	NM_001017980.3:c.54-27A>C	X:150572076	snp	p.=	-	Pathogenic	XL	-
+VMA21	NM_001017980.3:c.54-27A>T	X:150572076	snp	p.=	-	Pathogenic	XL	-
+VMA21	NM_001017980.3:c.163+4A>G	X:150572216	snp	p.=	-	Pathogenic	XL	-
+VMA21	NM_001017980.3:c.164-7T>G	X:150573381	snp	p.=	-	Pathogenic	XL	-
+VMA21	NM_001017980.3:c.272G>C	X:150573496	snp	p.Gly91Ala	-	Pathogenic	XL	-
+VMA21	NM_001017980.3:c.*6A>G	X:150573536	snp	p.=	-	Pathogenic	XL	-
+VMA21	NM_001017980.3:c.=	bad_hgvs	-	-	-	-	XL	-

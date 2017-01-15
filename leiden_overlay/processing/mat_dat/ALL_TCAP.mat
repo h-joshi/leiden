@@ -30,4 +30,4 @@ TCAP	NM_003673.3:c.*199G>T	17:37822561	snp	p.(=)	-	No known pathogenicity	AR,AD	
 TCAP	NM_003673.3:c.*377G>C	17:37822739	snp	p.(=)	-	No known pathogenicity	AR,AD	-
 TCAP	NM_003673.3:c.*395C>T	17:37822757	snp	p.(=)	-	No known pathogenicity	AR,AD	-
 TCAP	NM_003673.3:c.=	bad_hgvs	-	-	-	-	AR,AD	-
-TCAP	NM_003673.3:c.26_33dup	ERROR	-	-	-	-	AR,AD	-
+TCAP	NM_003673.3:c.26_33dup	NM_003673.3:c.26_33dup	17:37821637	-	-	-	AR,AD	-

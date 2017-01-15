@@ -1,1 +1,31 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+GFPT1	NM_001244710.1:c.-1591C>G	2:69615794	snp	-	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.-1092G>A	2:69615295	snp	-	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.7+36T>C	2:69614161	snp	-	0.609200000	Mixed reported pathogenicity	AR	60.92
+GFPT1	NM_001244710.1:c.43A>G	2:69601210	snp	p.Thr15Ala	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.44C>T	2:69601209	snp	p.(Thr15Met)	0.000008250	Pathogenic	AR	0.000825
+GFPT1	NM_001244710.1:c.116G>T	2:69597240	snp	p.(Gly39Val?)	-	Unknown	AR	-
+GFPT1	NM_001244710.1:c.128A>T	2:69597228	snp	p.(Asp43Val)	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.224_225insA	2:69590801-69590802	ins	p.(Gln76fs)	-	Pathogenic	AR	-
+GFPT1	NM_001244710.1:c.236T>C	2:69590790	snp	p.(Met79Thr)	0.000041590	Unknown	AR	0.004159
+GFPT1	NM_001244710.1:c.331C>T	2:69590695	snp	p.(Arg111Cys)	0.000065950	Mixed reported pathogenicity	AR	0.006595
+GFPT1	NM_001244710.1:c.362T>C	2:69586446	snp	p.(Ile121Thr)	0.000016580	Mixed reported pathogenicity	AR	0.001658
+GFPT1	NM_001244710.1:c.408+30T>C	2:69586370	snp	-	0.365500000	No known pathogenicity	AR	36.55
+GFPT1	NM_001244710.1:c.408+107T>G	2:69586293	snp	-	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.595G>T	2:69583638	snp	p.Val199Phe	-	Pathogenic	AR	-
+GFPT1	NM_001244710.1:c.621_622del	2:69581684-69581685	del	p.Leu208fs	-	Pathogenic	AR	-
+GFPT1	NM_001244710.1:c.675C>T	2:69581631	snp	-	0.029710000	No known pathogenicity	AR	2.971
+GFPT1	NM_001244710.1:c.685+210G>A	2:69581411	snp	p.(Trp229+11*)	-	Pathogenic	AR	-
+GFPT1	NM_001244710.1:c.1051+7A>G	2:69573083	snp	-	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.1154G>A	2:69569333	snp	p.(Arg385His)	-	Pathogenic	AR	-
+GFPT1	NM_001244710.1:c.1301G>A	2:69565600	snp	p.(Arg434His)	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.1475T>C	2:69565037	snp	p.(Met492Thr)	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.1534C>T	2:69556879	snp	p.(Arg512Trp)	-	Pathogenic	AR	-
+GFPT1	NM_001244710.1:c.2002-11T>C	2:69554110	snp	-	-	No known pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.*22C>A	2:69553299	snp	-	0.001465000	Pathogenic	AR	0.1465
+GFPT1	NM_001244710.1:c.*800G>T	2:69552521	snp	-	-	Mixed reported pathogenicity	AR	-
+GFPT1	NM_001244710.1:c.-1029G>A	NM_001244710.1:c.-1029G>A	2:69615232	-	-	-	AR	-
+GFPT1	NM_001244710.1:c.1042G>T	NM_001244710.1:c.1042G>T	2:69573099	-	-	-	AR	-
+GFPT1	NM_001244710.1:c.1278_1281dup	NM_001244710.1:c.1278_1281dup	2:69565619	-	-	-	AR	-
+GFPT1	NM_001244710.1:c.1472T>C	NM_001244710.1:c.1472T>C	2:69565040	-	-	-	AR	-
+GFPT1	NM_001244710.1:c.1486C>T	NM_001244710.1:c.1486C>T	2:69556927	-	-	-	AR	-

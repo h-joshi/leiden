@@ -111,4 +111,4 @@ SGCG	NM_000231.2:c.579-?_702+?del	bad_hgvs	-	-	-	-	AR	-
 SGCG	NM_000231.2:c.630_702del?	bad_hgvs	-	-	-	-	AR	-
 SGCG	NM_000231.2:c.702+?_703-?dup	bad_hgvs	-	-	-	-	AR	-
 SGCG	NM_000231.2:c.703-?_(*624_?)del	bad_hgvs	-	-	-	-	AR	-
-SGCG	NM_000231.2:c.860G>A	ERROR	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.860G>A	NM_000231.2:c.860G>A	13:23898664	-	-	-	AR	-

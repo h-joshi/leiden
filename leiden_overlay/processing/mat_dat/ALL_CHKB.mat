@@ -10,4 +10,4 @@ CHKB	NM_005198.4:c.922C>T	22:51018408	snp	p.(Gln308*)	-	Pathogenic	AR	-
 CHKB	NM_005198.4:c.1031+1G>A	22:51018155	snp	p.[Gly274_Arg344del, Leu310Valfs*84, Lys227_Arg344del, Glu324Metfs*22]	-	Pathogenic	AR	-
 CHKB	NM_005198.4:c.1130G>T	22:51017668	snp	p.(Arg377Leu)	0.000008824	Pathogenic	AR	0.0008824
 CHKB	NM_005198.4:c.422_1031+?del	bad_hgvs	-	-	-	-	AR	-
-CHKB	NM_005198.4:c.458dup	ERROR	-	-	-	-	AR	-
+CHKB	NM_005198.4:c.458dup	NM_005198.4:c.458dup	22:51019971	-	-	-	AR	-

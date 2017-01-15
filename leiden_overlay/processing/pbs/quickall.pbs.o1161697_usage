@@ -1,0 +1,10 @@
+Job Id: 1161697.pbsserver for user azre6702 in queue small
+Job Name: quickall.pbs
+Project: RDS-SMS-GDT-RW
+Exit Status: 0
+Walltime requested:   03:00:00 :      Walltime used:   00:08:14
+    Cpus requested:          1 :
+          Cpu Time:   00:06:09 :        Cpu percent:        193
+     Mem requested:       16gb :           Mem used:   580228kb
+    VMem requested:       None :          VMem used:   580228kb
+    PMem requested:       None :          PMem used:       None

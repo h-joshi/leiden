@@ -80,4 +80,4 @@ IGHMBP2	NM_002180.2:c.2922T>G	11:68707139	snp	p.(Asp974Glu)	0.001073000	Pathogen
 IGHMBP2	NM_002180.2:c.?	bad_hgvs	-	-	-	-	AR	-
 IGHMBP2	NM_002180.2:c.?delC	bad_hgvs	-	-	-	-	AR	-
 IGHMBP2	NM_002180.2:c.247-?_1060+?del	bad_hgvs	-	-	-	-	AR	-
-IGHMBP2	NM_002180.2:c.1648dup	ERROR	-	-	-	-	AR	-
+IGHMBP2	NM_002180.2:c.1648dup	NM_002180.2:c.1648dup	11:68702781	-	-	-	AR	-

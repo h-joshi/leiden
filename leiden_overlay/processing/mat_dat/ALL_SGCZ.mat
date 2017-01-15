@@ -1,1 +1,16 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+SGCZ	NM_139167.2:c.-200T>C	8:15095332	snp	p.(=)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.-164T>C	8:15095296	snp	p.(=)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.336+27C>G	8:14181585	snp	p.(=)	0.001199000	Unknown	none	?
+SGCZ	NM_139167.2:c.337-11A>G	8:14095199	snp	p.(=)	0.260000000	Unknown	none	?
+SGCZ	NM_139167.2:c.424+32T>C	8:14095069	snp	p.(=)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.571C>T	8:13965721	snp	p.(His191Tyr)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.573C>T	8:13965719	snp	p.(=)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.574T>C	8:13965718	snp	p.(Ser192Pro)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.793T>C	8:13948098	snp	p.(Ser265Pro)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.865G>A	8:13948026	snp	p.(Gly298Ser)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.912dupC	8:13947978-13947979	dup	p.(Ser305Glnfs*2)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.*11T>A	8:13947941	snp	p.(=)	0.013580000	Probably not pathogenic	none	?
+SGCZ	NM_139167.2:c.*12T>A	8:13947940	snp	p.(=)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.*437T>C	8:13947515	snp	p.(=)	-	Unknown	none	-
+SGCZ	NM_139167.2:c.=	bad_hgvs	-	-	-	-	none	-

@@ -1,1 +1,2 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+CNTN1	NM_001843.3:c.871dupT	12:41327565-41327566	dup	p.Ser291Phefs*6	-	Pathogenic	AR	-

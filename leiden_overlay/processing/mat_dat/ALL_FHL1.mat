@@ -23,4 +23,4 @@ FHL1	NM_001159702.2:c.*69T>G	X:135292182	snp	p.(*230+50Gluext*53)	-	Pathogenic	X
 FHL1	NM_001159702.2:c.0	bad_hgvs	-	-	-	-	XL	-
 FHL1	NM_001159702.2:c.=	bad_hgvs	-	-	-	-	XL	-
 FHL1	NM_001159702.2:c.332-?_688+?del	bad_hgvs	-	-	-	-	XL	-
-FHL1	NM_001159702.2:c.380_382dup	ERROR	-	-	-	-	XL	-
+FHL1	NM_001159702.2:c.380_382dup	NM_001159702.2:c.380_382dup	X:135289998	-	-	-	XL	-

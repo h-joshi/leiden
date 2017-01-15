@@ -41,4 +41,4 @@ SGCD	NM_000337.5:c.700-19T>C	5:156186209	snp	p.(=)	0.005875000	Unknown	none	?
 SGCD	NM_000337.5:c.784G>A	5:156186312	snp	p.(Glu262Lys)	-	Pathogenic	none	-
 SGCD	NM_000337.5:c.=	bad_hgvs	-	-	-	-	none	-
 SGCD	NM_000337.5:c.?	bad_hgvs	-	-	-	-	none	-
-SGCD	NM_000337.5:c.576-48916_576-48913dup	ERROR	-	-	-	-	none	-
+SGCD	NM_000337.5:c.576-48916_576-48913dup	NM_000337.5:c.576-48916_576-48913dup	5:156135675	-	-	-	none	-

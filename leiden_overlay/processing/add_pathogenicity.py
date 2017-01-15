@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 import urllib
 import unicodedata
 import math
+import time
 import sys
 
 # converts unicode string to ascii
@@ -22,7 +23,19 @@ print "Processing overall table..."
 gene_name = sys.argv[1]
 
 # open the relevant Leiden page
-r = urllib.urlopen('http://www.dmd.nl/nmdb2/variants.php?select_db='+ gene_name +'&action=view_all').read()
+connected = False
+connec_tries = 0
+while not connected:
+    try:
+        print "Connecting..."
+        r = urllib.urlopen('http://www.dmd.nl/nmdb2/variants.php?select_db='+ gene_name +'&action=view_all').read()
+        connected = True
+    except:
+        connec_tries += 1
+        print "Failed to connect [on attempt %d]. Retrying in 10 seconds..."%(connec_tries)
+        time.sleep(5)
+
+
 soup = BeautifulSoup(r, "html.parser")
 
 # total number of variants recorded

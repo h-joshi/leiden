@@ -5,8 +5,8 @@
 # Leiden database [as retrieved from get_gene_list.py in ../dat/gene_list.txt]
 # Requires no previous program to have run beforehand.
 
-var=0
-num=`wc -l good_genes.txt`
+var=1
+num=`wc -l < good_genes.txt`
 
 while read p; do
   echo "Gene $var out of $num [$p]..."

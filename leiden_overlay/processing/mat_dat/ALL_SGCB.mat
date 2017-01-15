@@ -76,13 +76,13 @@ SGCB	NM_000232.4:c.*1624C>T	4:52888499	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCB	NM_000232.4:c.*2097T>G	4:52888026	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCB	NM_000232.4:c.-60-?_*3251+?del	bad_hgvs	-	-	-	-	AR	-
 SGCB	NM_000232.4:c.-22_33+?dup	bad_hgvs	-	-	-	-	AR	-
-SGCB	NM_000232.4:c.-18_8dup	ERROR	-	-	-	-	AR	-
-SGCB	NM_000232.4:c.-10_16dup	ERROR	-	-	-	-	AR	-
-SGCB	NM_000232.4:c.-10_22dup	ERROR	-	-	-	-	AR	-
+SGCB	NM_000232.4:c.-18_8dup	NM_000232.4:c.-18_8dup	4:52904417	-	-	-	AR	-
+SGCB	NM_000232.4:c.-10_16dup	NM_000232.4:c.-10_16dup	4:52904409	-	-	-	AR	-
+SGCB	NM_000232.4:c.-10_22dup	NM_000232.4:c.-10_22dup	4:52904403	-	-	-	AR	-
 SGCB	NM_000232.4:c.=	bad_hgvs	-	-	-	-	AR	-
 SGCB	NM_000232.4:c.?	bad_hgvs	-	-	-	-	AR	-
-SGCB	NM_000232.4:c.21_23dup	ERROR	-	-	-	-	AR	-
+SGCB	NM_000232.4:c.21_23dup	NM_000232.4:c.21_23dup	4:52904402	-	-	-	AR	-
 SGCB	NM_000232.4:c.34-?_243+?del	bad_hgvs	-	-	-	-	AR	-
 SGCB	NM_000232.4:c.244-1587CA(11_22)	bad_hgvs	-	-	-	-	AR	-
-SGCB	NM_000232.4:c.377_384dup	ERROR	-	-	-	-	AR	-
+SGCB	NM_000232.4:c.377_384dup	NM_000232.4:c.377_384dup	4:52895888	-	-	-	AR	-
 SGCB	NM_000232.4:c.429+?	bad_hgvs	-	-	-	-	AR	-

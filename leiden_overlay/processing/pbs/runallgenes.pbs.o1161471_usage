@@ -1,0 +1,10 @@
+Job Id: 1161471.pbsserver for user azre6702 in queue small
+Job Name: runallgenes.pbs
+Project: RDS-SMS-GDT-RW
+Exit Status: 0
+Walltime requested:   03:00:00 :      Walltime used:   02:05:20
+    Cpus requested:          1 :
+          Cpu Time:   00:27:03 :        Cpu percent:        100
+     Mem requested:       16gb :           Mem used:  1419448kb
+    VMem requested:       None :          VMem used:  1419448kb
+    PMem requested:       None :          PMem used:       None

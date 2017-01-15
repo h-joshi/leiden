@@ -1,1 +1,5 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+PTRF	NM_012232.5:c.526delG	17:40557352	del	p.(Glu176Argfs*99)	-	Pathogenic	AR	-
+PTRF	NM_012232.5:c.696dupC	17:40557181-40557182	dup	p.(Lys233Glnfs*192)	-	Pathogenic	AR	-
+PTRF	NM_012232.5:c.=	bad_hgvs	-	-	-	-	AR	-
+PTRF	NM_012232.5:c.*63_*71dup	NM_012232.5:c.*63_*71dup	17:40556633	-	-	-	AR	-

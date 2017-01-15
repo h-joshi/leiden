@@ -1,1 +1,30 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+MTMR14	NM_001077525.2:c.159+100T>C	3:9691526	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.159+122A>G	3:9691548	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.418-177G>A	3:9710226	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.418-96T>C	3:9710307	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.418-24G>A	3:9710379	snp	p.(=)	0.001342000	No known pathogenicity	AD	6.71
+MTMR14	NM_001077525.2:c.678-270A>G	3:9714099	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.678-210A>G	3:9714159	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.678-47T>G	3:9714322	snp	p.(=)	0.000903600	No known pathogenicity	AD	4.518
+MTMR14	NM_001077525.2:c.823-33A>T	3:9719635	snp	p.(=)	0.000033510	No known pathogenicity	AD	0.16755
+MTMR14	NM_001077525.2:c.965-58G>A	3:9726211	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.965-14C>T	3:9726255	snp	p.(=)	0.000546500	No known pathogenicity	AD	2.7325
+MTMR14	NM_001077525.2:c.988T>A	3:9726292	snp	p.Cys330Ser	-	Probably pathogenic	AD	-
+MTMR14	NM_001077525.2:c.1007G>A	3:9726311	snp	p.Arg336Gln	-	Probably pathogenic	AD	-
+MTMR14	NM_001077525.2:c.1050+61A>T	3:9726415	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1050+71G>C	3:9726425	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1050+74C>G	3:9726428	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1051-57G>T	3:9726515	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1128-3C>T	3:9726892	snp	p.(=)	0.000115900	No known pathogenicity	AD	0.5795
+MTMR14	NM_001077525.2:c.1164+71G>C	3:9727002	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1236-96A>G	3:9730284	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1236-15G>A	3:9730365	snp	p.(=)	0.001644000	No known pathogenicity	AD	8.22
+MTMR14	NM_001077525.2:c.1294+84G>A	3:9730522	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1295-93T>G	3:9730535	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1434-59G>T	3:9731589	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1385A>G	3:9730718	snp	p.(Tyr462Cys)	0.000008365	Mixed reported pathogenicity	AD	0.041825
+MTMR14	NM_001077525.2:c.1434-4G>A	3:9731644	snp	p.(=)	0.009324000	No known pathogenicity	AD	46.62
+MTMR14	NM_001077525.2:c.1614-66C>T	3:9739329	snp	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.1770-66_1770-63del	3:9743399-9743402	del	p.(=)	-	No known pathogenicity	AD	-
+MTMR14	NM_001077525.2:c.?	bad_hgvs	-	-	-	-	AD	-

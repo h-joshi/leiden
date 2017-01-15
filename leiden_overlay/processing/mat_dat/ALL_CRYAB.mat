@@ -1,1 +1,22 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+CRYAB	NM_001885.1:c.-652A>G	11:111783100	snp	p.(=)	-	Mixed reported pathogenicity	AR,AD	-
+CRYAB	NM_001885.1:c.-650C>G	11:111783098	snp	p.(=)	-	Mixed reported pathogenicity	AR,AD	-
+CRYAB	NM_001885.1:c.-249C>G	11:111782697	snp	p.(=)	-	Unknown	AR,AD	-
+CRYAB	NM_001885.1:c.58C>T	11:111782391	snp	p.(Pro20Ser)	-	Pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.122C>A	11:111782327	snp	p.(Ser41Tyr)	-	Unknown	AR,AD	-
+CRYAB	NM_001885.1:c.152C>T	11:111782297	snp	p.(Pro51Leu)	0.000447000	Unknown	AR,AD	0.0447, 2.235
+CRYAB	NM_001885.1:c.165G>A	11:111782284	snp	p.(=)	0.019350000	Unknown	AR,AD	1.935, 96.75
+CRYAB	NM_001885.1:c.324+4T>G	11:111781047	snp	p.(?)	0.269500000	Mixed reported pathogenicity	AR,AD	26.95, 1347.5
+CRYAB	NM_001885.1:c.324+214C>T	11:111780837	snp	p.(=)	-	Unknown	AR,AD	-
+CRYAB	NM_001885.1:c.325-170T>C	11:111779861	snp	p.(=)	0.013610000	Unknown	AR,AD	1.361, 68.05
+CRYAB	NM_001885.1:c.325-137G>A	11:111779828	snp	p.(=)	0.003479000	Unknown	AR,AD	0.3479, 17.395
+CRYAB	NM_001885.1:c.358A>G	11:111779658	snp	p.Arg120Gly	-	Mixed reported pathogenicity	AR,AD	-
+CRYAB	NM_001885.1:c.404C>A	11:111779612	snp	p.(Ser135*)	-	Probably pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.418G>A	11:111779598	snp	p.(Asp140Asn)	-	Pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.450delA	11:111779566	del	p.(Lys150Asnfs36*)	-	Pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.451C>T	11:111779565	snp	p.Gln151*	-	Pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.460G>A	11:111779556	snp	p.(Gly154Ser)	0.000766000	Pathogenic	AR,AD	0.0766, 3.83
+CRYAB	NM_001885.1:c.464_465del	11:111779551-111779552	del	p.Pro155Argfs9*	-	Pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.470G>A	11:111779546	snp	p.(Arg157His)	0.000090610	Mixed reported pathogenicity	AR,AD	0.009061, 0.45305
+CRYAB	NM_001885.1:c.511G>A	11:111779505	snp	p.(Ala171Thr)	-	Pathogenic	AR,AD	-
+CRYAB	NM_001885.1:c.=	bad_hgvs	-	-	-	-	AR,AD	-

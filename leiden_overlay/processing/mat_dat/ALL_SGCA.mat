@@ -113,9 +113,9 @@ SGCA	NM_000023.2:c.=	bad_hgvs	-	-	-	-	AR	-
 SGCA	NM_000023.2:c.?	bad_hgvs	-	-	-	-	AR	-
 SGCA	NM_000023.2:c.266_267inv	bad_hgvs	-	-	-	-	AR	-
 SGCA	NM_000023.2:c.312_313insNEO	bad_hgvs	-	-	-	-	AR	-
-SGCA	NM_000023.2:c.348_352dup	ERROR	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.348_352dup	NM_000023.2:c.348_352dup	17:48245342	-	-	-	AR	-
 SGCA	NM_000023.2:c.408_409ins414_428;410A>G	bad_hgvs	-	-	-	-	AR	-
 SGCA	NM_000023.2:c.747+161AC(15_21)	bad_hgvs	-	-	-	-	AR	-
 SGCA	NM_000023.2:c.748-?_956+?del	bad_hgvs	-	-	-	-	AR	-
 SGCA	NM_000023.2:c.748-?_983+?del	bad_hgvs	-	-	-	-	AR	-
-SGCA	NM_000023.2:c.*6C>T	ERROR	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.*6C>T	NM_000023.2:c.*6C>T	17:48252804	-	-	-	AR	-

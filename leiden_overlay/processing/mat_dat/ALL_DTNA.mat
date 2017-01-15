@@ -1,1 +1,2 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+DTNA	NM_001390.4:c.362C>T	18:32374214	snp	p.(Pro121Leu)	0.000008240	Pathogenic	AD	0.0412

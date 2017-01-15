@@ -1,0 +1,10 @@
+Job Id: 1161465.pbsserver for user azre6702 in queue small
+Job Name: rungene.pbs
+Project: RDS-SMS-GDT-RW
+Exit Status: 0
+Walltime requested:   02:30:00 :      Walltime used:   00:01:29
+    Cpus requested:          1 :
+          Cpu Time:   00:00:07 :        Cpu percent:         27
+     Mem requested:       10gb :           Mem used:   742912kb
+    VMem requested:       None :          VMem used:   742912kb
+    PMem requested:       None :          PMem used:       None

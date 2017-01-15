@@ -1,1 +1,28 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+MSTN	NM_005259.2:c.-762A>G	2:190928084	snp	p.(=)	-	No known pathogenicity	none	-
+MSTN	NM_005259.2:c.-335G>A	2:190927657	snp	p.(=)	-	No known pathogenicity	none	-
+MSTN	NM_005259.2:c.163G>A	2:190927160	snp	p.(Ala55Thr)	0.011890000	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.180C>T	2:190927143	snp	p.(=)	0.003276000	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.194G>A	2:190927129	snp	p.(Arg65His)	0.000520200	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.283G>C	2:190927040	snp	p.(Asp95His)	-	Probably pathogenic	none	-
+MSTN	NM_005259.2:c.306C>T	2:190927017	snp	p.(=)	0.001487000	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.307G>A	2:190927016	snp	p.(Asp103Asn)	0.000016520	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.373+5G>A	2:190926945	snp	p.Ser125Cysfs*3	-	Mixed reported pathogenicity	none	-
+MSTN	NM_005259.2:c.373+90delA	2:190926860	del	p.(=)	-	No known pathogenicity	none	-
+MSTN	NM_005259.2:c.386T>G	2:190925149	snp	p.(Met129Arg)	0.001325000	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.458A>G	2:190925077	snp	p.(Lys153Arg)	0.030960000	Mixed reported pathogenicity	none	?
+MSTN	NM_005259.2:c.466C>A	2:190925069	snp	p.(Leu156Ile)	0.000041330	Probably pathogenic	none	?
+MSTN	NM_005259.2:c.490G>A	2:190925045	snp	p.(Glu164Lys)	0.003030000	Mixed reported pathogenicity	none	?
+MSTN	NM_005259.2:c.554G>C	2:190924981	snp	p.(Arg185Thr)	-	Unknown	none	-
+MSTN	NM_005259.2:c.592C>G	2:190924943	snp	p.(Pro198Ala)	0.000008244	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.669_680del	2:190924854-190924865	del	p.(Gly224_Ile227del)	-	Pathogenic	none	-
+MSTN	NM_005259.2:c.674T>C	2:190924861	snp	p.(Ile225Thr)	0.003053000	No known pathogenicity	none	?
+MSTN	NM_005259.2:c.747+8A>G	2:190924780	snp	p.(=)	0.000457300	Mixed reported pathogenicity	none	?
+MSTN	NM_005259.2:c.818_828del	2:190922283-190922293	del	p.(Glu274Argfs*14)	-	Pathogenic	none	-
+MSTN	NM_005259.2:c.871G>T	2:190922241	snp	p.(Glu291*)	-	Pathogenic	none	-
+MSTN	NM_005259.2:c.939_940del	2:190922172-190922173	del	p.(Cys313*)	-	Pathogenic	none	-
+MSTN	NM_005259.2:c.*1136_*1137del	2:190920847-190920848	del	p.(=)	-	Unknown	none	-
+MSTN	NM_005259.2:c.*1274G>A	2:190920710	snp	p.(0)	-	Pathogenic	none	-
+MSTN	NM_005259.2:c.=	bad_hgvs	-	-	-	-	none	-
+MSTN	NM_005259.2:c.748-?_(*_?)delinsNEO	bad_hgvs	-	-	-	-	none	-
+MSTN	NM_005259.2:c.1062T>C?	bad_hgvs	-	-	-	-	none	-
