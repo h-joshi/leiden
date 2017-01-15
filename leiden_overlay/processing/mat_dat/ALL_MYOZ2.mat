@@ -5,3 +5,5 @@ MYOZ2	NM_016599.4:c.237A>G	4:120072187	snp	p.(=)	0.009918000	Mixed reported path
 MYOZ2	NM_016599.4:c.247-18A>G	4:120079159	snp	p.(=)	0.649400000	Mixed reported pathogenicity	AD	3247.0
 MYOZ2	NM_016599.4:c.459A>G	4:120085448	snp	p.(=)	0.044340000	Mixed reported pathogenicity	AD	221.7
 MYOZ2	NM_016599.4:c.738A>G	4:120107298	snp	p.(Ile246Met)	0.001897000	Probably pathogenic	AD	9.485
+MYOZ2	NM_016599.4:c.=	bad_hgvs	-	-	-	-	AD	-
+MYOZ2	NM_016599.4:c.?	bad_hgvs	-	-	-	-	AD	-

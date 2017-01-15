@@ -50,3 +50,11 @@ SMN1	NM_000344.3:c.863G>T	5:69372376	snp	p.Gly279Glufs*5	-	Probably pathogenic	A
 SMN1	NM_000344.3:c.*3+4_*3+7del	5:69372405-69372408	del	p.(?)	-	Pathogenic	AR	-
 SMN1	NM_000344.3:c.*3+6T>G	5:69372407	snp	p.(?)	-	Pathogenic	AR	-
 SMN1	NM_000344.3:c.*338_*339delinsGC	5:69373179-69373181	delins	p.(=)	-	No known pathogenicity	AR	-
+SMN1	NM_000344.3:c.(?_-163)_(*575_?)del	bad_hgvs	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.628-?_834+?del	bad_hgvs	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.835-23_835-22insNC_000004.11:81302538_81302865{81302854C>A}	bad_hgvs	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.770_780dup	ERROR	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.811_814dup	ERROR	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.840C>T	ERROR	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.*4-?_(*575_?)del	bad_hgvs	-	-	-	-	AR	-
+SMN1	NM_000344.3:c.*239G>A	ERROR	-	-	-	-	AR	-

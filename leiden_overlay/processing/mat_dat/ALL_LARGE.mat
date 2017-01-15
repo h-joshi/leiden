@@ -41,3 +41,7 @@ LARGE	NM_004737.4:c.1994G>A	22:33673125	snp	p.(Arg665His)	0.005034000	No known p
 LARGE	NM_004737.4:c.1999dupT	22:33673119-33673120	dup	p.(Cys667Leufs*28)	-	Mixed reported pathogenicity	-	-
 LARGE	NM_004737.4:c.2073+36C>T	22:33673010	snp	p.(=)	0.008817000	No known pathogenicity	-	?
 LARGE	NM_004737.4:c.2100C>T	22:33670584	snp	p.(?)	0.047170000	No known pathogenicity	-	?
+LARGE	NM_004737.4:c.-145-(24848_24703)_409-(3319_3067)dup	bad_hgvs	-	-	-	-	-	-
+LARGE	NM_004737.4:c.?	bad_hgvs	-	-	-	-	-	-
+LARGE	NM_004737.4:c.(?)del	bad_hgvs	-	-	-	-	-	-
+LARGE	NM_004737.4:c.1131+?_1131+?delins	bad_hgvs	-	-	-	-	-	-

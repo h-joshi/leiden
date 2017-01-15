@@ -1,3 +1,5 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
 TRDN	NM_006073.3:c.176C>G	6:123892124	snp	p.(Thr59Arg)	-	Pathogenic	AR	-
 TRDN	NM_006073.3:c.613C>T	6:123825044	snp	p.(Gln205*)	0.000032440	Pathogenic	AR	0.003244
+TRDN	NM_006073.3:c.=	bad_hgvs	-	-	-	-	AR	-
+TRDN	NM_006073.3:c.del53_56	bad_hgvs	-	-	-	-	AR	-

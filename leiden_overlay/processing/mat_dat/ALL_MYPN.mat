@@ -56,3 +56,5 @@ MYPN	NM_032578.3:c.3481C>A	10:69959320	snp	p.(Leu1161Ile)	0.003296000	Probably p
 MYPN	NM_032578.3:c.3583G>A	10:69961675	snp	p.(Val1195Met)	0.000256300	Mixed reported pathogenicity	AD	1.2815
 MYPN	NM_032578.3:c.3793G>C	10:69966660	snp	p.(Ala1265Pro)	-	Probably pathogenic	AD	-
 MYPN	NM_032578.3:c.3917T>G	10:69970166	snp	p.(Val1306Gly)	-	Probably not pathogenic	AD	-
+MYPN	NM_032578.3:c.=	bad_hgvs	-	-	-	-	AD	-
+MYPN	NM_032578.3:c.2886C>T	ERROR	-	-	-	-	AD	-

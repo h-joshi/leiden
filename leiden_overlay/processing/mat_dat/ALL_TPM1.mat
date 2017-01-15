@@ -30,3 +30,5 @@ TPM1	NM_001018005.1:c.742A>G	15:63354814	snp	p.(Lys248Glu)	-	Pathogenic	AD	-
 TPM1	NM_001018005.1:c.830C>T	15:63356320	snp	p.(Ala277Val)	-	Probably pathogenic	AD	-
 TPM1	NM_001018005.1:c.842T>C	15:63356332	snp	p.(Met281Thr)	-	Pathogenic	AD	-
 TPM1	NM_001018005.1:c.850A>G	15:63356340	snp	p.(Ile284Val)	-	Pathogenic	AD	-
+TPM1	NM_001018005.1:c.=	bad_hgvs	-	-	-	-	AD	-
+TPM1	NM_001018005.1:c.61G>C	ERROR	-	-	-	-	AD	-

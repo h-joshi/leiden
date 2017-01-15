@@ -67,3 +67,6 @@ CAV3	NM_033337.2:c.*783A>G	3:8788336	snp	p.(=)	-	Unknown	AR,AD	-
 CAV3	NM_033337.2:c.*811C>G	3:8788364	snp	p.(=)	-	Unknown	AR,AD	-
 CAV3	NM_033337.2:c.*932T>A	3:8788485	snp	p.(=)	-	Unknown	AR,AD	-
 CAV3	NM_033337.2:c.*937C>A	3:8788490	snp	p.(=)	-	Unknown	AR,AD	-
+CAV3	NM_033337.2:c.(?_-67)_(*898_?)del	bad_hgvs	-	-	-	-	AR,AD	-
+CAV3	NM_033337.2:c.=	bad_hgvs	-	-	-	-	AR,AD	-
+CAV3	NM_033337.2:c.115-?_(*898_?)del	bad_hgvs	-	-	-	-	AR,AD	-

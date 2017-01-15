@@ -72,14 +72,21 @@ del leiden_cols[1]
 
 # remove the line of column names
 del leiden_lines[0]
+all_vars = []
 leiden_dict = {}
+reverse_dict = {}
+
+# set up the variant converter
+rem = remapping.VariantRemapper()
 
 # for each line, pick out the dna_change and assign its properties to it
 for line in leiden_lines:
     values = line.rstrip('\n').split('\t')
     dna_change = values[1]
-    del values[1] # remove dna_change from the sequenece of values
+    del values[1] # remove dna_change from the sequence of values
     leiden_dict[dna_change] = values
+    reverse_dict[convert_hgvs(dna_change)] = dna_change;
+    all_vars.append(dna_change)
 
 # get the already extracted pathogenicity data for the given gene
 path_file = open("../dat/" + input_gene + "_pathogenicity.txt")
@@ -123,7 +130,7 @@ extra_index = col_names.index("Extra")
 allele_index = col_names.index("Allele")
 
 # column names in the output files
-first_row_names = ["leiden_reported_variant", "location", "type","raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency", "band", "reported_pathogenicity"] + (leiden_cols)
+first_row_names = ["leiden_reported_variant", "hgvs_name_clean", "location", "type","raw_allele_frequency", "deduced_new_base", "deduced_allele_frequency", "band", "reported_pathogenicity"] + (leiden_cols)
 first_row_out = '\t'.join(first_row_names)+'\n'
 concise_file.write(first_row_out)
 output_file.write(first_row_out)
@@ -132,9 +139,11 @@ var_type = "?"
 
 var_info = {}
 
-# set up the variant converter
-#rem = remapping.VariantRemapper()
+added = []
 
+#TODO: fix this up later
+len_dict_line = 0
+#
 
 for line in rows:
     # get out allele frequency information from the extra ExAC data
@@ -148,6 +157,8 @@ for line in rows:
 
     var_name = line[var_name_ind]
 
+    original_name = reverse_dict[var_name]
+    added.append(original_name)
     # get the base change based on genomic coordinate (NOTE: May be different from HGVS!!)
     #genomic = rem.hgvs_to_vcf(var_name)
     #old_base = genomic[2]
@@ -187,11 +198,27 @@ for line in rows:
         var_type = "other"
 
     # add the row to the relevant files
-    row_to_add = [line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band, reported_pathogenicity] + (leiden_dict[line[var_name_ind]])
+    len_dict_line = len(leiden_dict[line[var_name_ind]])
+    row_to_add = [original_name, line[var_name_ind], line[location_ind], var_type, orig_freq_data, formed_base, freq_data, band, reported_pathogenicity] + (leiden_dict[line[var_name_ind]])
     row_str = '\t'.join(row_to_add) + '\n'
     output_file.write(row_str)
     if add_to_concise:
         concise_file.write(row_str)
+
+for var in all_vars:
+    if var not in added:
+        try:
+            translated = rem.hgvs_to_vcf(var)
+            dashes = ["-" for i in range(len_dict_line)]
+            row_to_add = [var, "ERROR", "ERROR", "-", "-", "-", "-", "-", "-"] + dashes
+            row_str = '\t'.join(row_to_add) + '\n'
+            output_file.write(row_str)
+            print "ERROR: %s can be translated to %s"%(var, translated)
+        except:
+            dashes = ["-" for i in range(len_dict_line)]
+            row_to_add = [var, "bad_hgvs", "bad_hgvs", "-", "-", "-", "-", "-", "-"] + dashes
+            row_str = '\t'.join(row_to_add) + '\n'
+            output_file.write(row_str)
 
 output_file.close()
 concise_file.close()

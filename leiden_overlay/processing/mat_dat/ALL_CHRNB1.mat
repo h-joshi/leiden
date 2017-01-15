@@ -16,3 +16,5 @@ CHRNB1	NM_000747.2:c.1347_1352del	17:7359237-7359242	del	p.Glu449_Gln450del	-	Pa
 CHRNB1	NM_000747.2:c.1347_1355del	17:7359238-7359246	del	p.Glu449_Glu451del	-	Pathogenic	AR,AD	-
 CHRNB1	NM_000747.2:c.1365+17T>C	17:7359277	snp	p.=	0.175600000	No known pathogenicity	AR,AD	17.56, 878.0
 CHRNB1	NM_000747.2:c.1366-145G>A	17:7359757	snp	p.=	-	No known pathogenicity	AR,AD	-
+CHRNB1	NM_000747.2:c.=	bad_hgvs	-	-	-	-	AR,AD	-
+CHRNB1	NM_000747.2:c.?	bad_hgvs	-	-	-	-	AR,AD	-

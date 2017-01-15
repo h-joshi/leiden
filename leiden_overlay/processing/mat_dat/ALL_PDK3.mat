@@ -4,3 +4,5 @@ PDK3	NM_005391.4:c.341A>C	X:24521464	snp	p.(Lys114Thr)	0.000095360	Probably not 
 PDK3	NM_005391.4:c.376A>G	X:24521499	snp	p.(Met126Val)	0.001191000	Unknown	XL	11.91
 PDK3	NM_005391.4:c.473G>A	X:24521596	snp	p.(Arg158His)	-	Pathogenic	XL	-
 PDK3	NM_005391.4:c.1001A>C	X:24549811	snp	p.(Tyr334Ser)	-	Probably not pathogenic	XL	-
+PDK3	NM_005391.4:c.0	bad_hgvs	-	-	-	-	XL	-
+PDK3	NM_005391.4:c.=	bad_hgvs	-	-	-	-	XL	-

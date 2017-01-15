@@ -1,3 +1,4 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
 B3GNT1	NM_006876.2:c.1168A>G	11:66113600	snp	p.(Asn390Asp)	0.000008236	Pathogenic	-	?
 B3GNT1	NM_006876.2:c.1217C>T	11:66113551	snp	p.(Ala406Val)	0.000008242	Pathogenic	-	?
+B3GNT1	NM_006876.2:c.=	bad_hgvs	-	-	-	-	-	-

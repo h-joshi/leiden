@@ -20,3 +20,7 @@ FHL1	NM_001159702.2:c.*45dupT	X:135292156-135292157	dup	p.(Cys230+43Leufs*11)	-	
 FHL1	NM_001159702.2:c.*51G>A	X:135292164	snp	p.(Asp230+48Asn)	0.011280000	Unknown	XL	112.8
 FHL1	NM_001159702.2:c.*55G>A	X:135292168	snp	p.(Cys230+48Tyr)	-	Pathogenic	XL	-
 FHL1	NM_001159702.2:c.*69T>G	X:135292182	snp	p.(*230+50Gluext*53)	-	Pathogenic	XL	-
+FHL1	NM_001159702.2:c.0	bad_hgvs	-	-	-	-	XL	-
+FHL1	NM_001159702.2:c.=	bad_hgvs	-	-	-	-	XL	-
+FHL1	NM_001159702.2:c.332-?_688+?del	bad_hgvs	-	-	-	-	XL	-
+FHL1	NM_001159702.2:c.380_382dup	ERROR	-	-	-	-	XL	-

@@ -38,3 +38,5 @@ ITGA7	NM_002206.2:c.2959-22G>A	12:56082106	snp	p.(=)	0.000144300	Unknown	AR	0.01
 ITGA7	NM_002206.2:c.3018C>G	12:56082025	snp	p.(=)	0.041620000	Mixed reported pathogenicity	AR	4.162
 ITGA7	NM_002206.2:c.3144G>C	12:56081794	snp	p.(=)	0.005308000	No known pathogenicity	AR	0.5308
 ITGA7	NM_002206.2:c.3184-12G>C	12:56079084	snp	p.(=)	0.584100000	No known pathogenicity	AR	58.41
+ITGA7	NM_002206.2:c.?	bad_hgvs	-	-	-	-	AR	-
+ITGA7	NM_002206.2:c.=	bad_hgvs	-	-	-	-	AR	-

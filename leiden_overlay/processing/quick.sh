@@ -41,8 +41,8 @@ uniq ./../results/$1/$1_raw_output.txt > ./../results/$1/$1_full_output.txt
 #rm ./../dat/*
 
 # create the bar chart
-echo "Creating image..."
-python make_chart.py $1
+#echo "Creating image..."
+#python make_chart.py $1
 
 # done!
 echo "Processing complete for $1."

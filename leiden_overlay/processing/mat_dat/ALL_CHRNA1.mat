@@ -12,3 +12,5 @@ CHRNA1	NM_001039523.2:c.896C>T	2:175614855	snp	p.Thr299Ile	-	Pathogenic	AR,AD	-
 CHRNA1	NM_001039523.2:c.941G>T	2:175614810	snp	p.Ser314Ile	-	Pathogenic	AR,AD	-
 CHRNA1	NM_001039523.2:c.977C>A	2:175614774	snp	p.(Thr326Asn)	-	Probably pathogenic	AR,AD	-
 CHRNA1	NM_001039523.2:c.1035C>T	2:175614716	snp	p.=	-	No known pathogenicity	AR,AD	-
+CHRNA1	NM_001039523.2:c.=	bad_hgvs	-	-	-	-	AR,AD	-
+CHRNA1	NM_001039523.2:c.117_133dup	ERROR	-	-	-	-	AR,AD	-

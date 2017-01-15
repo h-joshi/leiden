@@ -26,3 +26,11 @@ GK	NM_001205019.1:c.1331A>G	X:30738832	snp	p.(Gln444Arg)	-	Pathogenic	XL	-
 GK	NM_001205019.1:c.1337A>T	X:30738838	snp	p.Asp446Val	-	Pathogenic	XL	-
 GK	NM_001205019.1:c.1357+20T>C	X:30738878	snp	-	0.051510000	No known pathogenicity	XL	515.1
 GK	NM_001205019.1:c.1525T>C	X:30742241	snp	p.(Trp509Arg)	-	Mixed reported pathogenicity	XL	-
+GK	NM_001205019.1:c.(?_-179)_(*1866_?)del	bad_hgvs	-	-	-	-	XL	-
+GK	NM_001205019.1:c.0	bad_hgvs	-	-	-	-	XL	-
+GK	NM_001205019.1:c.=	bad_hgvs	-	-	-	-	XL	-
+GK	NM_001205019.1:c.?	bad_hgvs	-	-	-	-	XL	-
+GK	NM_001205019.1:c.338-43_338-42ins316;338-52_338-43dup	bad_hgvs	-	-	-	-	XL	-
+GK	NM_001205019.1:c.852-?_(*1866_?)del	bad_hgvs	-	-	-	-	XL	-
+GK	NM_001205019.1:c.1055+22G>T	ERROR	-	-	-	-	XL	-
+GK	NM_001205019.1:c.1502-?_1582+?del	bad_hgvs	-	-	-	-	XL	-

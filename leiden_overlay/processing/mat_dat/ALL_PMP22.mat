@@ -1,3 +1,4 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
 PMP22	NM_000304.2:c.215C>T	17:15142892	snp	p.(Ser72Leu)	-	Pathogenic	AR,AD	-
 PMP22	NM_000304.2:c.325T>C	17:15134392	snp	p.(Cys109Arg)	-	Pathogenic	AR,AD	-
+PMP22	NM_000304.2:c.=	bad_hgvs	-	-	-	-	AR,AD	-

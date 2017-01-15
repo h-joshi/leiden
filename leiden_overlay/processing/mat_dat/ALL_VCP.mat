@@ -10,3 +10,4 @@ VCP	NM_007126.3:c.476G>A	9:35065348	snp	p.(Arg159His)	-	Pathogenic	AD	-
 VCP	NM_007126.3:c.572G>A	9:35065252	snp	p.(Arg191Gln)	-	Pathogenic	AD	-
 VCP	NM_007126.3:c.695C>A	9:35064164	snp	p.(Ala232Glu)	-	Pathogenic	AD	-
 VCP	NM_007126.3:c.1732G>C	9:35059762	snp	p.Glu578Gln	-	Pathogenic	AD	-
+VCP	NM_007126.3:c.=	bad_hgvs	-	-	-	-	AD	-

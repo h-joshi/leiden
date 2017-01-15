@@ -477,3 +477,34 @@ DYSF	NM_003494.3:c.6241T>G	2:71913620	snp	p.(*2081Glyext*33)	-	Probably pathogen
 DYSF	NM_003494.3:c.*53G>A	2:71913675	snp	p.(=)	-	No known pathogenicity	AR	-
 DYSF	NM_003494.3:c.*95C>A	2:71913717	snp	p.(=)	-	No known pathogenicity	AR	-
 DYSF	NM_003494.3:c.*107T>A	2:71913729	snp	p.=	-	Unknown	AR	-
+DYSF	NM_003494.3:c.(?_-376)_1930+?dup	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.=	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.?	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.115_125dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.145-181CCAT(4_9)	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.343-?_457+?del	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.593_594dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.879_883dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.1168_1180+1dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.1178_1180+4dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.1392dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.1795_1799dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.2512-?_3174+?del	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3073_3080dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3349-121?	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3191_3196dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3321_3324dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3389_3399dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3517dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.3904-?_4333+?dup	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.4200dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.4411-3224GT(13_17)	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.4968_4972dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.5039_5057+4dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.5768-?_5946+?del	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.5782_5785dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.5813_5821dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.5979dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.6154_6165dup	ERROR	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.6204-?_*271+?del	bad_hgvs	-	-	-	-	AR	-
+DYSF	NM_003494.3:c.6205-?_*+?del	bad_hgvs	-	-	-	-	AR	-

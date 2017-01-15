@@ -8,3 +8,4 @@ KBTBD13	NM_001101362.2:c.1170G>C	15:65370323	snp	p.(Lys390Asn)	-	Pathogenic	AD	-
 KBTBD13	NM_001101362.2:c.1200T>C	15:65370353	snp	p.(=)	0.996100000	Unknown	AD	4980.5
 KBTBD13	NM_001101362.2:c.1222C>T	15:65370375	snp	p.(Arg408Cys)	-	Mixed reported pathogenicity	AD	-
 KBTBD13	NM_001101362.2:c.*305C>T	15:65370835	snp	p.(=)	-	Unknown	AD	-
+KBTBD13	NM_001101362.2:c.=	bad_hgvs	-	-	-	-	AD	-

@@ -21,3 +21,5 @@ MYL2	NM_000432.3:c.401A>C	12:111350901	snp	p.(Glu134Ala)	0.000156500	Pathogenic	
 MYL2	NM_000432.3:c.403-1G>C	12:111348980	snp	p.?	0.000024820	Probably pathogenic	none	?
 MYL2	NM_000432.3:c.484G>A	12:111348898	snp	p.(Gly162Arg)	-	Pathogenic	none	-
 MYL2	NM_000432.3:c.497A>T	12:111348885	snp	p.(Asp166Val)	-	Pathogenic	none	-
+MYL2	NM_000432.3:c.=	bad_hgvs	-	-	-	-	none	-
+MYL2	NM_000432.3:c.64G>A)	bad_hgvs	-	-	-	-	none	-

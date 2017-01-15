@@ -358,3 +358,25 @@ LAMA2	NM_000426.3:c.9252C>G	6:129837375	snp	p.(Phe3084Leu)	-	Unknown	AR	-
 LAMA2	NM_000426.3:c.9253C>T	6:129837376	snp	p.(Arg3085*)	-	Mixed reported pathogenicity	AR	-
 LAMA2	NM_000426.3:c.*118T>C	6:129837610	snp	p.=	-	Unknown	AR	-
 LAMA2	NM_000426.3:c.*193_*195del	6:129837681-129837683	del	p.=	-	Mixed reported pathogenicity	AR	-
+LAMA2	NM_000426.3:c.=	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.?	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.(112+?_113-?)?	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.524_534dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.640-?_1782+?del	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.951_952dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.1609-41_1609-7inv	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.1854_1861dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.(?_3175)_(7898_?)del	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.3338_3345dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.3768_3771dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.4692_4695dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.4860+5G>A?	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.5071+?_5072-?ins	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.6085+?delA	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.6274+47A>T	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.7490_7493dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.7760T>C	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.7899-?_(*219_?)del	bad_hgvs	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.9101_9104dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.9235_9238dup	ERROR	-	-	-	-	AR	-
+LAMA2	NM_000426.3:c.*62_*65dup	ERROR	-	-	-	-	AR	-

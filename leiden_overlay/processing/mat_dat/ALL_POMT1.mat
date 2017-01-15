@@ -1,0 +1,129 @@
+gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+POMT1	NM_007171.3:c.-6T>G	9:134379600	snp	p.(=)	0.002858000	No known pathogenicity	AR	0.2858
+POMT1	NM_007171.3:c.7G>T	9:134379612	snp	p.(Gly3*)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.78G>A	9:134379683	snp	p.(=)	0.003163000	Unknown	AR	0.3163
+POMT1	NM_007171.3:c.81dupA	9:134379685-134379686	dup	p.(Leu28Thrfs*16)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.85A>C	9:134379690	snp	p.(Ser29Arg)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.122+5G>A	9:134379732	snp	p.[=, 0?]	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.123-5dupT	9:134381487-134381488	dup	p.(=)	-	Mixed reported pathogenicity	AR	-
+POMT1	NM_007171.3:c.129C>T	9:134381507	snp	p.(=)	0.000239200	No known pathogenicity	AR	0.02392
+POMT1	NM_007171.3:c.130G>A	9:134381508	snp	p.(Glu44Lys)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.180_182del	9:134381551-134381553	del	p.(Phe60del)	0.000032950	No known pathogenicity	AR	0.003295
+POMT1	NM_007171.3:c.193G>A	9:134381571	snp	p.(Gly65Arg)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.226G>A	9:134381604	snp	p.(Gly76Arg)	-	Mixed reported pathogenicity	AR	-
+POMT1	NM_007171.3:c.280+1G>T	9:134381841	snp	p.(del?)	0.000008239	Mixed reported pathogenicity	AR	0.0008239
+POMT1	NM_007171.3:c.281-82C>T	9:134382673	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.291delC	9:134382765	del	p.(Ser97Argfs*26)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.313C>T	9:134382787	snp	p.(Arg105Cys)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.314G>A	9:134382788	snp	p.(Arg105His)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.318G>A	9:134382792	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.385delT	9:134382856	del	p.(Ser129Leufs*11)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.418_420del	9:134382890-134382892	del	p.(Met140del)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.427G>A	9:134382901	snp	p.(Glu143Lys?)	0.000008238	Pathogenic	AR	0.0008238
+POMT1	NM_007171.3:c.427G>T	9:134382901	snp	p.(Glu143*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.427+1_427+2insA	9:134382902-134382903	ins	p.Tyr95_Lys143del	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.428-21T>C	9:134384277	snp	p.(=)	0.923300000	No known pathogenicity	AR	92.33
+POMT1	NM_007171.3:c.485delT	9:134384351	del	p.(Phe162Serfs*10)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.512T>G	9:134384382	snp	p.(Leu171Arg)	0.000008240	Pathogenic	AR	0.000824
+POMT1	NM_007171.3:c.517_523delinsG	9:134384387-134384393	delins	p.(Phe173_Asn175delinsAsp)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.539+1G>T	9:134384410	snp	p.(fs*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.598G>C	9:134385188	snp	p.(Ala200Pro)	0.000016470	Pathogenic	AR	0.001647
+POMT1	NM_007171.3:c.605+1G>A	9:134385196	snp	p.Phe181_Gly202del	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.620G>T	9:134385304	snp	p.(Gly207Val)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.718T>G	9:134385402	snp	p.(Cys240Gly)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.739A>G	9:134385423	snp	p.(Met247Val)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.751C>T	9:134385435	snp	p.(Arg251Trp)	0.103500000	No known pathogenicity	AR	10.35
+POMT1	NM_007171.3:c.751_752delinsTA	9:134385435	delins	p.(Arg251*)	0.103500000	No known pathogenicity	AR	10.35
+POMT1	NM_007171.3:c.766-28A>G	9:134385619	snp	p.(=)	0.004094000	Unknown	AR	0.4094
+POMT1	NM_007171.3:c.766-48A>G	9:134385599	snp	p.(=)	0.923100000	No known pathogenicity	AR	92.31
+POMT1	NM_007171.3:c.766-43T>G	9:134385604	snp	p.(=)	0.001278000	No known pathogenicity	AR	0.1278
+POMT1	NM_007171.3:c.818C>T	9:134385699	snp	p.(Pro273Leu)	0.000024730	Pathogenic	AR	0.002473
+POMT1	NM_007171.3:c.827T>G	9:134385708	snp	p.(Leu276Arg)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.842_844delTCT	9:134385719-134385721	del	p.(Phe281del)	-	Unknown	AR	-
+POMT1	NM_007171.3:c.855G>C	9:134385736	snp	p.(Leu285Phe)	0.000123600	No known pathogenicity	AR	0.01236
+POMT1	NM_007171.3:c.905T>G	9:134385786	snp	p.(Phe302Cys)	-	Unknown	AR	-
+POMT1	NM_007171.3:c.907C>T	9:134385788	snp	p.(Gln303*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.921+37G>A	9:134385839	snp	p.(=)	-	Unknown	AR	-
+POMT1	NM_007171.3:c.922-65G>A	9:134386659	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.922-49T>G	9:134386675	snp	p.(=)	0.993100000	No known pathogenicity	AR	99.31
+POMT1	NM_007171.3:c.957G>A	9:134386759	snp	p.(=)	0.010380000	Mixed reported pathogenicity	AR	1.038
+POMT1	NM_007171.3:c.979G>A	9:134386781	snp	p.(Val327Ile)	0.053300000	No known pathogenicity	AR	5.33
+POMT1	NM_007171.3:c.1052+49G>A	9:134386903	snp	p.(=)	0.923100000	No known pathogenicity	AR	92.31
+POMT1	NM_007171.3:c.1053-113C>G	9:134387315	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1053-102G>A	9:134387326	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1053-39C>T	9:134387389	snp	p.(=)	0.002007000	No known pathogenicity	AR	0.2007
+POMT1	NM_007171.3:c.1056T>A	9:134387431	snp	p.(Tyr352*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1081C>T	9:134387456	snp	p.(Gln361*)	0.000016520	Pathogenic	AR	0.001652
+POMT1	NM_007171.3:c.1097G>A	9:134387472	snp	p.(Cys366Tyr)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1104delC	9:134387476	del	p.(Phe369Serfs*10)	0.000008255	Pathogenic	AR	0.0008255
+POMT1	NM_007171.3:c.1148+16G>A	9:134387539	snp	p.(=)	0.125200000	No known pathogenicity	AR	12.52
+POMT1	NM_007171.3:c.1148+45C>G	9:134387568	snp	p.(=)	0.006522000	No known pathogenicity	AR	0.6522
+POMT1	NM_007171.3:c.1149-64C>T	9:134388562	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1149-2A>G	9:134388624	snp	p.(?)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1153C>T	9:134388630	snp	p.(Gln358*)	0.000042210	Pathogenic	AR	0.004221
+POMT1	NM_007171.3:c.1241+1G>A	9:134388719	snp	p.(?)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1241+98_1241+99del	9:134388816-134388817	del	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1248dupT	9:134390818-134390819	dup	p.(Val417Cysfs*17)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1260_1262del	9:134390831-134390833	del	p.(Leu421del)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1261_1262del	9:134390832-134390833	del	p.(Leu421Glufs*12)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1280_1281delinsTC	9:134390850-134390852	delins	p.(Glu427Val)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.1281G>C	9:134390852	snp	p.(Glu427Asp)	-	Unknown	AR	-
+POMT1	NM_007171.3:c.1283T>A	9:134390854	snp	p.(Val428Asp)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1299C>A	9:134390870	snp	p.(Asp433Glu)	0.034160000	No known pathogenicity	AR	3.416
+POMT1	NM_007171.3:c.1332delG	9:134390902	del	p.(Trp444*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1338+1G>A	9:134390910	snp	p.His415Lysfs*3	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1338+84C>T	9:134390993	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1432-61A>G	9:134394163	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1456delT	9:134394248	del	p.(Trp486Glyfs*71)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1457G>C	9:134394249	snp	p.(Trp486Ser)	0.000033280	Unknown	AR	0.003328
+POMT1	NM_007171.3:c.1540C>T	9:134394332	snp	p.(Arg514*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1545C>T	9:134394337	snp	p.(=)	0.003605000	Probably not pathogenic	AR	0.3605
+POMT1	NM_007171.3:c.1565G>A	9:134394788	snp	p.(Arg522Lys)	0.001253000	No known pathogenicity	AR	0.1253
+POMT1	NM_007171.3:c.1611C>G	9:134394834	snp	p.(Ser537Arg)	0.001611000	Mixed reported pathogenicity	AR	0.1611
+POMT1	NM_007171.3:c.1651-47G>T	9:134395420	snp	p.(=)	0.001221000	Unknown	AR	0.1221
+POMT1	NM_007171.3:c.1723delC	9:134395537	del	p.(Leu575Trpfs*23)	-	Probably pathogenic	AR	-
+POMT1	NM_007171.3:c.1746G>C	9:134395562	snp	p.(Trp582Cys)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1750_1764+1del	9:134395565-134395580	del	p.(His584Leufs*9)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1758G>A	9:134395574	snp	p.(=)	0.022290000	Mixed reported pathogenicity	AR	2.229
+POMT1	NM_007171.3:c.1764+1G>A	9:134395581	snp	p.Trp551_Ser588del	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1764+48C>G	9:134395628	snp	p.(=)	0.900800000	No known pathogenicity	AR	90.08
+POMT1	NM_007171.3:c.1764+107C>A	9:134395687	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1765-7_1765-6delinsAA	9:134396725-134396727	delins	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1770G>C	9:134396738	snp	p.(Gln590His)	0.000008239	Pathogenic	AR	0.0008239
+POMT1	NM_007171.3:c.1790_1791del	9:134396757-134396758	del	p.(Ile597Serfs*30)	0.000008239	Pathogenic	AR	0.0008239
+POMT1	NM_007171.3:c.1847_1849del	9:134396813-134396815	del	p.(Trp616del)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1858C>T	9:134396826	snp	p.Arg620*	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1864C>T	9:134396832	snp	p.(Arg622*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1868G>C	9:134396836	snp	p.(Arg623Thr)	0.000008243	Pathogenic	AR	0.0008243
+POMT1	NM_007171.3:c.1891+1G>T	9:134396860	snp	p.(?)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.1891+19delT	9:134396878	del	p.(=)	-	Unknown	AR	-
+POMT1	NM_007171.3:c.1891+198C>G	9:134397057	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.1892-40G>A	9:134397394	snp	p.(=)	0.009295000	Unknown	AR	0.9295
+POMT1	NM_007171.3:c.1922C>T	9:134397464	snp	p.(Ala641Val)	0.007581000	Mixed reported pathogenicity	AR	0.7581
+POMT1	NM_007171.3:c.1958C>T	9:134397500	snp	p.(Pro653Leu)	0.000065980	Unknown	AR	0.006598
+POMT1	NM_007171.3:c.2005G>A	9:134397547	snp	p.(Ala669Thr)	-	Mixed reported pathogenicity	AR	-
+POMT1	NM_007171.3:c.2051T>A	9:134397593	snp	p.Ile684Asn	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2069+13C>T	9:134397624	snp	p.(=)	0.899600000	No known pathogenicity	AR	89.96
+POMT1	NM_007171.3:c.2070-70C>T	9:134398249	snp	p.(=)	-	No known pathogenicity	AR	-
+POMT1	NM_007171.3:c.2080C>T	9:134398329	snp	p.Gln694*	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2097C>T	9:134398346	snp	p.(=)	0.000070290	No known pathogenicity	AR	0.007029
+POMT1	NM_007171.3:c.2110dupG	9:134398357-134398358	dup	p.(Ala704Gyfs*27)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2115G>A	9:134398364	snp	p.Trp705*	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2143dupA	9:134398391-134398392	dup	p.(Thr715Asnfs*16)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2163C>A	9:134398412	snp	p.Tyr721*	0.000027490	Pathogenic	AR	0.002749
+POMT1	NM_007171.3:c.2167dupG	9:134398412-134398413	dup	p.(Asp723Glyfs*8)	-	Mixed reported pathogenicity	AR	-
+POMT1	NM_007171.3:c.2174C>G	9:134398423	snp	p.(Ser725*)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2179_2180del	9:134398425-134398426	del	p.(Ser727Alafs*3)	-	Pathogenic	AR	-
+POMT1	NM_007171.3:c.2203C>T	9:134398452	snp	p.(Arg735Cys)	0.008920000	Mixed reported pathogenicity	AR	0.892
+POMT1	NM_007171.3:c.2234G>A	9:134398483	snp	p.(Arg745Gln)	0.000534800	Unknown	AR	0.05348
+POMT1	NM_007171.3:c.2244G>A	9:134398493	snp	p.(=)	0.000948800	Unknown	AR	0.09488
+POMT1	NM_007171.3:c.*2A>G	9:134398495	snp	p.(=)	-	Unknown	AR	-
+POMT1	NM_007171.3:c.*5A>G	9:134398498	snp	p.(=)	0.000008797	Unknown	AR	0.0008797
+POMT1	NM_007171.3:c.*41T>C	9:134398534	snp	p.(=)	0.924400000	No known pathogenicity	AR	92.44
+POMT1	NM_007171.3:c.?	bad_hgvs	-	-	-	-	AR	-
+POMT1	NM_007171.3:c.122+417GT(15_23)	bad_hgvs	-	-	-	-	AR	-
+POMT1	NM_007171.3:c.145_146ins290;145_160dup	bad_hgvs	-	-	-	-	AR	-
+POMT1	NM_007171.3:c.752G>A	ERROR	-	-	-	-	AR	-
+POMT1	NM_007171.3:c.942C>T	ERROR	-	-	-	-	AR	-
+POMT1	NM_007171.3:c.1113C>T	ERROR	-	-	-	-	AR	-
+POMT1	NM_007171.3:c.1765-?_2069+?del	bad_hgvs	-	-	-	-	AR	-

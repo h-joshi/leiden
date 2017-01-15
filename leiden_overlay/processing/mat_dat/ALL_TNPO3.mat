@@ -1,3 +1,4 @@
 gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
 TNPO3	NM_012470.3:c.2453G>A	7:128610347	snp	p.(Arg818Gln)	0.000042320	Probably pathogenic	AD	0.2116
 TNPO3	NM_012470.3:c.2771delA	7:128597310	del	p.(*924Cysfsext*15)	-	Pathogenic	AD	-
+TNPO3	NM_012470.3:c.=	bad_hgvs	-	-	-	-	AD	-

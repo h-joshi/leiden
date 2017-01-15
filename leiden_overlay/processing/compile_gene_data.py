@@ -57,13 +57,14 @@ else:
 col_list = lines[0]
 col_names = '\t'.join(col_list)
 
-columns = ["gene", "variant", "genomic_coord", "variant_type", "protein_change", "exac_freq", "path_type", "inher_pat", "occurrence_factor"]
+columns = ["gene", "variant", "original_leiden_name", "genomic_coord", "variant_type", "protein_change", "exac_freq", "path_type", "inher_pat", "occurrence_factor"]
 mat_dat.write('\t'.join(columns) + '\n')
 
 del lines[0]
 band_index = col_list.index("band")
 type_index = col_list.index("type")
-name_index = col_list.index("leiden_reported_variant")
+orig_name_index = col_list.index("leiden_reported_variant")
+name_index = col_list.index("hgvs_name_clean");
 protein_change_index = col_list.index("protein_change")
 pathogenicity_index = col_list.index("reported_pathogenicity")
 location_index = col_list.index("location")
@@ -121,7 +122,7 @@ for line in lines:
             factor = "?"
 
     # write the row to the table
-    mat_dat.write("\t".join([input_gene, line[name_index], line[location_index], line[type_index], line[protein_change_index], ex_freq, line[pathogenicity_index], ip, factor]) + '\n')
+    mat_dat.write("\t".join([input_gene, line[name_index], line[location_index], line[orig_name_index], line[type_index], line[protein_change_index], ex_freq, line[pathogenicity_index], ip, factor]) + '\n')
     count += 1
 
 mat_dat.close()

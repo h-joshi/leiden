@@ -4,3 +4,22 @@ PABPN1	NM_004643.3:c.35G>C	14:23790713	snp	p.(Gly12Ala)	-	Mixed reported pathoge
 PABPN1	NM_004643.3:c.186G>A	14:23790864	snp	p.(=)	0.047600000	Unknown	AD	238.0
 PABPN1	NM_004643.3:c.474G>A	14:23792215	snp	p.(=)	0.027080000	No known pathogenicity	AD	135.4
 PABPN1	NM_004643.3:c.730-42C>T	14:23793305	snp	p.(=)	0.114200000	No known pathogenicity	AD	571.0
+PABPN1	NM_004643.3:c.=	bad_hgvs	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.3_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.6GGC(6_11)	bad_hgvs	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.6GGC[6]	bad_hgvs	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.6_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.6_26dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.9_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.12_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.12_26dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.15_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.15_26dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.15_32dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.18_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.18_26dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.18_29dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.18_32dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.21_23dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.21_26dup	ERROR	-	-	-	-	AD	-
+PABPN1	NM_004643.3:c.21_32dup	ERROR	-	-	-	-	AD	-

@@ -57,3 +57,5 @@ COLQ	NM_005677.3:c.1324_1326del	3:15493193-15493195	del	p.(Gln442del)	-	Pathogen
 COLQ	NM_005677.3:c.1331G>A	3:15493188	snp	p.(Cys444Tyr)	-	Mixed reported pathogenicity	AR	-
 COLQ	NM_005677.3:c.1339G>C	3:15493180	snp	p.(Asp447His)	-	Unknown	AR	-
 COLQ	NM_005677.3:c.1354C>T	3:15493165	snp	p.(Arg452Cys)	0.000008239	Unknown	AR	0.0008239
+COLQ	NM_005677.3:c.=	bad_hgvs	-	-	-	-	AR	-
+COLQ	NM_005677.3:c.107-?_321+?del	bad_hgvs	-	-	-	-	AR	-

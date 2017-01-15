@@ -1,0 +1,43 @@
+gene	variant	genomic_coord	variant_type	protein_change	exac_freq	path_type	inher_pat	occurrence_factor
+TPM2	NM_003289.3:c.5A>T	9:35689810	snp	p.(Asp2Val)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.8C>G	9:35689807	snp	p.(Ala3Gly)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.20_22del	9:35689793-35689795	del	p.(Lys7del)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.115-105A>G	9:35689373	snp	p.(=)	-	No known pathogenicity	AD	-
+TPM2	NM_003289.3:c.121G>A	9:35689262	snp	p.Glu41Lys	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.145_147del	9:35689236-35689238	del	p.(Lys49del)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.181T>C	9:35689202	snp	p.(Ser61Pro)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.240+2T>G	9:35689141	snp	p.?	-	Mixed reported pathogenicity	AD	-
+TPM2	NM_003289.3:c.240+4_240+7del	9:35689136-35689139	del	p.(del?)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.240+5G>A	9:35689138	snp	p.?	-	Unknown	AD	-
+TPM2	NM_003289.3:c.271C>G	9:35685747	snp	p.(Arg91Gly)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.278A>G	9:35685740	snp	p.(Gln93Arg)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.279G>C	9:35685739	snp	p.(Gln93His)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.349G>A	9:35685669	snp	p.(Glu117Lys)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.349G>C	9:35685669	snp	p.(Glu117Gln)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.357G>A	9:35685661	snp	p.(=)	0.000049680	Unknown	AD	0.2484
+TPM2	NM_003289.3:c.382A>G	9:35685541	snp	p.(Lys128Glu)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.397C>T	9:35685526	snp	p.(Arg133Trp)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.398G>C	9:35685525	snp	p.(Arg133Pro)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.415_417delGAG	9:35685506-35685508	del	p.(Glu139del)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.428T>C	9:35685495	snp	p.(Leu143Pro)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.440A>C	9:35685483	snp	p.Gln147Pro	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.443T>C	9:35685480	snp	p.(Leu148Pro)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.464C>T	9:35685459	snp	p.(Ala155Val)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.478C>T	9:35685445	snp	p.(Arg160Cys)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.530A>T	9:35685299	snp	p.(Glu177Val)	-	Probably pathogenic	AD	-
+TPM2	NM_003289.3:c.564-17dupC	9:35684819-35684820	dup	p.(=)	-	No known pathogenicity	AD	-
+TPM2	NM_003289.3:c.606C>G	9:35684762	snp	p.(Asn202Lys)	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.628C>T	9:35684740	snp	p.Gln210*	-	Pathogenic	AD	-
+TPM2	NM_003289.3:c.639+33G>T	9:35684696	snp	p.(=)	0.001344000	No known pathogenicity	AD	6.72
+TPM2	NM_003289.3:c.639+238dupC	9:35684490-35684491	dup	p.(=)	-	No known pathogenicity	AD	-
+TPM2	NM_003289.3:c.654_656del	9:35684531-35684533	del	p.(Glu218del)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.699G>T	9:35684488	snp	p.(Lys233Asn)	-	No known pathogenicity	AD	-
+TPM2	NM_003289.3:c.773-3C>A	9:35683241	snp	p.(?)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.773-3dupC	9:35683240-35683241	dup	p.(=)	-	No known pathogenicity	AD	-
+TPM2	NM_003289.3:c.802A>G	9:35683209	snp	p.(Lys268Glu)	-	Unknown	AD	-
+TPM2	NM_003289.3:c.*7C>T	9:35683149	snp	p.(=)	0.018810000	No known pathogenicity	AD	94.05
+TPM2	NM_003289.3:c.*8G>A	9:35683148	snp	p.(=)	0.086120000	No known pathogenicity	AD	430.6
+TPM2	NM_003289.3:c.=	bad_hgvs	-	-	-	-	AD	-
+TPM2	NM_003289.3:c.154_156dup	ERROR	-	-	-	-	AD	-
+TPM2	NM_003289.3:c.773-1034G>A	ERROR	-	-	-	-	AD	-
+TPM2	NM_003289.3:c.773-3_773-2dup	ERROR	-	-	-	-	AD	-

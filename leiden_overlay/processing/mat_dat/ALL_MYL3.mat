@@ -19,3 +19,4 @@ MYL3	NM_000258.2:c.482-2A>G	3:46899953	snp	p.Gly161_Glu186del	-	Pathogenic	none	
 MYL3	NM_000258.2:c.517A>G	3:46899916	snp	p.(Met173Val)	-	Pathogenic	none	-
 MYL3	NM_000258.2:c.559+6C>T	3:46899868	snp	p.=	0.000197700	Probably not pathogenic	none	?
 MYL3	NM_000258.2:c.*27G>A	3:46899578	snp	p.(=)	-	Unknown	none	-
+MYL3	NM_000258.2:c.=	bad_hgvs	-	-	-	-	none	-

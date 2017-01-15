@@ -92,3 +92,23 @@ SGCG	NM_000231.2:c.*136T>C	13:23898816	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCG	NM_000231.2:c.*254G>A	13:23898934	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCG	NM_000231.2:c.*295T>C	13:23898975	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCG	NM_000231.2:c.*505A>G	13:23899185	snp	p.(=)	-	No known pathogenicity	AR	-
+SGCG	NM_000231.2:c.(?_-155)_(*624_?)del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.(?_-155)_-1+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.(?_-155)_385+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.(?_-155)_578+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.=	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.?	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.1-?_505+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.196-?_297+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.196-?_297+?dup	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.298-?_505+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.386-?_505+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.386-?_578+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.506-?_(578_702)+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.506-?_578+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.579-30delins?	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.579-?_702+?del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.630_702del?	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.702+?_703-?dup	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.703-?_(*624_?)del	bad_hgvs	-	-	-	-	AR	-
+SGCG	NM_000231.2:c.860G>A	ERROR	-	-	-	-	AR	-

@@ -20,3 +20,4 @@ GARS	NM_002047.2:c.1955G>C	7:30671914	snp	p.(Gly652Ala)	-	Pathogenic	AD	-
 GARS	NM_002047.2:c.2094+26T>G	7:30672079	snp	p.(=)	-	No known pathogenicity	AD	-
 GARS	NM_002047.2:c.2095-6C>T	7:30673345	snp	p.(=)	0.552500000	No known pathogenicity	AD	2762.5
 GARS	NM_002047.2:c.2212G>A	7:30673468	snp	p.(Glu738Lys)	0.000216000	No known pathogenicity	AD	1.08
+GARS	NM_002047.2:c.=	bad_hgvs	-	-	-	-	AD	-

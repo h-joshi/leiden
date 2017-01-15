@@ -109,3 +109,13 @@ SGCA	NM_000023.2:c.1120C>T	17:48252754	snp	p.(Arg374Cys)	0.002062000	Probably pa
 SGCA	NM_000023.2:c.*69C>T	17:48253129	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCA	NM_000023.2:c.*133G>T	17:48253193	snp	p.(=)	-	No known pathogenicity	AR	-
 SGCA	NM_000023.2:c.*166A>G	17:48253226	snp	p.(?)	0.047610000	Mixed reported pathogenicity	AR	4.761
+SGCA	NM_000023.2:c.=	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.?	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.266_267inv	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.312_313insNEO	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.348_352dup	ERROR	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.408_409ins414_428;410A>G	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.747+161AC(15_21)	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.748-?_956+?del	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.748-?_983+?del	bad_hgvs	-	-	-	-	AR	-
+SGCA	NM_000023.2:c.*6C>T	ERROR	-	-	-	-	AR	-

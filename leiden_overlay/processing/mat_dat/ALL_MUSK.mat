@@ -13,3 +13,5 @@ MUSK	NM_005592.3:c.2002C>T	9:113562660	snp	p.(Arg668Cys)	0.000008282	Unknown	AR	
 MUSK	NM_005592.3:c.2180C>T	9:113562838	snp	p.(Ala727Val)	-	Pathogenic	AR	-
 MUSK	NM_005592.3:c.2368G>A	9:113563026	snp	p.(Val790Met)	0.000265000	Pathogenic	AR	0.0265
 MUSK	NM_005592.3:c.2503A>G	9:113563161	snp	p.(Met835Val)	-	Pathogenic	AR	-
+MUSK	NM_005592.3:c.(79+1_80-1)_(358+1_359-1)del	bad_hgvs	-	-	-	-	AR	-
+MUSK	NM_005592.3:c.?	bad_hgvs	-	-	-	-	AR	-

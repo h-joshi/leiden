@@ -77,3 +77,6 @@ DES	NM_001927.3:c.1375G>A	2:220290674	snp	p.(Val459Ile)	0.003033000	Mixed report
 DES	NM_001927.3:c.1379G>T	2:220290678	snp	p.(Ser460Ile)	-	Pathogenic	AR,AD	-
 DES	NM_001927.3:c.1388C>T	2:220290687	snp	p.(Thr463Ile)	-	Probably pathogenic	AR,AD	-
 DES	NM_001927.3:c.1405G>A	2:220290704	snp	p.Val469Met	-	Mixed reported pathogenicity	AR,AD	-
+DES	NM_001927.3:c.=	bad_hgvs	-	-	-	-	AR,AD	-
+DES	NM_001927.3:c.?	bad_hgvs	-	-	-	-	AR,AD	-
+DES	NM_001927.3:c.=,1216C>T	bad_hgvs	-	-	-	-	AR,AD	-

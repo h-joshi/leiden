@@ -4,3 +4,4 @@ BANF1	NM_003860.3:c.-249G>C	11:65769809	snp	p.(=)	-	Mixed reported pathogenicity
 BANF1	NM_003860.3:c.-16-48A>G	11:65770658	snp	p.(=)	-	Mixed reported pathogenicity	AR	-
 BANF1	NM_003860.3:c.34G>A	11:65770755	snp	p.(Ala12Thr)	-	Pathogenic	AR	-
 BANF1	NM_003860.3:c.124-37_124-31del	11:65771051-65771057	del	p.(=)	0.449300000	Mixed reported pathogenicity	AR	44.93
+BANF1	NM_003860.3:c.=	bad_hgvs	-	-	-	-	AR	-

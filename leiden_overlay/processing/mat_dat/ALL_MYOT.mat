@@ -19,3 +19,5 @@ MYOT	NM_006790.2:c.1214G>A	5:137222576	snp	p.(Arg405Lys)	-	Pathogenic	AD	-
 MYOT	NM_006790.2:c.1325-47T>C	5:137222855	snp	p.(=)	0.000107600	No known pathogenicity	AD	0.538
 MYOT	NM_006790.2:c.1413G>T	5:137222990	snp	p.(Leu471Phe)	0.000024730	Unknown	AD	0.12365
 MYOT	NM_006790.2:c.*98G>A	5:137223172	snp	p.(=)	-	No known pathogenicity	AD	-
+MYOT	NM_006790.2:c.=	bad_hgvs	-	-	-	-	AD	-
+MYOT	NM_006790.2:c.220C>A	ERROR	-	-	-	-	AD	-

@@ -266,3 +266,26 @@ MTM1	NM_000252.2:c.1701C>T	X:149839957	snp	p.(=)	0.000914400	Probably not pathog
 MTM1	NM_000252.2:c.1702A>G	X:149839958	snp	p.(Ile568Val)	0.000034290	Probably not pathogenic	XL	0.3429
 MTM1	NM_000252.2:c.1792delC	X:149840045	del	p.(His598Metfs*23)	-	Pathogenic	XL	-
 MTM1	NM_000252.2:c.1792dupC	X:149840044-149840045	dup	p.(His598Profs*31)	-	Unknown	XL	-
+MTM1	NM_000252.2:c.(?_-76)_(*1548_?)del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.(?_-76)_-11+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.(?_-76)_1467+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.(?_-76)_528+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.=/(?_-76)_342+?dup	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.(?_-10)_441+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.(?_-10)_63+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.(?_-10)_678+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.137-?_231+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.232-?_342+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.232-?_444+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.343-?_1260+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.445-?_678+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.509_528dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.529-?_678+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.594_596dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.596dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.679-?_867+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.868-?_1053+?del	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.1053+114_1053+2680del;1053+3055_1053+3056ins679-82_1053+37	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.1177_1180dup	ERROR	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.1388_1389ins376,GenBankJQ403527	bad_hgvs	-	-	-	-	XL	-
+MTM1	NM_000252.2:c.1645-?_(*1548_?)del	bad_hgvs	-	-	-	-	XL	-

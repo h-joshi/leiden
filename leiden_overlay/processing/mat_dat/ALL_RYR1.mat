@@ -414,3 +414,12 @@ RYR1	NM_000540.2:c.14892C>A	19:39076754	snp	p.(=)	0.000016510	No known pathogeni
 RYR1	NM_000540.2:c.14918C>T	19:39076780	snp	p.(Pro4973Leu)	0.000041360	Pathogenic	AR,AD	0.004136, 0.2068
 RYR1	NM_000540.2:c.14939C>T	19:39076801	snp	p.(Thr4980Met)	0.000016640	Unknown	AR,AD	0.001664, 0.0832
 RYR1	NM_000540.2:c.14968A>G	19:39076830	snp	p.Met4990Val	-	Probably pathogenic	AR,AD	-
+RYR1	NM_000540.2:c.103T>C?	bad_hgvs	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.?	bad_hgvs	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.1021G>A?	bad_hgvs	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.1739_1742dup	ERROR	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.(1841G>T)?	bad_hgvs	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.4766A>C?	bad_hgvs	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.(7304G>A)?	bad_hgvs	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.12063_12064dup	ERROR	-	-	-	-	AR,AD	-
+RYR1	NM_000540.2:c.12960_12968dup	ERROR	-	-	-	-	AR,AD	-

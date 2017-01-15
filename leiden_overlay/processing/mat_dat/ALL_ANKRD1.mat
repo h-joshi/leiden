@@ -22,3 +22,11 @@ ANKRD1	NM_014391.2:c.827C>T	10:92675322	snp	p.(Ala276Val)	0.002861000	Mixed repo
 ANKRD1	NM_014391.2:c.838A>G	10:92675311	snp	p.(Ile280Val)	0.000033160	Mixed reported pathogenicity	none	?
 ANKRD1	NM_014391.2:c.849+6T>G	10:92675294	snp	p.(=)	-	No known pathogenicity	none	-
 ANKRD1	NM_014391.2:c.*59A>G	10:92672564	snp	p.(=)	-	Mixed reported pathogenicity	none	-
+ANKRD1	NM_014391.2:c.-697_-699del	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.=	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.?	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.(196_198)?	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.348G>?	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.(453+1_457-1)del16	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.(453+1_457-1)del21	bad_hgvs	-	-	-	-	none	-
+ANKRD1	NM_014391.2:c.(453+1_457-1)del26	bad_hgvs	-	-	-	-	none	-

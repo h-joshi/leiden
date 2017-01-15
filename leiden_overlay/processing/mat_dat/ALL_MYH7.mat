@@ -381,3 +381,10 @@ MYH7	NM_000257.2:c.5779A>T	14:23882979	snp	p.(Ile1927Phe)	0.000032970	Pathogenic
 MYH7	NM_000257.2:c.5786C>T	14:23882972	snp	p.(Thr1929Met)	0.000024740	Pathogenic	AR,AD	0.002474, 0.1237
 MYH7	NM_000257.2:c.5791_5805del	14:23882066-23882080	del	p.(Gly1931*)	-	Pathogenic	AR,AD	-
 MYH7	NM_000257.2:c.5807A>G	14:23882064	snp	p.(Xaa1936Trp)	-	Pathogenic	AR,AD	-
+MYH7	NM_000257.2:c.=	bad_hgvs	-	-	-	-	AR,AD	-
+MYH7	NM_000257.2:c.730T>CË732T>G	bad_hgvs	-	-	-	-	AR,AD	-
+MYH7	NM_000257.2:c.1183_1184insG;1212delG	bad_hgvs	-	-	-	-	AR,AD	-
+MYH7	/nmdb2/variants.php?select_db=MYH7&action=search_all&search_Variant%2FDNA=14556C%3EG	bad_hgvs	-	-	-	-	AR,AD	-
+MYH7	NM_000257.2:c.?	bad_hgvs	-	-	-	-	AR,AD	-
+MYH7	/nmdb2/variants.php?select_db=MYH7&action=search_all&search_Variant%2FDNA=4850_4852del	bad_hgvs	-	-	-	-	AR,AD	-
+MYH7	NM_000257.2:c.4850_4852dup	ERROR	-	-	-	-	AR,AD	-

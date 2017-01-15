@@ -54,3 +54,7 @@ SGCE	NM_003919.2:c.1253+811A>C	7:94227276	snp	p.(Ser418+14Arg)	0.695400000	No kn
 SGCE	NM_003919.2:c.1253+811_1253+812delinsCA	7:94227274-94227276	delins	p.(Ser418+14His)	-	Unknown	AD	-
 SGCE	NM_003919.2:c.1253+812G>A	7:94227275	snp	p.(Ser418+14Asn)	0.000000000	No known pathogenicity	AD	0.0
 SGCE	NM_003919.2:c.1253+814G>A	7:94227273	snp	p.(Asp418+15Asn)	0.021740000	No known pathogenicity	AD	108.7
+SGCE	NM_003919.2:c.-111-?_*275+?del	bad_hgvs	-	-	-	-	AD	-
+SGCE	/nmdb2/variants.php?select_db=SGCE&action=search_all&search_Variant%2FDNA=-911G%3EC	bad_hgvs	-	-	-	-	AD	-
+SGCE	NM_003919.2:c.390+39GT(13_18)	bad_hgvs	-	-	-	-	AD	-
+SGCE	NM_003919.2:c.742_745dup	ERROR	-	-	-	-	AD	-

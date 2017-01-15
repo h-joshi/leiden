@@ -39,3 +39,6 @@ SGCD	NM_000337.5:c.657delC	5:156184672	del	p.(Thr220Profs*6)	-	Pathogenic	none	-
 SGCD	NM_000337.5:c.699+13_699+15del	5:156184726-156184728	del	p.(Lys233+5del)	0.002898000	Pathogenic	none	?
 SGCD	NM_000337.5:c.700-19T>C	5:156186209	snp	p.(=)	0.005875000	Unknown	none	?
 SGCD	NM_000337.5:c.784G>A	5:156186312	snp	p.(Glu262Lys)	-	Pathogenic	none	-
+SGCD	NM_000337.5:c.=	bad_hgvs	-	-	-	-	none	-
+SGCD	NM_000337.5:c.?	bad_hgvs	-	-	-	-	none	-
+SGCD	NM_000337.5:c.576-48916_576-48913dup	ERROR	-	-	-	-	none	-

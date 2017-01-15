@@ -477,3 +477,23 @@ CAPN3	NM_000070.2:c.2442G>A	15:42703947	snp	p.(Trp814*)	-	Pathogenic	AR	-
 CAPN3	NM_000070.2:c.2464T>C	15:42703969	snp	p.(*822Argext62*)	-	Pathogenic	AR	-
 CAPN3	NM_000070.2:c.*51T>A	15:42704022	snp	p.(=)	-	Probably not pathogenic	AR	-
 CAPN3	NM_000070.2:c.*134C>T	15:42704105	snp	p.(=)	-	No known pathogenicity	AR	-
+CAPN3	NM_000070.2:c.(?_-301)_309+?del	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.=	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.?	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.223dup	ERROR	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.310-?_(*544_?)del	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.310-?_945+?del	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.310-?_1115+?del	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.327_328dup	ERROR	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.(550delA)?	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.(619_621del)?	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.632+404_1029+?del	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.802-?_945+?del	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.1327T>C?	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.1355ins?	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.1783-?insCTCT	bad_hgvs	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.1968_1981dup	ERROR	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.2115+1_2115+2dup	ERROR	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.2227_2230dup	ERROR	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.2251_2254dup	ERROR	-	-	-	-	AR	-
+CAPN3	NM_000070.2:c.2318_2321dup	ERROR	-	-	-	-	AR	-
